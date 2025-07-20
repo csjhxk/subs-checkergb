@@ -1,18 +1,11 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.0MB/s"
-      network: ws
-      port: 32391
-      server: 195.58.58.88
-      servername: 45f4d22d.Mareza.pages.dev
-      skip-cert-verify: false
-      tls: false
-      type: vless
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 6.4MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
       udp: true
-      uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
-      ws-opts:
-        headers:
-            Host: 45f4d22d.Mareza.pages.dev
-        path: /
     - http-opts:
         headers:
             Host:
@@ -20,7 +13,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 14.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 11.2MB/s"
       network: http
       port: 8443
       server: 31.44.4.107
@@ -30,29 +23,20 @@ proxies:
       type: vless
       udp: true
       uuid: d13b3634-094c-41fd-8154-76a512662dbe
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 12.0MB/s"
-      network: http
-      port: 2086
-      server: portal.nativecity.sbs
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 3.6MB/s"
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 160.250.65.148
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
       skip-cert-verify: false
-      tls: false
-      type: vmess
+      tls: true
+      type: vless
       udp: true
-      uuid: 0ec89b1e-851d-7d49-daca-519dd6a2b1f4
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.8MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 5.0MB/s"
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 4.3MB/s"
       network: ws
       port: 8080
       server: 192.0.54.219
@@ -66,13 +50,379 @@ proxies:
         headers:
             Host: join-to-unlimiteddev.sabadyt.ir
         path: /@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev?ed=2480
+    - cipher: aes-256-cfb
+      country: "\U0001F1F7\U0001F1FA RU"
+      delay: 929
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 8.7MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
+    - cipher: aes-256-gcm
+      delay: 691
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.3MB/s"
+      password: TG:@Enkelte_notif&&TG:@Notif_Chat
+      port: 34045
+      server: 152.53.2.128
+      type: ss
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      delay: 1752
+      down: 1000 Mbps
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 8.8MB/s"
+      port: 11512
+      protocol: udp
+      server: 108.181.24.77
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: "true"
+      up: 1000 Mbps
+    - delay: 1399
+      disable-sni: true
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 6.5MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+      port: 3234
+      server: 209.141.47.127
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - client-fingerprint: safari
+      delay: 1883
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 11.3MB/s"
+      network: tcp
+      port: 25888
+      reality-opts:
+        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+        short-id: be1be5fc
+      server: 143.14.220.111
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: db039921-f189-4aa1-a65e-9e1979e91ada
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1470
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 5.6MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 0d009be0-29ad-4fc9-8302-15a4d8665872
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1536
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 6.1MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 5d1cde6c-b4c2-47da-b496-ece406eba703
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1515
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 5.8MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 073748f2-ddd0-41f4-9bd0-910f04a54df4
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2604
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 5.6MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: bcbc9693-e772-4956-9179-ba1633a56d31
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1740
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 5.3MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 711bba29-b9d9-46ae-906b-e36add5cb83b
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1921
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 4.9MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: dda037d3-189f-469f-a657-7618be34bee8
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - client-fingerprint: qq
+      delay: 1892
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 6.1MB/s"
+      network: tcp
+      port: 25888
+      reality-opts:
+        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+        short-id: be1be5fc
+      server: 143.14.220.111
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8db41d88-269d-48d6-88b4-ab6ccc7291a5
+    - client-fingerprint: ios
+      delay: 2882
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 4.1MB/s"
+      network: tcp
+      port: 25888
+      reality-opts:
+        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+        short-id: be1be5fc
+      server: 143.14.220.111
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6dc666d1-cb55-4225-8034-a6fba1f37113
+    - client-fingerprint: qq
+      delay: 1895
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 4.0MB/s"
+      network: tcp
+      port: 25888
+      reality-opts:
+        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+        short-id: be1be5fc
+      server: 143.14.220.111
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2ac0e285-4f51-406b-805f-4e4c3cfbfe27
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1501
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 3.8MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: d8e2368a-2546-4f85-b9ce-83b81a03fe3e
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2130
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 3.9MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: be26173c-5573-461a-b302-655fd5080fdc
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2288
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 2.9MB/s"
+      network: ws
+      port: 8443
+      server: us01.sh-cloudflare.sbs
+      servername: us01.sh-cloudflare.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: dabd02ee-f986-4eae-a315-a811b51c4472
+      ws-opts:
+        headers:
+            HOST: us01.sh-cloudflare.sbs
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 78.4MB/s"
+      network: ws
+      port: 80
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      ws-opts:
+        headers:
+            Host: blaze-can-118.blazecanada.site
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      delay: 664
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 6.5MB/s"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 151.242.251.131
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F3\U0001F1F1NL"
+      delay: 600
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 6.6MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.15.17.169
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 675
+      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 3.9MB/s"
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.166
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 2971
+      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 3.9MB/s"
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 45.87.175.166
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 2839
+      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 3.9MB/s"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 45.87.175.166
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 673
+      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 3.7MB/s"
+      password: 1RWwXhwfAB5gAEozU4G2Pg
+      port: 8080
+      server: 45.87.175.166
+      type: ss
+    - cipher: aes-256-gcm
+      delay: 1628
+      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 3.8MB/s"
+      password: atjgsJXmcv
+      port: 52327
+      server: 103.15.91.171
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 757
+      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 1.5MB/s"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.158.171.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1873
+      name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 2.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.36
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1844
+      name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 2.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.28
+      type: ss
     - alpn:
         - http/1.1
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 12.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 13.3MB/s"
       network: ws
       password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
       port: 443
-      server: 172.67.135.37
+      server: 104.21.26.17
       skip-cert-verify: false
       sni: rrrRrRRrT.459.pp.ua
       type: trojan
@@ -81,10 +431,233 @@ proxies:
         headers:
             Host: rrrRrRRrT.459.pp.ua
         path: /znQImc22ijDwVOkZfoq
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1894
+      name: "\U0001F1FA\U0001F1F8US_34 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.21
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 818
+      name: "\U0001F1FA\U0001F1F8US_35 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.19
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1873
+      name: "\U0001F1FA\U0001F1F8US_36 | ⬇️ 2.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.18
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_37 | ⬇️ 5.7MB/s"
+      password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
+      port: 55000
+      server: 159.13.34.59
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_38 | ⬇️ 13.8MB/s"
+      obfs: salamander
+      obfs-password: v2raybluecrystal3
+      password: UnYCJJ9AQy
+      port: 24803
+      server: 146.19.56.21
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_39 | ⬇️ 5.0MB/s"
+      password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
+      port: 55000
+      server: 139.185.36.59
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - auth: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      name: "\U0001F1FA\U0001F1F8US_40 | ⬇️ 2.8MB/s"
+      obfs: salamander
+      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+      password: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      port: 20357
+      server: nexiahg.688997.xyz
+      skip-cert-verify: true
+      sni: nexiahg.688997.xyz
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_41 | ⬇️ 10.1MB/s"
+      network: ws
+      port: 443
+      server: nnchkclyx.codesofun.pp.ua
+      servername: nnchk.codesofun.pp.ua
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5f077162-99ad-424d-9f77-e5f7e37d9ef8
+      ws-opts:
+        headers:
+            Host: nnchk.codesofun.pp.ua
+        path: /ea3ac731
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 10.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_42 | ⬇️ 10.7MB/s"
+      network: ws
+      port: 443
+      server: 104.21.65.31
+      servername: SssXzAw.444652.XYZ
+      tls: true
+      type: vless
+      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      ws-opts:
+        headers:
+            Host: SssXzAw.444652.XYZ
+        path: /nSABZLQbEUSLppj7jCmY
+    - name: "\U0001F1FA\U0001F1F8US_43 | ⬇️ 2.3MB/s"
+      obfs: salamander
+      obfs-password: v2raybluecrystal2
+      password: Jj0FrgSd85
+      port: 17083
+      server: 165.140.166.78
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_44 | ⬇️ 11.5MB/s"
+      network: ws
+      port: 443
+      server: SSsXXXCvBnmjKi.931.Pp.uA
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05
+      ws-opts:
+        headers:
+            Host: sssxxxcvbnmjki.931.pp.ua
+        path: /0FhUkqQUdxOhMB9JsgTazwz9
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_45 | ⬇️ 10.1MB/s"
+      network: ws
+      port: 443
+      server: sssxxxcft6.444752.xyz
+      servername: sssxxxcft6.444752.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 512d9674-db12-44ca-a1b5-654244549b65
+      ws-opts:
+        headers:
+            Host: sssxxxcft6.444752.xyz
+        path: /zzMtGpHptl8a7dX3JIrYk7zm
+    - auth: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      name: "\U0001F1FA\U0001F1F8US_46 | ⬇️ 1.3MB/s"
+      obfs: salamander
+      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+      password: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      port: 20257
+      server: nexiarb.688997.xyz
+      skip-cert-verify: true
+      sni: nexiarb.688997.xyz
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_47 | ⬇️ 13.4MB/s"
+      network: ws
+      password: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b
+      port: 443
+      server: 172.67.219.196
+      skip-cert-verify: false
+      sni: CCcvfgt6.852224.dpdns.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: CCcvfgt6.852224.dpdns.org
+        path: /CA5bMmr2JMum8sDKRwvFCJq
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_48 | ⬇️ 5.5MB/s"
+      network: ws
+      port: 443
+      server: ssssssssssssfffffffgh.2032.pp.ua
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      ws-opts:
+        headers:
+            Host: ssssssssssssfffffffgh.2032.pp.ua
+        path: /6We3U9Df1WGxgFnoFPw1
+    - name: "\U0001F1FA\U0001F1F8US_49 | ⬇️ 3.8MB/s"
+      password: <password>
+      port: 8443
+      server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - name: "\U0001F1FA\U0001F1F8US_50 | ⬇️ 1.3MB/s"
+      obfs: salamander
+      obfs-password: v2raybluecrystal3
+      password: Jj0FrgSd85
+      port: 41003
+      server: 165.140.166.78
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_51 | ⬇️ 13.2MB/s"
+      network: ws
+      password: fa050497-fc2a-45ee-89c0-96670c4ecb65
+      port: 443
+      server: 104.21.63.135
+      skip-cert-verify: false
+      sni: Rrr4.8906004.xYZ
+      type: trojan
+      ws-opts:
+        headers:
+            Host: Rrr4.8906004.xYZ
+        path: /DZxb5QZyWgQPuXTwt
+    - name: "\U0001F1FA\U0001F1F8US_52 | ⬇️ 8.3MB/s"
+      obfs: salamander
+      obfs-password: v2raybluecrystal
+      password: UnYCJJ9AQy
+      port: 28165
+      server: 146.19.56.21
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_53 | ⬇️ 2.6MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1FA\U0001F1F8US_54 | ⬇️ 6.2MB/s"
+      obfs: salamander
+      obfs-password: v2raybluecrystal
+      password: Jj0FrgSd85
+      port: 50163
+      server: 165.140.166.78
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_55 | ⬇️ 11.7MB/s"
       network: ws
       port: 443
       server: 172.67.161.129
@@ -98,123 +671,38 @@ proxies:
         headers:
             Host: eeEEEeR.666470.xYZ
         path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 8.4MB/s"
-      network: ws
-      password: fa050497-fc2a-45ee-89c0-96670c4ecb65
-      port: 443
-      server: 104.21.63.135
-      skip-cert-verify: false
-      sni: Rrr4.8906004.xYZ
-      type: trojan
-      ws-opts:
-        headers:
-            Host: Rrr4.8906004.xYZ
-        path: /DZxb5QZyWgQPuXTwt
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 4.9MB/s"
-      network: ws
-      port: 443
-      server: 222222r.11890604.xyz
-      servername: 222222r.11890604.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: f898ffcb-6417-4373-9640-0b66091e8206
-      ws-opts:
-        headers:
-            Host: 222222r.11890604.xyz
-        path: /33CYL4twIwItuzXyJ5XNeH1R1
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.9MB/s"
-      password: <password>
-      port: 8443
-      server: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 5.7MB/s"
-      network: ws
-      port: 443
-      server: 104.21.65.31
-      servername: SssXzAw.444652.XYZ
-      tls: true
-      type: vless
-      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      ws-opts:
-        headers:
-            Host: SssXzAw.444652.XYZ
-        path: /nSABZLQbEUSLppj7jCmY
-    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.3MB/s"
-      password: 37d19f09-5fa4-4ad0-8484-55050b582a29
-      port: 2056
-      server: zp2.eyucdn.xyz
+    - auth: 5CBqBh6MeDq6GajcilBiDg==
+      name: "\U0001F1FA\U0001F1F8US_56 | ⬇️ 1.1MB/s"
+      password: 5CBqBh6MeDq6GajcilBiDg==
+      port: 61001
+      server: 192-227-152-86.nip.io
       skip-cert-verify: true
-      sni: zp2.eyujichang.xyz
-      tls: false
+      sni: 192-227-152-86.nip.io
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 7.4MB/s"
-      network: ws
-      port: 443
-      server: 3DdDf.444652.xYZ
-      servername: 3dddf.444652.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
-      ws-opts:
-        headers:
-            Host: 3DdDf.444652.xYZ
-        path: /9dZlJLjHHrL0VwSolbqFpg
-    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 8.6MB/s"
+    - auth: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      name: "\U0001F1FA\U0001F1F8US_57 | ⬇️ 5.8MB/s"
       obfs: salamander
-      obfs-password: v2raybluecrystal
-      password: Jj0FrgSd85
-      port: 50163
-      server: 165.140.166.78
+      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+      password: e4506ab1-fec0-4c21-b251-d73c4e921fb9
+      port: 20957
+      server: nexiateq.688997.xyz
       skip-cert-verify: true
-      tls: false
+      sni: nexiateq.688997.xyz
       type: hysteria2
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 13.3MB/s"
-      network: ws
-      port: 443
-      server: 172.67.188.188
-      servername: SssXzAw.444652.XYZ
-      tls: true
-      type: vless
       udp: true
-      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      ws-opts:
-        headers:
-            Host: SssXzAw.444652.XYZ
-        path: /nSABZLQbEUSLppj7jCmY
-    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 12.2MB/s"
-      obfs: salamander
-      obfs-password: v2raybluecrystal3
-      password: Jj0FrgSd85
-      port: 41003
-      server: 165.140.166.78
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1FA\U0001F1F8US_58 | ⬇️ 3.2MB/s"
+      port: 17549
+      server: 208.87.243.151
       skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 3.5MB/s"
-      password: 37d19f09-5fa4-4ad0-8484-55050b582a29
-      port: 2056
-      server: zp1.eyucdn.xyz
-      skip-cert-verify: true
-      sni: zp1.eyujichang.xyz
-      tls: false
-      type: hysteria2
+      sni: www.bing.com
+      type: hysteria
+      up: 11 Mbps
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 3.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_59 | ⬇️ 2.5MB/s"
       password: 941cbc4237e0
       plugin: v2ray-plugin
       plugin-opts:
@@ -231,43 +719,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.0MB/s"
-      network: ws
-      port: 443
-      server: sssxxxcft6.444752.xyz
-      servername: sssxxxcft6.444752.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 512d9674-db12-44ca-a1b5-654244549b65
-      ws-opts:
-        headers:
-            Host: sssxxxcft6.444752.xyz
-        path: /zzMtGpHptl8a7dX3JIrYk7zm
-    - name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 1.9MB/s"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: false
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 10.8MB/s"
-      obfs: salamander
-      obfs-password: v2raybluecrystal2
-      password: Jj0FrgSd85
-      port: 17083
-      server: 165.140.166.78
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_60 | ⬇️ 14.3MB/s"
       network: ws
       port: 443
       server: 104.21.9.71
@@ -281,73 +733,65 @@ proxies:
         headers:
             Host: ddDDdDDdDDF.777198.XyZ
         path: /OjdW89Bpg4ykd4O
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 3.2MB/s"
-      port: 17549
-      server: 208.87.243.151
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria
-      up: 11 Mbps
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8US_61 | ⬇️ 4.3MB/s"
+      password: 70a0b8103356
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: jp5v1.lingjfjkm002.com
+        mode: websocket
+        mux: true
+        path: /bezradrqccl
+        skip-cert-verify: false
+        tls: true
+      port: 636
+      server: 137.220.142.139
+      tfo: false
+      type: ss
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 3.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_62 | ⬇️ 44.4MB/s"
       network: ws
       port: 443
-      server: 104.21.13.36
-      servername: XcdvfGBnHU7.0890604.XyZ
+      server: 104.21.44.248
+      servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: a7c9c017-db10-4d15-b01b-0634db498b57
+      uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
       ws-opts:
         headers:
-            Host: XcdvfGBnHU7.0890604.XyZ
-        path: /xZjr7v1DqrYyamxeTh7sLJtI1
-    - name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.0MB/s"
-      obfs: salamander
-      obfs-password: vbn@ffFF
-      password: e2QEtNgU9v
-      port: 41250
-      server: 5.133.102.59
+            Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
+        path: /O9jlBCbIm3xr1D40NK
+    - name: "\U0001F1FA\U0001F1F8US_63 | ⬇️ 4.3MB/s"
+      password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
+      port: 55000
+      server: 144.24.153.219
       skip-cert-verify: true
+      sni: www.bing.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 7.5MB/s"
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_64 | ⬇️ 4.8MB/s"
       network: ws
-      port: 443
-      server: nnchkclyx.codesofun.pp.ua
-      servername: nnchk.codesofun.pp.ua
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5f077162-99ad-424d-9f77-e5f7e37d9ef8
+      port: 80
+      server: 527cb2.827a4c39.shop
+      servername: sg02s.827a4c39.shop
+      skip-cert-verify: true
+      type: vmess
+      uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
       ws-opts:
         headers:
-            Host: nnchk.codesofun.pp.ua
-        path: /ea3ac731
-    - alpn:
-        - http/1.1
-      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 29.6MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: iiiiop0.444752.xyz
-      skip-cert-verify: false
-      sni: iiiiop0.444752.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: iiiiop0.444752.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
+            HOST: sg02s.827a4c39.shop
+        path: /
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_65 | ⬇️ 3.2MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -359,440 +803,3 @@ proxies:
       type: vless
       udp: true
       uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 2.2MB/s"
-      network: ws
-      port: 443
-      server: SSsXXXCvBnmjKi.931.Pp.uA
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05
-      ws-opts:
-        headers:
-            Host: sssxxxcvbnmjki.931.pp.ua
-        path: /0FhUkqQUdxOhMB9JsgTazwz9
-    - name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 12.1MB/s"
-      obfs: salamander
-      obfs-password: v2raybluecrystal
-      password: UnYCJJ9AQy
-      port: 28165
-      server: 146.19.56.21
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 6.9MB/s"
-      network: ws
-      port: 443
-      server: ssssssssssssfffffffgh.2032.pp.ua
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-      ws-opts:
-        headers:
-            Host: ssssssssssssfffffffgh.2032.pp.ua
-        path: /6We3U9Df1WGxgFnoFPw1
-    - name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 12.7MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 6.9MB/s"
-      network: ws
-      port: 80
-      server: 104.16.53.11
-      tls: false
-      type: vless
-      uuid: 9fc94683-42be-4c44-9525-096f675965db
-      ws-opts:
-        headers:
-            Host: dETeRMiNeD-COuRT.oneEaT.CO
-        path: /?ed
-    - auth: dongtaiwang.com
-      name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 2.4MB/s"
-      password: dongtaiwang.com
-      port: 4710
-      server: 108.181.5.130
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - http/1.1
-      name: "\U0001F1FA\U0001F1F8US_34 | ⬇️ 4.1MB/s"
-      network: ws
-      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-      port: 443
-      server: 104.21.26.17
-      skip-cert-verify: false
-      sni: rrrRrRRrT.459.pp.ua
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: rrrRrRRrT.459.pp.ua
-        path: /znQImc22ijDwVOkZfoq
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      delay: 1752
-      down: 1000 Mbps
-      name: "\U0001F1FA\U0001F1F8US_35 | ⬇️ 11.3MB/s"
-      port: 11512
-      protocol: udp
-      server: 108.181.24.77
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: "true"
-      up: 1000 Mbps
-    - cipher: aes-256-gcm
-      delay: 691
-      name: "\U0001F1FA\U0001F1F8US_36 | ⬇️ 3.9MB/s"
-      password: TG:@Enkelte_notif&&TG:@Notif_Chat
-      port: 34045
-      server: 152.53.2.128
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F7\U0001F1FA RU"
-      delay: 929
-      name: "\U0001F1FA\U0001F1F8US_37 | ⬇️ 5.0MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.153.197.5
-      type: ss
-    - client-fingerprint: qq
-      delay: 1892
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_38 | ⬇️ 23.1MB/s"
-      network: tcp
-      port: 25888
-      reality-opts:
-        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-        short-id: be1be5fc
-      server: 143.14.220.111
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8db41d88-269d-48d6-88b4-ab6ccc7291a5
-    - client-fingerprint: ios
-      delay: 2882
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_39 | ⬇️ 14.4MB/s"
-      network: tcp
-      port: 25888
-      reality-opts:
-        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-        short-id: be1be5fc
-      server: 143.14.220.111
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6dc666d1-cb55-4225-8034-a6fba1f37113
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1536
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_40 | ⬇️ 7.5MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 5d1cde6c-b4c2-47da-b496-ece406eba703
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1501
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_41 | ⬇️ 7.4MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: d8e2368a-2546-4f85-b9ce-83b81a03fe3e
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2076
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_42 | ⬇️ 5.3MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6121bf03-1ed9-4b57-9b79-d1af73058054
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1515
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_43 | ⬇️ 4.9MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 073748f2-ddd0-41f4-9bd0-910f04a54df4
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1921
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_44 | ⬇️ 5.4MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: dda037d3-189f-469f-a657-7618be34bee8
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1740
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_45 | ⬇️ 5.1MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 711bba29-b9d9-46ae-906b-e36add5cb83b
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2130
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_46 | ⬇️ 5.5MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: be26173c-5573-461a-b302-655fd5080fdc
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1470
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_47 | ⬇️ 8.1MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 0d009be0-29ad-4fc9-8302-15a4d8665872
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2288
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_48 | ⬇️ 5.3MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: dabd02ee-f986-4eae-a315-a811b51c4472
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - client-fingerprint: safari
-      delay: 1883
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_49 | ⬇️ 3.8MB/s"
-      network: tcp
-      port: 25888
-      reality-opts:
-        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-        short-id: be1be5fc
-      server: 143.14.220.111
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: db039921-f189-4aa1-a65e-9e1979e91ada
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2604
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_50 | ⬇️ 5.0MB/s"
-      network: ws
-      port: 8443
-      server: us01.sh-cloudflare.sbs
-      servername: us01.sh-cloudflare.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: bcbc9693-e772-4956-9179-ba1633a56d31
-      ws-opts:
-        headers:
-            HOST: us01.sh-cloudflare.sbs
-        path: /
-    - client-fingerprint: qq
-      delay: 1895
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_51 | ⬇️ 3.6MB/s"
-      network: tcp
-      port: 25888
-      reality-opts:
-        public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-        short-id: be1be5fc
-      server: 143.14.220.111
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2ac0e285-4f51-406b-805f-4e4c3cfbfe27
-    - cipher: aes-256-cfb
-      country: "\U0001F1F3\U0001F1F1NL"
-      delay: 600
-      name: "\U0001F1FA\U0001F1F8US_52 | ⬇️ 7.2MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.17.169
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 2494
-      name: "\U0001F1FA\U0001F1F8US_53 | ⬇️ 6.8MB/s"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.87.175.69
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 757
-      name: "\U0001F1FA\U0001F1F8US_54 | ⬇️ 6.1MB/s"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.158.171.70
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 664
-      name: "\U0001F1FA\U0001F1F8US_55 | ⬇️ 6.4MB/s"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 151.242.251.131
-      type: ss
-    - cipher: aes-256-gcm
-      delay: 1628
-      name: "\U0001F1FA\U0001F1F8US_56 | ⬇️ 3.7MB/s"
-      password: atjgsJXmcv
-      port: 52327
-      server: 103.15.91.171
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1894
-      name: "\U0001F1FA\U0001F1F8US_57 | ⬇️ 3.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.21
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 818
-      name: "\U0001F1FA\U0001F1F8US_58 | ⬇️ 2.9MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.19
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1844
-      name: "\U0001F1FA\U0001F1F8US_59 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.28
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1873
-      name: "\U0001F1FA\U0001F1F8US_60 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.18
-      type: ss
