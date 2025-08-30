@@ -1,10 +1,158 @@
 proxies:
+    - cipher: chacha20-ietf-poly1305
+      delay: 411
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.7MB/s"
+      password: 11159e5a-3dad-4c43-8e66-acfc7f32bb5e
+      port: 10075
+      server: 114.46.90.217
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 220
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 2.0MB/s"
+      password: 6f5b8864-6c13-4368-b998-cc95fd8fcaac
+      port: 10014
+      server: 118.170.218.227
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1204
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.2MB/s"
+      password: abc8d148-7593-4b0a-8c75-5dcbcee0b2d4
+      port: 10010
+      server: 125.230.20.86
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 274
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.6MB/s"
+      password: 2028ee19-7a50-4614-b260-8602e482e791
+      port: 10009
+      server: 125.230.10.11
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1204
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.5MB/s"
+      password: b16d72b9-5a93-4bea-82e9-81edb2ad2575
+      port: 10069
+      server: 118.170.219.124
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 401
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.6MB/s"
+      password: 11159e5a-3dad-4c43-8e66-acfc7f32bb5e
+      port: 10089
+      server: 125.228.180.215
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 487
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.0MB/s"
+      password: ce7149cd-ea77-4e46-af7d-d4f6930ea541
+      port: 10113
+      server: 125.228.31.10
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 512
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.5MB/s"
+      password: 7bc09469-5326-4d25-9c2d-043069624017
+      port: 10142
+      server: 36.232.102.152
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 335
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.8MB/s"
+      password: c408f6c1-c3e7-4577-b8ad-2b28af94781a
+      port: 10117
+      server: 36.235.4.233
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 486
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 1.1MB/s"
+      password: 206f8c4d-89f4-4008-bb02-ddafe23e581e
+      port: 10069
+      server: 118.170.219.124
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1201
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 1.6MB/s"
+      password: dca9d9f1-5640-4fed-b443-b75c10bfe2cd
+      port: 10069
+      server: 118.170.219.124
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1354
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 12.6MB/s"
+      network: ws
+      port: 443
+      server: us16-1.998998.best
+      servername: server3-42.99887766.best
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: bb893477-6910-45a5-98ac-bd7a2c258012
+      ws-opts:
+        headers:
+            HOST: server3-42.99887766.best
+        path: /dflkjghydf
+    - cipher: aes-256-gcm
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1542
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 7.1MB/s"
+      password: zJcvujpsXt
+      port: 37422
+      server: 133.18.108.187
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 5.1MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.195.55.29
+      tfo: false
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1831
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 7.9MB/s"
+      network: ws
+      port: 22105
+      server: 195.133.5.41
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 11282531-b1c0-4080-a1ce-7849f04d2c7e
+      ws-opts:
+        path: /
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 1.1MB/s"
+      port: 44443
+      reality-opts:
+        public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+      server: hybrid.arvancloud.online
+      servername: www.speedtest.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 4.1MB/s"
       port: 37872
       protocol: udp
       server: 108.181.24.77
@@ -13,7 +161,7 @@ proxies:
       type: hysteria
       up: 11 Mbps
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.6MB/s"
       password: 70a0b8103356
       plugin: v2ray-plugin
       plugin-opts:
@@ -30,7 +178,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 3.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.2MB/s"
       network: ws
       port: 443
       server: 172.67.130.204
@@ -47,7 +195,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 39.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 25.1MB/s"
       network: ws
       password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
       port: 443
@@ -61,7 +209,7 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 7.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 7.1MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.153.197.5
@@ -70,23 +218,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.4MB/s"
-      network: ws
-      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-      port: 443
-      server: 172.67.157.220
-      skip-cert-verify: false
-      sni: 6666YHjU.777159.xYz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /dilyfCPEmLvYr5hYXD
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 2.0MB/s"
       network: ws
       port: 443
       server: 104.21.9.71
@@ -100,24 +232,8 @@ proxies:
         headers:
             Host: ddDDdDDdDDF.777198.XyZ
         path: /OjdW89Bpg4ykd4O
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.7MB/s"
-      network: ws
-      port: 443
-      server: 104.21.68.76
-      servername: ccCcCcCf.222769.Xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-      ws-opts:
-        headers:
-            Host: cccccccf.222769.xyz
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-        path: /1xrOld7e5RpK3I98dxLkez
-      xudp: true
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 4.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 3.7MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -131,7 +247,25 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 10.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 443
+      server: 104.21.24.195
+      servername: 9999UUuU.999836.XYZ
+      tls: true
+      type: vless
+      udp: true
+      uuid: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
+      ws-opts:
+        headers:
+            Host: 9999uuuu.999836.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /MIrEVIUviSe8ydvnmRKWDa8
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 2.6MB/s"
       network: ws
       port: 443
       server: 172.67.187.28
@@ -146,200 +280,3 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 388
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.5MB/s"
-      password: 17b74529-5336-443a-bc77-1540e823cb75
-      port: 10071
-      server: 36.234.99.71
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 2243
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 2.4MB/s"
-      password: 26ef397d-9b4a-4d01-a683-da08791c3984
-      port: 10075
-      server: 114.46.90.217
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 390
-      name: ❓Other_1 | ⬇️ 1.0MB/s
-      password: 182a640c-ca1a-425e-8398-d5ac86bfb096
-      port: 10145
-      server: 125.228.162.233
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 210
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.3MB/s"
-      password: e953edd9-0295-4d39-ad9e-1b7ce264353c
-      port: 10101
-      server: 1.170.17.172
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 2364
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 2.8MB/s"
-      password: ce7149cd-ea77-4e46-af7d-d4f6930ea541
-      port: 10059
-      server: 118.170.205.122
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 326
-      name: ❓Other_2 | ⬇️ 1.8MB/s
-      password: 357547b3-fed1-4bff-9e9f-bbf009d5b4fb
-      port: 10133
-      server: 1.170.1.209
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 401
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.3MB/s"
-      password: 11159e5a-3dad-4c43-8e66-acfc7f32bb5e
-      port: 10089
-      server: 125.228.180.215
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 501
-      name: ❓Other_3 | ⬇️ 1.0MB/s
-      password: abc8d148-7593-4b0a-8c75-5dcbcee0b2d4
-      port: 10132
-      server: 36.232.103.92
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 512
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 2.0MB/s"
-      password: 7bc09469-5326-4d25-9c2d-043069624017
-      port: 10142
-      server: 36.232.102.152
-      type: ss
-      udp: true
-    - delay: 1037
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 11.0MB/s"
-      password: 55978e4e-e177-4d37-81a6-956d5f19b808
-      port: 63797
-      server: 172.245.22.42
-      skip-cert-verify: true
-      sni: www.bing.com
-      tfo: false
-      type: hysteria2
-    - delay: 1803
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 9.8MB/s"
-      password: 93ce285e-1d56-4526-8180-f26d85481f94
-      port: 11054
-      ports: 11001-11099
-      server: fq-us.mxtn.net
-      skip-cert-verify: false
-      sni: fq-us.mxtn.net
-      type: hysteria2
-    - delay: 1803
-      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 10.1MB/s"
-      password: 93ce285e-1d56-4526-8180-f26d85481f94
-      port: 11099
-      ports: 11001-11099
-      server: fq-us.mxtn.net
-      skip-cert-verify: false
-      sni: fq-us.mxtn.net
-      type: hysteria2
-    - cipher: chacha20-ietf-poly1305
-      delay: 486
-      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 2.0MB/s"
-      password: 206f8c4d-89f4-4008-bb02-ddafe23e581e
-      port: 10069
-      server: 118.170.219.124
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1354
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 7.2MB/s"
-      network: ws
-      port: 443
-      server: us16-1.998998.best
-      servername: server3-42.99887766.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: bb893477-6910-45a5-98ac-bd7a2c258012
-      ws-opts:
-        headers:
-            HOST: server3-42.99887766.best
-        path: /dflkjghydf
-    - cipher: aes-256-gcm
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1542
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 4.0MB/s"
-      password: zJcvujpsXt
-      port: 37422
-      server: 133.18.108.187
-      type: ss
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      delay: 836
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 4.2MB/s"
-      password: 55978e4e-e177-4d37-81a6-956d5f19b808
-      port: 56095
-      server: 172.245.22.42
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: 55978e4e-e177-4d37-81a6-956d5f19b808
-      version: 5
-    - cipher: chacha20-ietf-poly1305
-      delay: 331
-      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 2.5MB/s"
-      password: 2a9715e9-f0da-4601-bd54-1a1fcee1f615
-      port: 10057
-      server: 125.231.69.115
-      type: ss
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1008
-      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 1.6MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.179.8.202
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 990
-      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 2.2MB/s"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 63.179.8.202
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 335
-      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 3.1MB/s"
-      password: 22304c85-9e15-4313-9f4b-2c4dfe910425
-      port: 10059
-      server: 118.170.205.122
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 1831
-      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 5.6MB/s"
-      network: ws
-      port: 22105
-      server: 195.133.5.41
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 11282531-b1c0-4080-a1ce-7849f04d2c7e
-      ws-opts:
-        path: /
