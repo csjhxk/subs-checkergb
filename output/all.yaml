@@ -1,18 +1,10 @@
 proxies:
-    - cipher: aes-256-gcm
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1542
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.5MB/s"
-      password: zJcvujpsXt
-      port: 37422
-      server: 133.18.108.187
-      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.3MB/s"
       port: 37872
       protocol: udp
       server: 108.181.24.77
@@ -20,19 +12,11 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1307
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 2.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.133
-      type: ss
     - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 2.0MB/s"
       network: ws
       port: 2087
       server: www.researchgate.net
@@ -51,7 +35,7 @@ proxies:
         - ""
       alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 11.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 16.0MB/s"
       network: ws
       port: 443
       server: npmjs.com
@@ -66,10 +50,23 @@ proxies:
             Host: Q4.19kAlA.co
         path: /
       xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.9MB/s"
+      network: ws
+      port: 443
+      server: 172.67.165.122
+      tls: true
+      type: vmess
+      uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
+      ws-opts:
+        headers:
+            Host: pppploiu.4444936.xyz
+        path: /SHToRcqfiraYkzOdf
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 16.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 14.2MB/s"
       network: ws
       password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
       port: 443
@@ -83,14 +80,14 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 7.9MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.153.197.5
       type: ss
       udp: true
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 3.4MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -104,25 +101,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 27.2MB/s"
-      network: ws
-      port: 443
-      server: 172.67.187.28
-      servername: uuuuUuUuUUgGghHjU.iRAn2035.dpdNS.ORG
-      tls: true
-      type: vless
-      udp: true
-      uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
-      ws-opts:
-        headers:
-            Host: uuuuuuuuuuggghhju.iran2035.dpdns.org
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 3.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 10.8MB/s"
       network: ws
       port: 443
       server: 104.21.24.195
@@ -137,9 +116,27 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
         path: /MIrEVIUviSe8ydvnmRKWDa8
       xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 4.8MB/s"
+      network: ws
+      port: 443
+      server: 172.67.187.28
+      servername: uuuuUuUuUUgGghHjU.iRAn2035.dpdNS.ORG
+      tls: true
+      type: vless
+      udp: true
+      uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+      ws-opts:
+        headers:
+            Host: uuuuuuuuuuggghhju.iran2035.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
+      xudp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 11.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 11.9MB/s"
       port: 443
       server: 165.140.216.141
       skip-cert-verify: false
