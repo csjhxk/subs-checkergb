@@ -1,6 +1,16 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.4MB/s"
+      port: 46611
+      server: 64.81.33.109
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 363d7952-cd0f-41df-be8a-386a64e15f8b
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 7.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 6.0MB/s"
       port: 8443
       reality-opts:
         public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
@@ -12,57 +22,9 @@ proxies:
       type: vless
       udp: true
       uuid: 714d0dcd-17f8-4495-ba35-5f04d2d92c0f
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 8.5MB/s"
-      port: 443
-      reality-opts:
-        public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-      server: deu246.bypassall.org
-      servername: www.bing.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 6.8MB/s"
-      port: 31971
-      server: 64.81.34.113
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 983abe73-28fd-4ce5-cee8-dcce8e56d71a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 6.4MB/s"
-      port: 46611
-      server: 64.81.33.109
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 363d7952-cd0f-41df-be8a-386a64e15f8b
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.0MB/s"
-      network: http
-      port: 25740
-      server: 192.3.216.180
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 43cf14a5-5b85-47e2-a4c2-b514beab7054
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 3.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 5.1MB/s"
       port: 24229
       server: 203.184.246.7
       skip-cert-verify: false
@@ -72,17 +34,17 @@ proxies:
       uuid: 50b9297e-c728-46c0-de4b-36ddf8948007
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 4.0MB/s"
-      port: 15988
-      server: 64.81.33.196
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 2.2MB/s"
+      port: 31971
+      server: 64.81.34.113
       skip-cert-verify: false
       tls: false
       type: vmess
       udp: true
-      uuid: 8ec3bede-e979-4063-bdab-034fbd16f7f7
+      uuid: 983abe73-28fd-4ce5-cee8-dcce8e56d71a
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 4.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 3.8MB/s"
       port: 40083
       server: 66.253.5.58
       skip-cert-verify: false
@@ -92,35 +54,7 @@ proxies:
       uuid: 19003217-0407-43d5-bf22-9aa642469a83
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 3.9MB/s"
-      port: 51043
-      server: 203.184.246.211
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: c05b241c-0de2-4959-b3a0-ec3df5bfda99
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1307
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.133
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 1.0MB/s"
-      port: 50414
-      server: 103.13.19.254
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 2.1MB/s"
       port: 35034
       server: 165.154.195.38
       skip-cert-verify: false
@@ -130,7 +64,27 @@ proxies:
       uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 2.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.8MB/s"
+      port: 51043
+      server: 203.184.246.211
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: c05b241c-0de2-4959-b3a0-ec3df5bfda99
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.2MB/s"
+      port: 7998
+      server: 206.119.191.9
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 984429ed-3959-4022-e248-cbcb19c96f9a
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.8MB/s"
       network: ws
       port: 80
       server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -143,12 +97,28 @@ proxies:
         headers:
             Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
         path: /
+    - cipher: aes-256-gcm
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1542
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 7.8MB/s"
+      password: zJcvujpsXt
+      port: 37422
+      server: 133.18.108.187
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1546
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.6MB/s"
+      password: p78naCf2EfOlRSLTX0wFVx
+      port: 443
+      server: pupas-shirting-unsung.freesocks.work
+      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 3.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 3.8MB/s"
       port: 37872
       protocol: udp
       server: 108.181.24.77
@@ -156,25 +126,28 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.0MB/s"
-      network: ws
-      port: 8080
-      server: 63.141.128.13
-      servername: c.jOin.zEdMoDeOn.oNl.
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1307
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.133
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 5.4MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
       skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff
-      ws-opts:
-        headers:
-            Host: c.jOin.zEdMoDeOn.oNl.
-        path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.0MB/s"
       network: ws
       port: 2087
       server: www.researchgate.net
@@ -193,7 +166,7 @@ proxies:
         - ""
       alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 9.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 9.2MB/s"
       network: ws
       port: 443
       server: npmjs.com
@@ -208,25 +181,9 @@ proxies:
             Host: Q4.19kAlA.co
         path: /
       xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 8.7MB/s"
-      network: ws
-      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-      port: 443
-      server: 172.67.157.220
-      skip-cert-verify: false
-      sni: 6666YHjU.777159.xYz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /dilyfCPEmLvYr5hYXD
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 2.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 2.7MB/s"
       network: ws
       port: 443
       server: 172.67.165.122
@@ -240,7 +197,23 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 8.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 3.7MB/s"
+      network: ws
+      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+      port: 443
+      server: 172.67.157.220
+      skip-cert-verify: false
+      sni: 6666YHjU.777159.xYz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /dilyfCPEmLvYr5hYXD
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 1.1MB/s"
       network: ws
       password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
       port: 443
@@ -254,14 +227,14 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 6.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 1.1MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.153.197.5
       type: ss
       udp: true
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 3.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 2.9MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -275,24 +248,25 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 4.9MB/s"
       network: ws
       port: 443
-      server: 104.21.9.71
-      servername: ddDDdDDdDDF.777198.XyZ
-      skip-cert-verify: false
+      server: 104.21.24.195
+      servername: 9999UUuU.999836.XYZ
       tls: true
       type: vless
       udp: true
-      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      uuid: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
       ws-opts:
         headers:
-            Host: ddDDdDDdDDF.777198.XyZ
-        path: /OjdW89Bpg4ykd4O
+            Host: 9999uuuu.999836.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /MIrEVIUviSe8ydvnmRKWDa8
+      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 10.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 12.6MB/s"
       network: ws
       port: 443
       server: 172.67.131.76
@@ -306,4 +280,22 @@ proxies:
             Host: eeee3.222767.xyz
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
         path: /Bla4bwO5lnIT6TyxDFklcPSbclvX
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.4MB/s"
+      network: ws
+      port: 443
+      server: 172.67.187.28
+      servername: uuuuUuUuUUgGghHjU.iRAn2035.dpdNS.ORG
+      tls: true
+      type: vless
+      udp: true
+      uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+      ws-opts:
+        headers:
+            Host: uuuuuuuuuuggghhju.iran2035.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
       xudp: true
