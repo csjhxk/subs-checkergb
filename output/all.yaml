@@ -1,6 +1,28 @@
 proxies:
+    - cipher: chacha20-ietf-poly1305
+      delay: 1067
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.9MB/s"
+      password: Sur5Ny74npD3
+      port: 443
+      server: 185.242.247.249
+      type: ss
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1147
+      down: "100"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 1.2MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 5.6MB/s"
       network: ws
       port: 443
       server: 104.21.28.82
@@ -15,40 +37,18 @@ proxies:
             Host: backhaxus.dh04.shop
         path: /
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.37
+      server: 103.186.154.24
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 1067
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 5.1MB/s"
-      password: Sur5Ny74npD3
-      port: 443
-      server: 185.242.247.249
-      type: ss
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1147
-      down: "100"
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.1MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 3.2MB/s"
       port: 37872
       protocol: udp
       server: 108.181.24.77
@@ -59,7 +59,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 14.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 12.0MB/s"
       network: ws
       password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
       port: 443
@@ -72,8 +72,39 @@ proxies:
         headers:
             User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.8MB/s"
+      network: ws
+      port: 80
+      server: test3.flha.ru
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0
+      ws-opts:
+        headers:
+            Host: test3.flha.ru
+        path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.2MB/s"
+      network: ws
+      port: 443
+      server: 172.67.130.204
+      servername: ddDDdDDdDDF.777198.XyZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      ws-opts:
+        headers:
+            Host: ddDDdDDdDDF.777198.XyZ
+        path: /OjdW89Bpg4ykd4O
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 4.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 4.7MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -87,25 +118,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 9.0MB/s"
-      network: ws
-      port: 443
-      server: 172.67.131.76
-      servername: EEeE3.222767.xYz
-      tls: true
-      type: vless
-      udp: true
-      uuid: afc9d688-520a-46fa-a98d-4511d1198cdd
-      ws-opts:
-        headers:
-            Host: eeee3.222767.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /Bla4bwO5lnIT6TyxDFklcPSbclvX
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 6.8MB/s"
       network: ws
       port: 443
       server: 172.67.187.28
@@ -123,7 +136,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.1MB/s"
       network: ws
       port: 443
       server: 104.21.24.195
