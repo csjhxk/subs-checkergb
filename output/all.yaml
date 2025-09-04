@@ -1,26 +1,6 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      delay: 1067
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 7.3MB/s"
-      password: Sur5Ny74npD3
-      port: 443
-      server: 185.242.247.249
-      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 10.6MB/s"
-      port: 34045
-      reality-opts:
-        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-        short-id: e8ab71d0
-      server: 172.233.201.93
-      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 8.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 9.0MB/s"
       port: 443
       reality-opts:
         public-key: fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI
@@ -31,38 +11,9 @@ proxies:
       type: vless
       udp: true
       uuid: 21792da3-074f-4d55-8a6b-4d84c5c0f682
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1147
-      down: "100"
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 2.4MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.9MB/s"
-      network: ws
-      port: 80
-      server: 63.141.128.34
-      servername: b.jOin.zEdMoDeOn.oNl.
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 2f2327bd-ff1b-4ce5-bf86-fe0565334138
-      ws-opts:
-        headers:
-            Host: b.jOin.zEdMoDeOn.oNl.
-        path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 5.7MB/s"
       port: 443
       reality-opts:
         public-key: GyivnLvG6JEO7xV9PI12Z0XTLZJGClBHOcpHwSfrsj4
@@ -74,8 +25,30 @@ proxies:
       type: vless
       udp: true
       uuid: 6035325d-399a-5148-9126-29cedfd5966a
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.27
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1147
+      down: "100"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 2.8MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 9.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 8.9MB/s"
       network: ws
       port: 443
       server: 104.21.28.82
@@ -89,53 +62,24 @@ proxies:
         headers:
             Host: backhaxus.dh04.shop
         path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.27
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.4MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 2.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 13.4MB/s"
       network: ws
       port: 443
-      server: BbNnmjK0.huAngshAnG.oNlINE
+      server: C185A9fCF8-011a-9fcd-84C2-40F4Ef86d26f.131.Pp.uA
       skip-cert-verify: false
       tls: true
       type: vmess
       uuid: c4a4d675-ac02-4635-b3bb-6186b3bddd1c
       ws-opts:
         headers:
-            Host: bBnNMjK0.HuANgsHANG.onLiNE
+            Host: c185a9fCf8-011a-9fcd-84C2-40f4eF86d26F.131.PP.Ua
         path: /hepNwpzuxszIxZMQZRJ
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 1.5MB/s"
-      password: 61405455-91a2-49d5-b72e-814d304f877d
-      port: 10146
-      server: 36.232.83.103
-      tfo: false
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.9MB/s"
       password: fb941bcb-a777-47c9-958d-f01178bef303
       port: 10132
       server: 36.232.127.240
       tfo: false
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.21
       type: ss
