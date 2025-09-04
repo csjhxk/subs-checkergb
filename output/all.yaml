@@ -1,45 +1,6 @@
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 19.7MB/s"
-      port: 443
-      reality-opts:
-        public-key: fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI
-      server: 194.156.65.28
-      servername: cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 21792da3-074f-4d55-8a6b-4d84c5c0f682
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 9.8MB/s"
-      port: 443
-      reality-opts:
-        public-key: GyivnLvG6JEO7xV9PI12Z0XTLZJGClBHOcpHwSfrsj4
-        short-id: e3015cd4
-      server: 178.17.58.126
-      servername: outlook.office.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6035325d-399a-5148-9126-29cedfd5966a
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 4.1MB/s"
-      port: 34045
-      reality-opts:
-        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-        short-id: e8ab71d0
-      server: 172.233.201.93
-      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 10.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 8.4MB/s"
       network: ws
       port: 443
       server: 104.21.28.82
@@ -53,104 +14,44 @@ proxies:
         headers:
             Host: backhaxus.dh04.shop
         path: /
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.0MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
+    - auth: de8854c7-fa17-4266-ae18-50a9732a0c4e
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 2.9MB/s"
+      password: de8854c7-fa17-4266-ae18-50a9732a0c4e
+      port: 3001
+      server: us2.1010991.xyz
       skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-opts:
-        headers:
-            Host: hkt.gotochinatown.net
-        path: /
-    - delay: 1833
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 8.5MB/s"
-      password: ee4a8f20-5467-4f12-bd87-ff21b7ba817c
-      port: 16187
-      server: 95.181.212.141
-      skip-cert-verify: true
-      tfo: false
+      sni: us2.1010991.xyz
       type: hysteria2
-    - cipher: chacha20-ietf-poly1305
-      delay: 1067
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 8.4MB/s"
-      password: Sur5Ny74npD3
-      port: 443
-      server: 185.242.247.249
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 2.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.21
       type: ss
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 3.8MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.35
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.7MB/s"
       port: 443
-      server: 42.2.17.49
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 3.6MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 443
-      server: 42.2.197.54
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 3.4MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 4613
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 3.9MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 3043
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 3.0MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 1523
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 2.5MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 4317
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 2.0MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 4801
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.8MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 1924
-      server: xingxing.jiasu123.org
-      skip-cert-verify: true
-      sni: 23.45.86.28
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      delay: 2076
-      name: ❓Other_1 | ⬇️ 3.1MB/s
-      password: qscavF5UviIL-8V-E4raBA
-      port: 2222
-      server: 62.133.63.226
+      reality-opts:
+        public-key: fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI
+      server: 194.156.65.28
+      servername: cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 21792da3-074f-4d55-8a6b-4d84c5c0f682
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.27
       type: ss
