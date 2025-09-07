@@ -1,94 +1,122 @@
 proxies:
     - cipher: aes-256-cfb
       delay: 804
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 17.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 16.8MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.213.23.226
       type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 382
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 19.6MB/s"
+      network: none
+      port: 59674
+      server: 43.162.114.137
+      type: vmess
+      uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500
+    - alterId: 0
+      cipher: auto
+      delay: 520
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 9.5MB/s"
+      network: none
+      port: 12299
+      server: 154.29.158.139
+      type: vmess
+      uuid: cccfe679-fbd0-4402-caf2-67e919db436f
     - cipher: aes-256-cfb
       delay: 919
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 9.3MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 104.192.226.106
       type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 8.0MB/s"
-      port: 443
-      reality-opts:
-        public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-        short-id: 55e6af1a35e64a98
-      server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-      servername: i2pd.website
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 501
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 8.4MB/s"
+      network: none
+      port: 57373
+      server: 216.167.79.92
+      type: vmess
+      uuid: 463b095b-2fde-4e21-ccaf-d8d7aa81e0f4
+    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 7.1MB/s"
+      password: gA30l1F
+      port: 27207
+      server: 38.107.175.141
+      type: http
+      username: kZXMC3Z1
+    - auth: 13ee6524-1579-451b-bb6a-9b6d5d74ac6a
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 5.1MB/s"
+      password: 13ee6524-1579-451b-bb6a-9b6d5d74ac6a
+      port: 37771
+      server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
     - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.4MB/s"
       password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
       port: 27015
       server: hyleet.fitness
       skip-cert-verify: false
       sni: hyleet.fitness
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 10.3MB/s"
-      password: gA30l1F
-      port: 27207
-      server: 38.107.175.141
-      type: http
-      username: kZXMC3Z1
-    - auth: 915cd180-0ef8-4e85-afa5-2701284d7a8c
+    - auth: cb26a23c-6aeb-42d3-b528-2c0d02cd9260
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 5.9MB/s"
-      password: 915cd180-0ef8-4e85-afa5-2701284d7a8c
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 5.1MB/s"
+      password: cb26a23c-6aeb-42d3-b528-2c0d02cd9260
       port: 37771
-      server: dg1.xiaohuolongjc.top
+      server: xjp1.xiaohuolongjc.top
       skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
+      sni: xjp1.xiaohuolongjc.top
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 17.9MB/s"
+    - auth: 6c82f683-aed5-45c5-b1f6-a663161d74d2
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 4.5MB/s"
+      password: 6c82f683-aed5-45c5-b1f6-a663161d74d2
+      port: 56309
+      server: jpaws.ccwink.com
+      skip-cert-verify: false
+      sni: jpaws.ccwink.cc
+      type: hysteria2
+    - auth: 8873807e-7932-4b31-b996-51621ae05865
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.7MB/s"
+      password: 8873807e-7932-4b31-b996-51621ae05865
+      port: 37771
+      server: xg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: xg1.xiaohuolongjc.top
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 26.7MB/s"
       password: hMAEPF
       port: 34099
       server: 38.34.22.220
       type: http
       username: kZXMC3Z1
-    - auth: 4bd663f9-8af8-4fde-8405-717e0e76043b
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.6MB/s"
-      password: 4bd663f9-8af8-4fde-8405-717e0e76043b
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - auth: 8b3723ac-00a4-4f6c-bf4e-ea3c6f6eef9f
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 3.0MB/s"
-      password: 8b3723ac-00a4-4f6c-bf4e-ea3c6f6eef9f
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.9MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 3.2MB/s"
       password: "1234"
       port: 8900
       server: 160.30.54.67
       type: http
       username: "1234"
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 3.2MB/s"
-      password: 8488005c-1793-4623-b429-0ab6721601fa
-      port: 10030
-      server: 118.170.202.98
-      tfo: false
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 2.8MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.7MB/s"
+      password: "123"
+      port: 1088
+      server: 154.219.96.212
+      type: http
+      username: "123"
+    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.8MB/s"
       password: 4xdfi6v
       port: 54679
       server: 160.30.54.67
