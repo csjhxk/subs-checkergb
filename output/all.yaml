@@ -1,70 +1,7 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 993
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.9MB/s"
-      password: cWCt8FRw9qXHQaG59JrNLi
-      port: 443
-      server: hackney-latest-strike.freesocks.work
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 400
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.8MB/s"
-      password: XUMTygEM1jVYIvysXKqA5T
-      port: 443
-      server: hackney-latest-strike.freesocks.work
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 919
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 12.8MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 104.192.226.106
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 804
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.3MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.213.23.226
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 520
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 2.8MB/s"
-      network: none
-      port: 12299
-      server: 154.29.158.139
-      type: vmess
-      uuid: cccfe679-fbd0-4402-caf2-67e919db436f
-    - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 9.2MB/s"
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: hyleet.fitness
-      skip-cert-verify: false
-      sni: hyleet.fitness
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 9.4MB/s"
-      password: gA30l1F
-      port: 27207
-      server: 38.107.175.141
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 3.0MB/s"
-      password: 5CBqBh6MeDq6GajcilBiDg==
-      port: 61001
-      server: 192.227.152.86
-      skip-cert-verify: true
-      sni: 192-227-152-86.nip.io
-      tls: false
-      type: hysteria2
     - alterId: 2
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 2.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.0MB/s"
       network: ws
       port: 80
       server: hkt.gotochinatown.net
@@ -77,81 +14,553 @@ proxies:
         headers:
             Host: hkt.gotochinatown.net
         path: /
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 1.0MB/s"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      type: http
-      username: fQ67Dpe5dU
-    - auth: be2e39ba-ea70-43b1-b200-a3790aa01ad9
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 4.8MB/s"
-      password: be2e39ba-ea70-43b1-b200-a3790aa01ad9
-      port: 37771
-      server: dg1.xiaohuolongjc.top
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 283
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.1MB/s"
+      password: 43e1e672-5e18-4d87-bc72-89e552990406
+      port: 10055
+      server: 114.46.92.92
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 1320
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.3MB/s"
+      password: 9394cbfd-96c5-4f18-8c32-7ebada102379
+      port: 10085
+      server: 1.170.11.24
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 227
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.2MB/s"
+      password: c9881f3c-e0ab-456a-b931-82a9687fd6d3
+      port: 10038
+      server: 114.46.110.39
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 463
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.7MB/s"
+      password: b24ddb28-fc6d-466e-a7ab-b361956970d1
+      port: 10035
+      server: 118.170.202.157
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 162
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 2.2MB/s"
+      password: e8b66024-6718-418e-9823-0ea997a8d75f
+      port: 10071
+      server: 36.234.68.116
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 175
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.6MB/s"
+      password: 24d39bf1-a8d0-4f07-929a-bbbe15123846
+      port: 10085
+      server: 1.170.11.24
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 1145
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.4MB/s"
+      password: b24ddb28-fc6d-466e-a7ab-b361956970d1
+      port: 10146
+      server: 36.232.69.138
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 454
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 2.0MB/s"
+      password: 547ad509-c514-465f-9668-5904af29a233
+      port: 10036
+      server: 118.170.204.149
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F9\U0001F1FCTW"
+      delay: 171
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 1.4MB/s"
+      password: e952ef79-5444-4431-aed1-fa76e651263f
+      port: 10031
+      server: 118.170.216.104
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 222
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.6MB/s"
+      password: 24d39bf1-a8d0-4f07-929a-bbbe15123846
+      port: 10068
+      server: 114.46.93.196
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 225
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.0MB/s"
+      password: 6ff4b7c3-47f3-4a9b-97ba-d217a92e1600
+      port: 10021
+      server: 118.170.216.58
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 222
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.6MB/s"
+      password: 61a4d0c1-2d13-4fc9-a821-10562deccef1
+      port: 10083
+      server: 1.170.2.19
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 528
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.4MB/s"
+      password: 61a4d0c1-2d13-4fc9-a821-10562deccef1
+      port: 10031
+      server: 118.170.216.104
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 218
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.8MB/s"
+      password: e8b66024-6718-418e-9823-0ea997a8d75f
+      port: 10038
+      server: 114.46.110.39
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 506
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 2.0MB/s"
+      password: ca52d052-b0c2-4daf-aff9-a2aaea76c787
+      port: 10145
+      server: 125.228.162.233
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 225
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.7MB/s"
+      password: 30ac1116-2995-469d-b272-cc58f911eb08
+      port: 10055
+      server: 114.46.92.92
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 222
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.4MB/s"
+      password: b30118ca-6bed-446a-979f-c1ff17eeca31
+      port: 10071
+      server: 36.234.68.116
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 2794
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 1.0MB/s"
+      password: f87588c4-f759-4634-9b63-32032ede64bd
+      port: 10078
+      server: 114.46.69.142
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 237
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 1.2MB/s"
+      password: 54c77879-4d99-4c71-9914-ad9b7215df9e
+      port: 10020
+      server: 125.230.21.104
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 367
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 1.9MB/s"
+      password: e8b66024-6718-418e-9823-0ea997a8d75f
+      port: 10040
+      server: 125.230.23.36
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 243
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 2.6MB/s"
+      password: f87588c4-f759-4634-9b63-32032ede64bd
+      port: 10010
+      server: 1.165.72.103
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 635
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.6MB/s"
+      password: 3c3e66d5-1910-4994-9425-737ec6092b78
+      port: 10071
+      server: 36.234.68.116
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 143
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.1MB/s"
+      password: 547ad509-c514-465f-9668-5904af29a233
+      port: 10038
+      server: 114.46.110.39
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 234
+      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 2.1MB/s"
+      password: d5abead3-0b9d-4ff8-9ecc-f0ad5ef0a192
+      port: 10113
+      server: 125.228.31.10
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 240
+      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 2.3MB/s"
+      password: 254618df-ecc6-46a4-9619-8934138c8add
+      port: 10042
+      server: 114.46.71.121
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 228
+      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 2.1MB/s"
+      password: 24d39bf1-a8d0-4f07-929a-bbbe15123846
+      port: 10027
+      server: 1.165.82.161
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 233
+      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 1.5MB/s"
+      password: 43e1e672-5e18-4d87-bc72-89e552990406
+      port: 10145
+      server: 125.228.162.233
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1154
+      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 1.5MB/s"
+      password: d15235c9-49b1-461e-a782-beb01857634d
+      port: 10031
+      server: 118.170.216.104
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 240
+      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 2.6MB/s"
+      password: 30ac1116-2995-469d-b272-cc58f911eb08
+      port: 10002
+      server: 1.165.73.159
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 240
+      name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 1.4MB/s"
+      password: c8449ac9-14ff-42ca-b6cf-816d743fdd23
+      port: 10065
+      server: 125.231.72.120
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 226
+      name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 1.9MB/s"
+      password: 547ad509-c514-465f-9668-5904af29a233
+      port: 10071
+      server: 36.234.68.116
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 241
+      name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 1.1MB/s"
+      password: 4b21866d-7865-4b44-a53a-fd2831aa22cf
+      port: 10040
+      server: 125.230.23.36
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 534
+      name: "\U0001F1FA\U0001F1F8US_34 | ⬇️ 2.3MB/s"
+      password: 61a4d0c1-2d13-4fc9-a821-10562deccef1
+      port: 10020
+      server: 125.230.21.104
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 533
+      name: "\U0001F1FA\U0001F1F8US_35 | ⬇️ 3.6MB/s"
+      password: 6b0b787f-a994-412a-8e80-74b286e80459
+      port: 10037
+      server: 114.33.53.213
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 519
+      name: "\U0001F1FA\U0001F1F8US_36 | ⬇️ 2.4MB/s"
+      password: 54ee7c83-45dc-404d-8975-34fbcac92f87
+      port: 10059
+      server: 118.170.219.68
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 520
+      name: "\U0001F1FA\U0001F1F8US_37 | ⬇️ 3.5MB/s"
+      password: c8449ac9-14ff-42ca-b6cf-816d743fdd23
+      port: 10058
+      server: 59.126.32.1
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 509
+      name: "\U0001F1FA\U0001F1F8US_38 | ⬇️ 1.8MB/s"
+      password: b24ddb28-fc6d-466e-a7ab-b361956970d1
+      port: 10027
+      server: 1.165.82.161
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 514
+      name: "\U0001F1FA\U0001F1F8US_39 | ⬇️ 3.3MB/s"
+      password: e952ef79-5444-4431-aed1-fa76e651263f
+      port: 10010
+      server: 1.165.72.103
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 537
+      name: "\U0001F1FA\U0001F1F8US_40 | ⬇️ 2.6MB/s"
+      password: 6b0b787f-a994-412a-8e80-74b286e80459
+      port: 10085
+      server: 1.170.11.24
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1378
+      name: "\U0001F1FA\U0001F1F8US_41 | ⬇️ 3.2MB/s"
+      password: d5abead3-0b9d-4ff8-9ecc-f0ad5ef0a192
+      port: 10042
+      server: 114.46.71.121
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 843
+      name: "\U0001F1FA\U0001F1F8US_42 | ⬇️ 1.8MB/s"
+      password: b30118ca-6bed-446a-979f-c1ff17eeca31
+      port: 10145
+      server: 125.228.162.233
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 527
+      name: "\U0001F1FA\U0001F1F8US_43 | ⬇️ 2.2MB/s"
+      password: 61a4d0c1-2d13-4fc9-a821-10562deccef1
+      port: 10021
+      server: 118.170.216.58
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 555
+      name: "\U0001F1FA\U0001F1F8US_44 | ⬇️ 1.5MB/s"
+      password: c9881f3c-e0ab-456a-b931-82a9687fd6d3
+      port: 10020
+      server: 125.230.21.104
+      type: ss
+      udp: true
+    - delay: 1424
+      name: "\U0001F1FA\U0001F1F8US_45 | ⬇️ 24.2MB/s"
+      network: ws
+      port: 8443
+      server: heiyu.588235.xyz
+      servername: rn.588235.xyz
       skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - auth: 915cd180-0ef8-4e85-afa5-2701284d7a8c
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 4.9MB/s"
-      password: 915cd180-0ef8-4e85-afa5-2701284d7a8c
-      port: 37771
-      server: dg1.xiaohuolongjc.top
+      tls: true
+      type: vless
+      uuid: ab356de9-c0c1-4e84-ba39-b82280332e19
+      ws-opts:
+        headers:
+            Host: rn.588235.xyz
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      delay: 237
+      name: "\U0001F1FA\U0001F1F8US_46 | ⬇️ 1.5MB/s"
+      password: 4b21866d-7865-4b44-a53a-fd2831aa22cf
+      port: 10027
+      server: 1.165.82.161
+      type: ss
+      udp: true
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 1204
+      name: "\U0001F1FA\U0001F1F8US_47 | ⬇️ 7.3MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 3.65.97.31
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 438
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_48 | ⬇️ 2.7MB/s"
+      network: tcp
+      port: 15105
+      server: hkt-detour-05.grabgo.pro
+      skip-cert-verify: true
+      type: vmess
+      uuid: d673e01d-e157-4c99-9421-c9fdf63cf870
+    - delay: 2228
+      name: "\U0001F1FA\U0001F1F8US_49 | ⬇️ 5.5MB/s"
+      network: ws
+      port: 50943
+      server: 45.78.33.138
+      servername: sg.alice.cloudns.pro
       skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
+      tls: true
+      type: vless
+      uuid: 8f84869b-f601-44b6-a3a6-707c4a4195a6
+      ws-opts:
+        headers:
+            Host: sg.alice.cloudns.pro
+        path: /ihsdriofhouifghujdmghe
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 733
+      name: "\U0001F1FA\U0001F1F8US_50 | ⬇️ 4.6MB/s"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 13.36.49.89
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 743
+      name: "\U0001F1FA\U0001F1F8US_51 | ⬇️ 3.7MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 13.36.49.89
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - delay: 991
+      name: "\U0001F1FA\U0001F1F8US_52 | ⬇️ 3.7MB/s"
+      network: ws
+      port: 443
+      server: 104.194.67.102
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 8f84869b-f601-44b6-a3a6-707c4a4195a6
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /sdiohfiosdhfuiosghfuhse
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_53 | ⬇️ 4.9MB/s"
+      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      port: 27015
+      server: hyleet.fitness
+      skip-cert-verify: false
+      sni: hyleet.fitness
       type: hysteria2
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1167
+      name: "\U0001F1FA\U0001F1F8US_54 | ⬇️ 2.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.22
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 481
+      name: "\U0001F1FA\U0001F1F8US_55 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.26
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1482
+      name: "\U0001F1FA\U0001F1F8US_56 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.30
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1282
+      name: "\U0001F1FA\U0001F1F8US_57 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.133
+      type: ss
     - auth: 13ee6524-1579-451b-bb6a-9b6d5d74ac6a
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 2.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_58 | ⬇️ 3.3MB/s"
       password: 13ee6524-1579-451b-bb6a-9b6d5d74ac6a
       port: 37771
       server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
       sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 95.7MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_59 | ⬇️ 105.8MB/s"
       password: hMAEPF
       port: 34099
       server: 38.34.22.220
       type: http
       username: kZXMC3Z1
-    - auth: 92c6a80e-1566-4f15-a4d8-8a9d17e0c12c
+    - auth: be2e39ba-ea70-43b1-b200-a3790aa01ad9
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.5MB/s"
-      password: 92c6a80e-1566-4f15-a4d8-8a9d17e0c12c
+      name: "\U0001F1FA\U0001F1F8US_60 | ⬇️ 3.8MB/s"
+      password: be2e39ba-ea70-43b1-b200-a3790aa01ad9
       port: 37771
-      server: rb1.xiaohuolongjc.top
+      server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
+      sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 4.2MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_61 | ⬇️ 2.1MB/s"
+      network: none
+      port: 12299
+      server: 154.29.158.139
+      tls: false
+      type: vmess
+      uuid: cccfe679-fbd0-4402-caf2-67e919db436f
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US_62 | ⬇️ 8.7MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 104.192.226.106
+      type: ss
+    - auth: 915cd180-0ef8-4e85-afa5-2701284d7a8c
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_63 | ⬇️ 2.6MB/s"
+      password: 915cd180-0ef8-4e85-afa5-2701284d7a8c
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_64 | ⬇️ 4.4MB/s"
       password: "1234"
       port: 8900
       server: 160.30.54.67
       type: http
       username: "1234"
-    - auth: 4bd663f9-8af8-4fde-8405-717e0e76043b
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 2.1MB/s"
-      password: 4bd663f9-8af8-4fde-8405-717e0e76043b
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 4.8MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_65 | ⬇️ 5.0MB/s"
       password: 4xdfi6v
       port: 54679
       server: 160.30.54.67
       type: http
       username: kZXMC3Z1
-    - auth: 8b3723ac-00a4-4f6c-bf4e-ea3c6f6eef9f
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 2.3MB/s"
-      password: 8b3723ac-00a4-4f6c-bf4e-ea3c6f6eef9f
-      port: 37771
-      server: rb1.xiaohuolongjc.top
+    - name: "\U0001F1FA\U0001F1F8US_66 | ⬇️ 2.7MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
       skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
