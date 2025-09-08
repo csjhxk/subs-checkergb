@@ -1,27 +1,72 @@
 proxies:
-    - auth: f48cbb63-bec1-48af-9325-d951ea4e8f76
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.7MB/s"
-      password: f48cbb63-bec1-48af-9325-d951ea4e8f76
-      port: 37011
-      server: yg.foldjc.top
-      skip-cert-verify: true
-      sni: yg.foldjc.top
-      type: hysteria2
+    - alterId: 2
+      cipher: auto
+      delay: 1949
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.1MB/s"
+      network: ws
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      type: vmess
       udp: true
-    - auth: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 5.4MB/s"
-      password: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
-      port: 37011
-      server: yg.foldjc.top
-      skip-cert-verify: true
-      sni: yg.foldjc.top
-      type: hysteria2
-      udp: true
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FA RU"
+      delay: 1945
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.7MB/s"
+      password: qscavF5UviIL-8V-E4raBA
+      port: 2222
+      server: 2.59.163.104
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 992
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 3.0MB/s"
+      password: qscavF5UviIL-8V-E4raBA
+      port: 2222
+      server: pl.opengate.tech
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EC\U0001F1E7 GB"
+      delay: 2771
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.7MB/s"
+      password: qscavF5UviIL-8V-E4raBA
+      port: 2222
+      server: 91.84.104.133
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 481
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 2.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.26
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1482
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 3.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.30
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1167
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.22
+      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 4.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 5.0MB/s"
       network: ws
       port: 38846
       server: 47.239.142.73
@@ -30,188 +75,131 @@ proxies:
       uuid: cad4d57f-81a1-451d-a733-cb650b2776ce
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.2MB/s"
+    - auth: 8266d28c-4792-4e7f-a3a7-4bcba6d4fe04
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.5MB/s"
+      password: 8266d28c-4792-4e7f-a3a7-4bcba6d4fe04
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.7MB/s"
       password: 4xdfi6v
       port: 54679
       server: 160.30.54.67
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 2.9MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.6MB/s"
       password: "1234"
       port: 8900
       server: 160.30.54.67
       type: http
       username: "1234"
-    - auth: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.0MB/s"
-      password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      port: 37017
-      server: dg.foldjc.top
-      skip-cert-verify: true
-      sni: dg.foldjc.top
-      type: hysteria2
-      udp: true
-    - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 3.5MB/s"
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: hyleet.fitness
-      skip-cert-verify: false
-      sni: hyleet.fitness
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 10.4MB/s"
-      password: gA30l1F
-      port: 27207
-      server: 38.107.175.141
-      type: http
-      username: kZXMC3Z1
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.26
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 5.8MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 52.5MB/s"
       password: hMAEPF
       port: 34099
       server: 38.34.22.220
       type: http
       username: kZXMC3Z1
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.30
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8 US"
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.0MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 38.54.57.90
-      type: ss
-    - auth: 62267cdf-31cf-44ca-b61b-b6667128839b
+    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 9.3MB/s"
+      password: gA30l1F
+      port: 27207
+      server: 38.107.175.141
+      type: http
+      username: kZXMC3Z1
+    - auth: 589278e2-609f-4b26-b95c-e0924cc96a16
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 11.7MB/s"
-      password: 62267cdf-31cf-44ca-b61b-b6667128839b
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.6MB/s"
+      password: 589278e2-609f-4b26-b95c-e0924cc96a16
       port: 37771
       server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
       sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - auth: b26e23d8-5e7f-470b-9f60-111470595eb7
+    - auth: f7d248a3-6b12-4bf7-b0cd-802adbc002d9
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 5.8MB/s"
-      password: b26e23d8-5e7f-470b-9f60-111470595eb7
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 3.5MB/s"
-      network: tcp
-      port: 59303
-      reality-opts:
-        public-key: FHm9vc9hi1aK9jz8CqCjhJvT0bxzsD470FvOyubB6EA
-        short-id: bbe06294
-      server: 40.233.67.146
-      servername: www.yahoo.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    - auth: 5acaa712-e40b-4e92-9ae4-a5c9790217fb
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 10.4MB/s"
-      password: 5acaa712-e40b-4e92-9ae4-a5c9790217fb
+      name: ❓Other_1 | ⬇️ 1.6MB/s
+      password: f7d248a3-6b12-4bf7-b0cd-802adbc002d9
       port: 37771
       server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
       sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1ED\U0001F1F0 HK"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 4.3MB/s"
-      network: ws
-      port: 80
-      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      servername: broadcastlv.chat.bilibili.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-headers:
-        HOST: broadcastlv.chat.bilibili.com
-      ws-path: /
-    - auth: 38f6467e-c4bc-4747-a210-dba093454541
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.3MB/s"
-      password: 38f6467e-c4bc-4747-a210-dba093454541
-      port: 37013
-      server: tw.foldjc.top
-      skip-cert-verify: true
-      sni: tw.foldjc.top
+    - auth: de8854c7-fa17-4266-ae18-50a9732a0c4e
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.1MB/s"
+      password: de8854c7-fa17-4266-ae18-50a9732a0c4e
+      port: 3001
+      server: us2.1010991.xyz
+      skip-cert-verify: false
+      sni: us2.1010991.xyz
       type: hysteria2
-      udp: true
-    - auth: f48cbb63-bec1-48af-9325-d951ea4e8f76
+    - auth: 0c061897-06f8-4211-a767-693412892270
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 2.9MB/s"
-      password: f48cbb63-bec1-48af-9325-d951ea4e8f76
-      port: 37017
-      server: dg.foldjc.top
-      skip-cert-verify: true
-      sni: dg.foldjc.top
-      type: hysteria2
-      udp: true
-    - auth: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 2.7MB/s"
-      password: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      port: 37011
-      server: yg.foldjc.top
-      skip-cert-verify: true
-      sni: yg.foldjc.top
-      type: hysteria2
-      udp: true
-    - auth: 915cd180-0ef8-4e85-afa5-2701284d7a8c
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 5.5MB/s"
-      password: 915cd180-0ef8-4e85-afa5-2701284d7a8c
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 1.6MB/s"
+      password: 0c061897-06f8-4211-a767-693412892270
       port: 37771
       server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
       sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - auth: 04a24f06-17fa-464b-a799-90600783499f
+    - auth: 97f8e11a-683a-493d-839a-3340a7bc63fb
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 2.3MB/s"
-      password: 04a24f06-17fa-464b-a799-90600783499f
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.4MB/s"
+      password: 97f8e11a-683a-493d-839a-3340a7bc63fb
       port: 37771
-      server: rb1.xiaohuolongjc.top
+      server: dg1.xiaohuolongjc.top
       skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
+      sni: dg1.xiaohuolongjc.top
       type: hysteria2
-    - auth: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
+    - auth: 6c92debe-b389-4117-870d-7a52c692b866
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.2MB/s"
-      password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      port: 37013
-      server: tw.foldjc.top
-      skip-cert-verify: true
-      sni: tw.foldjc.top
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.5MB/s"
+      password: 6c92debe-b389-4117-870d-7a52c692b866
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
       type: hysteria2
-      udp: true
+    - auth: 12cc60a0-03e5-4df5-b2d0-90360d7e06ba
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 2.2MB/s"
+      password: 12cc60a0-03e5-4df5-b2d0-90360d7e06ba
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - auth: 626873ff-9e0d-4b5f-9243-f66eec240926
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 1.5MB/s"
+      password: 626873ff-9e0d-4b5f-9243-f66eec240926
+      port: 37771
+      server: mg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: mg1.xiaohuolongjc.top
+      type: hysteria2
+    - auth: 626873ff-9e0d-4b5f-9243-f66eec240926
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 3.0MB/s"
+      password: 626873ff-9e0d-4b5f-9243-f66eec240926
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - auth: 7620d37d-8633-49e9-be68-4a87812d18e8
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 2.6MB/s"
+      password: 7620d37d-8633-49e9-be68-4a87812d18e8
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
     - auth: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.1MB/s"
       password: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
       port: 37013
       server: tw.foldjc.top
@@ -219,36 +207,12 @@ proxies:
       sni: tw.foldjc.top
       type: hysteria2
       udp: true
-    - auth: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 2.9MB/s"
-      password: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      port: 37017
-      server: dg.foldjc.top
+    - alterId: 0
+      cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 2.0MB/s"
+      password: eUh4lSpi7nOYj0vSrqLUh0
+      port: 8506
+      server: 95.163.176.37
       skip-cert-verify: true
-      sni: dg.foldjc.top
-      type: hysteria2
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 533
-      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 2.7MB/s"
-      password: 3d953287-7f64-4a54-bb46-e6bafa61a82d
-      port: 10067
-      server: 36.234.72.84
+      tls: true
       type: ss
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2245
-      down: "100"
-      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 1.9MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
