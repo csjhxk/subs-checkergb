@@ -1,25 +1,24 @@
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 18.7MB/s"
-      port: 443
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 109.9MB/s"
+      port: 10001
       reality-opts:
-        public-key: Gd8fDDLpqXZoIybSXnBaN-YWrpbgqe2944h0cjXA4wk
-        short-id: 3a84f8ce
-      server: 92.118.112.83
-      servername: outlook.office.com
+        public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
+        short-id: 1a24af87
+      server: 172.233.153.209
+      servername: yahoo.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 6035325d-399a-5148-9126-29cedfd5966a
+      uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 7.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 12.0MB/s"
       port: 1443
       reality-opts:
-        public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
-      server: 213.232.120.10
+        public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
+      server: 147.78.180.10
       servername: speed.cloudflare.com
       skip-cert-verify: false
       tls: true
@@ -28,24 +27,11 @@ proxies:
       uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 7.5MB/s"
-      port: 1443
-      reality-opts:
-        public-key: y3D5zxj5V-R4fpbHQdLaVp5l28Y4brWPnWyCm8dj2mc
-      server: 185.152.94.10
-      servername: speed.cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 7.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 7.4MB/s"
       port: 443
       reality-opts:
-        public-key: y3D5zxj5V-R4fpbHQdLaVp5l28Y4brWPnWyCm8dj2mc
-      server: 185.152.94.10
+        public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
+      server: 147.78.180.10
       servername: speed.cloudflare.com
       skip-cert-verify: false
       tls: true
@@ -54,7 +40,7 @@ proxies:
       uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 8.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.4MB/s"
       port: 443
       reality-opts:
         public-key: dG0riYws1nKX02uDxyblkDxSkFZ5V7G6jYwUKJBY0i8
@@ -67,29 +53,66 @@ proxies:
       uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.1MB/s"
-      port: 443
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.9MB/s"
+      port: 1443
       reality-opts:
-        public-key: SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE
-      server: 213.232.123.10
+        public-key: y3D5zxj5V-R4fpbHQdLaVp5l28Y4brWPnWyCm8dj2mc
+      server: 185.152.94.10
       servername: speed.cloudflare.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
       uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
-    - auth: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 10.5MB/s"
-      password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      port: 37011
-      server: yg.foldjc.top
-      skip-cert-verify: true
-      sni: yg.foldjc.top
-      type: hysteria2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.8MB/s"
+      port: 443
+      reality-opts:
+        public-key: y3D5zxj5V-R4fpbHQdLaVp5l28Y4brWPnWyCm8dj2mc
+      server: 185.152.94.10
+      servername: speed.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.9MB/s"
+      port: 443
+      reality-opts:
+        public-key: Gd8fDDLpqXZoIybSXnBaN-YWrpbgqe2944h0cjXA4wk
+        short-id: 3a84f8ce
+      server: 92.118.112.83
+      servername: outlook.office.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6035325d-399a-5148-9126-29cedfd5966a
+    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 9.4MB/s"
+      password: gA30l1F
+      port: 27207
+      server: 38.107.175.141
+      type: http
+      username: kZXMC3Z1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 5.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
+        short-id: 0fa84b90
+      server: 185.39.207.121
+      servername: outlook.office.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6035325d-399a-5148-9126-29cedfd5966a
     - cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 12.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 3.9MB/s"
       network: ws
       port: 2000
       server: 102.129.137.198
@@ -98,13 +121,140 @@ proxies:
       uuid: d3f15d92-a370-4791-ed0a-a9d4a19d62eb
       ws-opts:
         path: /trigger/
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.0MB/s"
+      port: 1443
+      reality-opts:
+        public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
+      server: 213.232.120.10
+      servername: speed.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.25
+      type: ss
+    - auth: 626873ff-9e0d-4b5f-9243-f66eec240926
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.0MB/s"
+      password: 626873ff-9e0d-4b5f-9243-f66eec240926
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.33
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 6.8MB/s"
+      password: zSXzAd0PgV
+      port: 10060
+      server: 47.238.199.39
+      type: http
+      username: cyFtIAq92n
+    - name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 2.9MB/s"
+      password: 4xdfi6v
+      port: 54679
+      server: 160.30.54.67
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.8MB/s"
+      password: tXA14Qlh
+      port: 45235
+      server: 47.237.20.174
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 15.2MB/s"
+      password: ZYxVNDT9pS
+      port: 6770
+      server: 47.254.121.69
+      type: http
+      username: HlZHOwkdIL
+    - name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 9.1MB/s"
+      password: pFibFRwNeR
+      port: 52770
+      server: 8.221.142.181
+      type: http
+      username: a9I0VZgxP6
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0 HK"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 4.6MB/s"
+      network: ws
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
+    - name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 3.7MB/s"
+      password: "1234"
+      port: 8900
+      server: 160.30.54.67
+      type: http
+      username: "1234"
+    - auth: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 1.2MB/s"
+      password: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e
+      port: 37771
+      server: dg1.xiaohuolongjc.top
+      skip-cert-verify: false
+      sni: dg1.xiaohuolongjc.top
+      type: hysteria2
+    - auth: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 2.6MB/s"
+      password: cf4c0a82-ee00-4d0c-a9b7-99372b76bee3
+      port: 37013
+      server: tw.foldjc.top
+      skip-cert-verify: true
+      sni: tw.foldjc.top
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.38
+      type: ss
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 1.3MB/s"
+      network: http
+      port: 18872
+      server: 123.58.203.92
+      tls: false
+      type: vmess
+      uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2095
       down: "100"
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 3.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 3.2MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -113,170 +263,56 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 9.5MB/s"
-      password: gA30l1F
-      port: 27207
-      server: 38.107.175.141
-      type: http
-      username: kZXMC3Z1
-    - auth: 97f8e11a-683a-493d-839a-3340a7bc63fb
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 1.0MB/s"
-      password: 97f8e11a-683a-493d-839a-3340a7bc63fb
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - auth: f995789e-3504-4e67-94db-22fb221b2d58
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.0MB/s"
-      password: f995789e-3504-4e67-94db-22fb221b2d58
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - auth: 5451e30b-3b76-4ffb-bc50-597f0a648f21
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.1MB/s"
-      password: 5451e30b-3b76-4ffb-bc50-597f0a648f21
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.6MB/s"
-      network: ws
-      port: 40873
-      server: 47.83.162.4
-      tls: false
-      type: vmess
-      uuid: 3fd266bc-7691-43cf-a82f-0c9761a69bf0
-      ws-opts:
-        path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 11.0MB/s"
-      password: hMAEPF
-      port: 34099
-      server: 38.34.22.220
-      type: http
-      username: kZXMC3Z1
-    - auth: 915cd180-0ef8-4e85-afa5-2701284d7a8c
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 1.2MB/s"
-      password: 915cd180-0ef8-4e85-afa5-2701284d7a8c
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - auth: 86d07617-6d2f-4aa4-84aa-aaeb53b321bc
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.0MB/s"
-      password: 86d07617-6d2f-4aa4-84aa-aaeb53b321bc
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 4.4MB/s"
-      password: zSXzAd0PgV
-      port: 10060
-      server: 47.238.199.39
-      type: http
-      username: cyFtIAq92n
-    - name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 2.5MB/s"
-      password: tXA14Qlh
-      port: 45235
-      server: 47.237.20.174
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 2.8MB/s"
-      password: 4xdfi6v
-      port: 54679
-      server: 160.30.54.67
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 4.6MB/s"
-      password: auh2qWZuNd
-      port: 6770
-      server: 8.216.33.14
-      type: http
-      username: TcIVARdTgR
-    - auth: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 3.5MB/s"
-      password: c1a4fe4e-fad8-4cbc-9d3b-db0d5757545b
-      port: 37017
-      server: dg.foldjc.top
+    - name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 2.8MB/s"
+      network: tcp
+      password: 253bc477d4e43c209f2d427272968280
+      port: 316
+      server: xingxing.jiasu123.org
       skip-cert-verify: true
-      sni: dg.foldjc.top
-      type: hysteria2
-      udp: true
+      sni: 23.45.86.28
+      type: trojan
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8 US"
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 9.1MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - auth: 86d07617-6d2f-4aa4-84aa-aaeb53b321bc
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.0MB/s"
-      password: 86d07617-6d2f-4aa4-84aa-aaeb53b321bc
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 18.3MB/s"
-      password: ZYxVNDT9pS
-      port: 6770
-      server: 47.254.121.69
-      type: http
-      username: HlZHOwkdIL
-    - auth: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 1.1MB/s"
-      password: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 1.9MB/s"
-      password: 6XDl90r
-      port: 43160
-      server: 123.58.203.92
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 3.0MB/s"
-      password: "1234"
-      port: 8900
-      server: 160.30.54.67
-      type: http
-      username: "1234"
-    - auth: 5acaa712-e40b-4e92-9ae4-a5c9790217fb
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 1.0MB/s"
-      password: 5acaa712-e40b-4e92-9ae4-a5c9790217fb
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 1.6MB/s"
+      delay: 1635
+      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 2.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.38
+      server: 103.186.154.31
       type: ss
-    - name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 4.9MB/s"
-      password: pFibFRwNeR
-      port: 52770
-      server: 8.221.142.181
-      type: http
-      username: a9I0VZgxP6
+    - cipher: aes-256-cfb
+      delay: 1991
+      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 2.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.24
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1579
+      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.24
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 1.3MB/s"
+      network: tcp
+      password: 253bc477d4e43c209f2d427272968280
+      port: 3957
+      server: xingxing.jiasu123.org
+      skip-cert-verify: true
+      sni: 23.45.86.28
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 2.6MB/s"
+      network: tcp
+      password: 253bc477d4e43c209f2d427272968280
+      port: 2966
+      server: xingxing.jiasu123.org
+      skip-cert-verify: true
+      sni: 23.45.86.28
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 1.5MB/s"
+      network: tcp
+      password: 253bc477d4e43c209f2d427272968280
+      port: 1823
+      server: xingxing.jiasu123.org
+      skip-cert-verify: true
+      sni: 23.45.86.28
+      type: trojan
