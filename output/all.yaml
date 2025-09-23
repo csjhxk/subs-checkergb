@@ -6,7 +6,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 8.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 8.9MB/s"
       network: http
       port: 30849
       server: lii.bliscorp.org
@@ -16,63 +16,13 @@ proxies:
       type: vless
       udp: true
       uuid: dca511f0-f98c-45d3-a0ff-1ba61c651374
-    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 9.5MB/s"
-      network: ws
-      port: 2052
-      server: dl5-uae4-cdn.fastfilecdn.org
-      servername: dl5-uae4-cdn.fastfilecdn.org
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
-      ws-opts:
-        headers:
-            Host: dl5-uae4-cdn.fastfilecdn.org
-        path: /
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 4.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.5MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 51.15.17.169
       type: ss
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.7MB/s"
-      port: 26931
-      server: 172.192.26.161
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: ea7b0173-a27c-4ea1-a156-cd60c21e3536
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 3.7MB/s"
-      port: 443
-      reality-opts:
-        public-key: AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw
-      server: 185.126.255.180
-      servername: www.speedtest.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 387d6d9a-5594-4b2a-a60d-5b2cb1f57638
-    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.7MB/s"
-      network: ws
-      port: 2052
-      server: dl5-au4-cdn.fastfilecdn.org
-      servername: dl5-au4-cdn.fastfilecdn.org
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
-      ws-opts:
-        headers:
-            Host: dl5-au4-cdn.fastfilecdn.org
-        path: /
     - http-opts:
         headers:
             Host:
@@ -80,7 +30,7 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 15.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 16.0MB/s"
       network: http
       port: 33801
       server: m24a.vip784.com
@@ -92,7 +42,7 @@ proxies:
       uuid: d36f457f-17a9-4891-a113-322ec6792917
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 3.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.6MB/s"
       port: 23972
       server: 158.101.130.238
       skip-cert-verify: true
@@ -100,38 +50,9 @@ proxies:
       type: vmess
       udp: true
       uuid: a12f1aa2-96c2-4eb2-f332-fa7d7af265a4
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 5.8MB/s"
-      port: 443
-      reality-opts:
-        public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-        short-id: 16895459a2c7768d
-      server: 188.225.80.183
-      servername: ru.sfasti.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5475990d-e0ce-46ea-95e5-50f9e4879af9
     - alterId: 0
       cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.3MB/s"
-      network: http
-      port: 49432
-      server: 43.249.172.50
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: dd5406e0-af7f-416c-bc67-3e7bd78a8d7b
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 5.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.4MB/s"
       port: 2052
       server: 38.54.98.110
       servername: ml0724.ysds168.shop
@@ -140,80 +61,31 @@ proxies:
       type: vmess
       udp: true
       uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 6.4MB/s"
-      network: ws
-      port: 2052
-      server: dl5-us4-cdn.fastfilecdn.org
-      servername: dl5-us4-cdn.fastfilecdn.org
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
-      ws-opts:
-        headers:
-            Host: dl5-us4-cdn.fastfilecdn.org
-        path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 12.8MB/s"
-      network: ws
-      port: 443
-      server: cf.877774.xyz
-      servername: enlargement-decreased-directors-consensus.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-      ws-opts:
-        headers:
-            Host: enlargement-decreased-directors-consensus.trycloudflare.com
-        path: /vmess-argo?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1675
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 2758
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 39.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.3MB/s"
       network: ws
-      port: 443
-      server: cloudgetservice.mcloudservice.site
-      servername: persH-cAN-78.lirAapp.SiTE
+      port: 80
+      server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+      servername: broadcastlv.chat.bilibili.com
       skip-cert-verify: true
-      tls: true
       type: vmess
-      uuid: 9bb3115e-3cec-488d-81d6-4d3cbfbcf090
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
       ws-opts:
         headers:
-            HOST: persH-cAN-78.lirAapp.SiTE
-        path: /linkvkwss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.0MB/s"
-      port: 15491
-      server: 154.64.228.236
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 389b52ba-d936-4800-87a6-1e9765e35079
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1F0SK"
-      delay: 623
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 7.4MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1160
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 9.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 5.9MB/s"
       network: ws
       port: 443
       server: 172.232.50.230
@@ -228,60 +100,38 @@ proxies:
         path: /linkws
     - alterId: 0
       cipher: auto
-      country: "\U0001F1ED\U0001F1F0HK"
-      delay: 2758
+      country: "\U0001F3C1ZZ"
+      delay: 1675
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 4.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.9MB/s"
       network: ws
-      port: 80
-      server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-      servername: broadcastlv.chat.bilibili.com
+      port: 443
+      server: cloudgetservice.mcloudservice.site
+      servername: persH-cAN-78.lirAapp.SiTE
       skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      uuid: 9bb3115e-3cec-488d-81d6-4d3cbfbcf090
       ws-opts:
         headers:
-            HOST: broadcastlv.chat.bilibili.com
-        path: /
+            HOST: persH-cAN-78.lirAapp.SiTE
+        path: /linkvkwss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1040
-      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 7.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 5.6MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 104.192.226.106
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.16
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1787
-      down: "55"
-      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 3.3MB/s"
-      port: 49003
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "11"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2655
       down: "100"
-      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.3MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -296,8 +146,24 @@ proxies:
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
       delay: 2780
+      down: 55 Mbps
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 1.8MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.127.217
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 11 Mbps
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2780
       down: "55"
-      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.9MB/s"
       port: 35511
       protocol: udp
       server: 62.210.127.217
@@ -311,236 +177,293 @@ proxies:
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2780
-      down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.9MB/s"
-      port: 50011
+      delay: 1787
+      down: "55"
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 1.9MB/s"
+      port: 49003
       protocol: udp
-      server: 62.210.127.217
+      server: 51.159.226.1
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
       udp: true
-      up: 11 Mbps
+      up: "11"
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 359
-      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 1.0MB/s"
+      delay: 1296
+      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.53
+      server: 103.186.154.220
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 349
-      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 1.3MB/s"
+      delay: 290
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.199
+      server: 103.186.154.50
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 283
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.56
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 290
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.17
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 571
-      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.41
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 299
-      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 1.4MB/s"
+      delay: 559
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.68
+      server: 103.186.155.206
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 281
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.6MB/s"
+      delay: 510
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.246
+      server: 103.186.154.210
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 305
-      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 1.0MB/s"
+      delay: 421
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.214
+      server: 103.186.155.76
+      type: ss
+    - delay: 1011
+      name: ❓Other_1 | ⬇️ 1.1MB/s
+      network: tcp
+      port: 38918
+      server: 46.29.34.205
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      uuid: fb9183fc-f0bb-4d19-8c8b-704b017d04b8
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 417
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.223
       type: ss
     - cipher: aes-256-cfb
-      delay: 1307
-      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 1.0MB/s"
+      country: "\U0001F3C1ZZ"
+      delay: 2298
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.27
+      server: 103.186.154.52
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 271
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.204
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1060
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 2.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.75
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 275
+      name: "\U0001F1FA\U0001F1F8US_24 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.123
       type: ss
       udp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 1833
-      name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 1.2MB/s"
+      delay: 1601
+      name: "\U0001F1FA\U0001F1F8US_25 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.209
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1950
-      name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.35
+      server: 103.186.154.219
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 1800
-      name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 1.7MB/s"
+      delay: 319
+      name: "\U0001F1FA\U0001F1F8US_26 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.125
+      server: 103.186.154.193
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 1267
-      name: "\U0001F1FA\U0001F1F8US_34 | ⬇️ 1.5MB/s"
+      delay: 283
+      name: "\U0001F1FA\U0001F1F8US_27 | ⬇️ 2.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.102
+      server: 103.186.155.65
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 836
-      name: "\U0001F1FA\U0001F1F8US_35 | ⬇️ 1.3MB/s"
+      delay: 641
+      name: "\U0001F1FA\U0001F1F8US_28 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.148
+      server: 103.186.154.61
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 296
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.5MB/s"
+      delay: 1062
+      name: "\U0001F1FA\U0001F1F8US_29 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.223
+      server: 103.186.155.236
       type: ss
     - cipher: aes-256-cfb
-      delay: 271
+      country: "\U0001F3C1ZZ"
+      delay: 270
+      name: "\U0001F1FA\U0001F1F8US_30 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.106
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 423
+      name: "\U0001F1FA\U0001F1F8US_31 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.50
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 631
+      name: "\U0001F1FA\U0001F1F8US_32 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.59
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 630
+      name: "\U0001F1FA\U0001F1F8US_33 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.243
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1205
+      name: "\U0001F1FA\U0001F1F8US_34 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.22
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1006
+      name: "\U0001F1FA\U0001F1F8US_35 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.228
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 735
       name: "\U0001F1FA\U0001F1F8US_36 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.233
+      server: 103.186.155.114
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 283
+      name: "\U0001F1FA\U0001F1F8US_37 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.2
       type: ss
       udp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 304
-      name: "\U0001F1FA\U0001F1F8US_37 | ⬇️ 1.3MB/s"
+      delay: 326
+      name: "\U0001F1FA\U0001F1F8US_38 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.197
+      server: 103.186.154.16
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 301
+      name: "\U0001F1FA\U0001F1F8US_39 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.182
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 396
+      name: "\U0001F1FA\U0001F1F8US_40 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.120
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 366
-      name: "\U0001F1FA\U0001F1F8US_38 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_41 | ⬇️ 1.8MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.62
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 397
-      name: "\U0001F1FA\U0001F1F8US_39 | ⬇️ 1.4MB/s"
+      delay: 383
+      name: "\U0001F1FA\U0001F1F8US_42 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.218
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 361
-      name: "\U0001F1FA\U0001F1F8US_40 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.177
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 392
-      name: "\U0001F1FA\U0001F1F8US_41 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.122
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 403
-      name: "\U0001F1FA\U0001F1F8US_42 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.205
+      server: 103.186.154.63
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 435
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.2MB/s"
+      delay: 381
+      name: "\U0001F1FA\U0001F1F8US_43 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.63
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1500
-      name: "\U0001F1FA\U0001F1F8US_43 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.202
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 395
-      name: "\U0001F1FA\U0001F1F8US_44 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.103
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 290
-      name: "\U0001F1FA\U0001F1F8US_45 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.215
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 815
-      name: "\U0001F1FA\U0001F1F8US_46 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.56
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 324
-      name: "\U0001F1FA\U0001F1F8US_47 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.107
+      server: 103.186.154.190
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 281
-      name: "\U0001F1FA\U0001F1F8US_48 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_44 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.109
       type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_49 | ⬇️ 4.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_45 | ⬇️ 4.7MB/s"
       network: ws
       port: 39648
       server: 8.217.220.30
@@ -551,7 +474,18 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_50 | ⬇️ 10.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_46 | ⬇️ 4.3MB/s"
+      network: ws
+      port: 63036
+      server: 8.220.188.238
+      tls: false
+      type: vmess
+      uuid: 662f04f2-6792-43a1-8357-c8c35bd68094
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_47 | ⬇️ 17.9MB/s"
       network: ws
       port: 32878
       server: 38.244.34.79
@@ -562,35 +496,7 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_51 | ⬇️ 4.4MB/s"
-      network: ws
-      port: 63036
-      server: 8.220.188.238
-      tls: false
-      type: vmess
-      uuid: 662f04f2-6792-43a1-8357-c8c35bd68094
-      ws-opts:
-        path: /arki?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_52 | ⬇️ 14.4MB/s"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-      ws-opts:
-        headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_53 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_48 | ⬇️ 5.0MB/s"
       network: ws
       port: 5547
       server: 47.250.179.144
@@ -599,7 +505,7 @@ proxies:
       uuid: 28251fb2-4f09-4ab9-bcd4-b04a3202a408
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_54 | ⬇️ 5.0MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_49 | ⬇️ 6.9MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -610,7 +516,7 @@ proxies:
       username: test
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_55 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_50 | ⬇️ 4.6MB/s"
       network: ws
       port: 17002
       server: 47.239.81.113
@@ -619,9 +525,15 @@ proxies:
       uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
       ws-opts:
         path: /arki?ed=2048
+    - name: "\U0001F1FA\U0001F1F8US_51 | ⬇️ 1.4MB/s"
+      password: 6XDl90r
+      port: 43160
+      server: 123.58.203.92
+      type: http
+      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_56 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_52 | ⬇️ 4.8MB/s"
       network: ws
       port: 19426
       server: 47.250.94.124
@@ -630,9 +542,15 @@ proxies:
       uuid: b9e5823a-e6e7-4f6b-a0a9-6ffb5fcee329
       ws-opts:
         path: /arki?ed=2048
+    - name: "\U0001F1FA\U0001F1F8US_53 | ⬇️ 5.3MB/s"
+      password: ka1roO
+      port: 48453
+      server: 47.79.151.191
+      type: http
+      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_57 | ⬇️ 4.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_54 | ⬇️ 3.8MB/s"
       network: ws
       port: 46161
       server: 47.250.94.124
@@ -641,53 +559,38 @@ proxies:
       uuid: c088c0fd-7a01-42cc-9d9a-f0d37325555b
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_58 | ⬇️ 5.1MB/s"
-      password: ka1roO
-      port: 48453
-      server: 47.79.151.191
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_59 | ⬇️ 3.2MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_55 | ⬇️ 4.3MB/s"
       password: "1234"
       port: 8900
       server: 160.30.54.67
       type: http
       username: "1234"
-    - http-opts:
-        headers:
-            Host:
-                - varzesh3.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_60 | ⬇️ 12.9MB/s"
-      network: http
-      port: 33801
-      server: m44a.vip784.com
-      servername: varzesh3.ir
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 39c8e0d3-c932-4ff7-b3e3-83002647907b
-    - name: "\U0001F1FA\U0001F1F8US_61 | ⬇️ 5.5MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_56 | ⬇️ 1.0MB/s"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      type: http
+      username: fQ67Dpe5dU
+    - name: "\U0001F1FA\U0001F1F8US_57 | ⬇️ 4.8MB/s"
       password: yPTZTb
       port: 56321
       server: 47.238.199.39
       type: http
       username: kZXMC3Z1
-    - auth: 92c6a80e-1566-4f15-a4d8-8a9d17e0c12c
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_62 | ⬇️ 1.2MB/s"
-      password: 92c6a80e-1566-4f15-a4d8-8a9d17e0c12c
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_63 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_58 | ⬇️ 4.7MB/s"
+      network: ws
+      port: 30244
+      server: 47.239.128.194
+      tls: false
+      type: vmess
+      uuid: b378eaa0-848f-43bb-b062-0244f9e070c6
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_59 | ⬇️ 4.5MB/s"
       network: ws
       port: 62236
       server: 8.217.220.30
@@ -698,7 +601,18 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_64 | ⬇️ 4.4MB/s"
+      name: "\U0001F1F2\U0001F1FEMY_1 | ⬇️ 3.8MB/s"
+      network: ws
+      port: 62656
+      server: 38.54.98.150
+      tls: false
+      type: vmess
+      uuid: b771d99f-ef69-4b5c-8398-665bf851a661
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_60 | ⬇️ 3.6MB/s"
       network: ws
       port: 11000
       server: 47.254.240.75
@@ -709,7 +623,27 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_65 | ⬇️ 4.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_61 | ⬇️ 3.9MB/s"
+      network: ws
+      port: 24648
+      server: 47.250.179.144
+      tls: false
+      type: vmess
+      uuid: 9b3c1a80-b84d-42e8-8b81-0e07cf5eed8b
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_62 | ⬇️ 3.0MB/s"
+      network: none
+      port: 19026
+      server: 43.249.174.117
+      tls: false
+      type: vmess
+      uuid: 412fecb7-a95b-4f7e-abb1-69365f679a3c
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_63 | ⬇️ 4.0MB/s"
       network: ws
       port: 55106
       server: 47.239.128.194
@@ -720,26 +654,17 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_66 | ⬇️ 4.5MB/s"
-      network: ws
-      port: 24648
-      server: 47.250.179.144
-      tls: false
-      type: vmess
-      uuid: 9b3c1a80-b84d-42e8-8b81-0e07cf5eed8b
-      ws-opts:
-        path: /arki?ed=2048
-    - auth: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_67 | ⬇️ 1.6MB/s"
-      password: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
-      port: 37771
-      server: hg1.xiaohuolongjc.top
+      name: "\U0001F1FA\U0001F1F8US_64 | ⬇️ 4.4MB/s"
+      network: none
+      port: 1037
+      server: 38.60.195.254
+      servername: ml0605.ysds168.shop
       skip-cert-verify: true
-      sni: hg1.xiaohuolongjc.top
-      type: hysteria2
+      tls: true
+      type: vmess
+      uuid: 2d978341-a391-4b54-8623-12284dc24525
     - cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_68 | ⬇️ 3.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_65 | ⬇️ 3.6MB/s"
       network: ws
       port: 58473
       server: 156.224.76.55
@@ -750,16 +675,18 @@ proxies:
         path: /naiyou
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_69 | ⬇️ 2.1MB/s"
-      network: none
-      port: 19026
-      server: 43.249.174.117
+      name: "\U0001F1FA\U0001F1F8US_66 | ⬇️ 1.4MB/s"
+      network: ws
+      port: 37196
+      server: 154.201.67.40
       tls: false
       type: vmess
-      uuid: 412fecb7-a95b-4f7e-abb1-69365f679a3c
+      uuid: a0560819-7fb2-4db1-8dea-bf5e53abbfe8
+      ws-opts:
+        path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_70 | ⬇️ 3.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_67 | ⬇️ 3.7MB/s"
       network: ws
       port: 26037
       server: 160.19.78.237
@@ -768,16 +695,16 @@ proxies:
       uuid: f527c7b2-ab3a-4aec-a3d1-94351020dff4
       ws-opts:
         path: /arki?ed=2048
-    - auth: b15f1706-dbd5-401c-934d-a3325b995875
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_71 | ⬇️ 1.2MB/s"
-      password: b15f1706-dbd5-401c-934d-a3325b995875
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: true
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_72 | ⬇️ 3.2MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_68 | ⬇️ 10.9MB/s"
+      network: none
+      port: 41128
+      server: 72.249.200.122
+      tls: false
+      type: vmess
+      uuid: e699faa1-d333-4736-b5e5-e6edf9f5c2b5
+    - name: "\U0001F1FA\U0001F1F8US_69 | ⬇️ 3.0MB/s"
       password: tXA14Qlh
       port: 45235
       server: 47.237.20.174
@@ -785,62 +712,22 @@ proxies:
       username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_73 | ⬇️ 8.6MB/s"
-      network: none
-      port: 41128
-      server: 72.249.200.122
-      tls: false
-      type: vmess
-      uuid: e699faa1-d333-4736-b5e5-e6edf9f5c2b5
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_74 | ⬇️ 15.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_70 | ⬇️ 9.9MB/s"
       network: none
       port: 16385
       server: 13.57.178.100
       tls: false
       type: vmess
       uuid: 1fe231c4-d760-4759-e45a-8382d5f3ae0a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FEMY_1 | ⬇️ 4.4MB/s"
-      network: none
-      port: 1037
-      server: 38.60.195.254
-      servername: ml0605.ysds168.shop
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 2d978341-a391-4b54-8623-12284dc24525
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_75 | ⬇️ 2.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_71 | ⬇️ 2.3MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 51.15.23.63
       type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_76 | ⬇️ 2.7MB/s"
-      network: none
-      port: 59121
-      server: 43.249.172.50
-      tls: false
-      type: vmess
-      uuid: bef19abc-0514-4b48-ce4b-c3dcfc4994cb
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_77 | ⬇️ 4.7MB/s"
-      network: ws
-      port: 35885
-      server: 211.25.246.131
-      tls: false
-      type: vmess
-      uuid: f530cc38-13e7-44c3-bc7f-a3db2b6fba46
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_78 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_72 | ⬇️ 4.4MB/s"
       network: ws
       port: 59134
       server: 8.220.188.238
@@ -849,18 +736,26 @@ proxies:
       uuid: b5a82c1d-0d98-4d4d-a499-5d04e4bb114d
       ws-opts:
         path: /arki?ed=2048
-    - cipher: aes-256-cfb
-      country: "\U0001F1EC\U0001F1E7 GB"
-      name: "\U0001F1FA\U0001F1F8US_79 | ⬇️ 15.0MB/s"
-      obfs: plain
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      protocol: origin
-      server: 62.100.205.48
-      type: ssr
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_80 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_73 | ⬇️ 4.6MB/s"
+      network: ws
+      port: 35885
+      server: 211.25.246.131
+      tls: false
+      type: vmess
+      uuid: f530cc38-13e7-44c3-bc7f-a3db2b6fba46
+      ws-opts:
+        path: /arki?ed=2048
+    - name: "\U0001F1FA\U0001F1F8US_74 | ⬇️ 5.9MB/s"
+      password: DIp64gZ6
+      port: 56977
+      server: 47.79.148.189
+      type: http
+      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_75 | ⬇️ 4.5MB/s"
       network: ws
       port: 58056
       server: 47.239.128.194
@@ -869,15 +764,9 @@ proxies:
       uuid: 0d5a5091-c923-4fb6-9dfd-95ecfd60cdee
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_81 | ⬇️ 5.9MB/s"
-      password: DIp64gZ6
-      port: 56977
-      server: 47.79.148.189
-      type: http
-      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_82 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_76 | ⬇️ 4.4MB/s"
       network: ws
       port: 33248
       server: 8.220.188.238
@@ -886,27 +775,28 @@ proxies:
       uuid: 81b57c84-698f-4944-9268-db6a06a4a63a
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_83 | ⬇️ 9.0MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_77 | ⬇️ 11.3MB/s"
       password: ZYxVNDT9pS
       port: 6770
       server: 47.254.121.69
       type: http
       username: HlZHOwkdIL
-    - alterId: 0
+    - alterId: 2
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_84 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_78 | ⬇️ 4.6MB/s"
       network: ws
-      port: 443
-      server: klo.986986.shop
+      port: 30808
+      server: v8.heduian.link
       skip-cert-verify: false
-      tls: true
+      tls: false
       type: vmess
-      uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
       ws-opts:
         headers:
-            Host: klo.986986.shop
-        path: /nvjx6j7kbDQIQMZvbeVA9
-    - name: "\U0001F1FA\U0001F1F8US_85 | ⬇️ 5.8MB/s"
+            Host: baidu.com
+        path: /oooo
+    - name: "\U0001F1FA\U0001F1F8US_79 | ⬇️ 7.3MB/s"
       password: 6bRDEuy
       port: 37469
       server: 47.79.94.28
@@ -914,35 +804,7 @@ proxies:
       username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_86 | ⬇️ 4.1MB/s"
-      network: ws
-      port: 31123
-      server: 8.217.220.30
-      tls: false
-      type: vmess
-      uuid: 12f7164b-e3e1-4264-86cc-68028902cd19
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_87 | ⬇️ 3.8MB/s"
-      network: ws
-      port: 50369
-      server: 47.254.240.75
-      tls: false
-      type: vmess
-      uuid: b63d4e6a-7d3f-4499-8bef-aebba3896477
-      ws-opts:
-        path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_88 | ⬇️ 5.6MB/s"
-      password: vt34oi
-      port: 56817
-      server: 47.79.150.196
-      type: http
-      username: kZXMC3Z1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_89 | ⬇️ 3.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_80 | ⬇️ 6.1MB/s"
       network: none
       port: 49580
       server: 89.213.40.48
@@ -951,14 +813,42 @@ proxies:
       uuid: d2266deb-d24c-4fbd-c4ae-59b4c59765a7
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_90 | ⬇️ 13.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_81 | ⬇️ 4.6MB/s"
+      network: ws
+      port: 31123
+      server: 8.217.220.30
+      tls: false
+      type: vmess
+      uuid: 12f7164b-e3e1-4264-86cc-68028902cd19
+      ws-opts:
+        path: /arki?ed=2048
+    - name: "\U0001F1FA\U0001F1F8US_82 | ⬇️ 6.0MB/s"
+      password: vt34oi
+      port: 56817
+      server: 47.79.150.196
+      type: http
+      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_83 | ⬇️ 4.1MB/s"
+      network: ws
+      port: 50369
+      server: 47.254.240.75
+      tls: false
+      type: vmess
+      uuid: b63d4e6a-7d3f-4499-8bef-aebba3896477
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_84 | ⬇️ 41.7MB/s"
       network: none
       port: 33606
       server: 192.3.233.216
       tls: false
       type: vmess
       uuid: 19d74f4a-e9a8-4942-9061-53f53af0c024
-    - name: "\U0001F1FA\U0001F1F8US_91 | ⬇️ 15.3MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_85 | ⬇️ 16.6MB/s"
       password: 9yedrr
       port: 61885
       server: 38.246.240.208
@@ -966,18 +856,7 @@ proxies:
       username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_92 | ⬇️ 6.6MB/s"
-      network: ws
-      port: 39975
-      server: 116.206.93.165
-      tls: false
-      type: vmess
-      uuid: bb892078-98ef-4321-edf4-4c408edd5ae2
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_93 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_86 | ⬇️ 4.5MB/s"
       network: ws
       port: 36691
       server: 47.250.179.144
@@ -988,7 +867,18 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_94 | ⬇️ 4.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_87 | ⬇️ 5.9MB/s"
+      network: ws
+      port: 39975
+      server: 116.206.93.165
+      tls: false
+      type: vmess
+      uuid: bb892078-98ef-4321-edf4-4c408edd5ae2
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_88 | ⬇️ 4.5MB/s"
       network: ws
       port: 28910
       server: 8.217.171.193
@@ -997,20 +887,18 @@ proxies:
       uuid: c13c737c-c0b3-434e-8091-bb677946fd40
       ws-opts:
         path: /arki?ed=2048
+    - auth: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_89 | ⬇️ 3.1MB/s"
+      password: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
+      port: 37771
+      server: xg1.xiaohuolongjc.top
+      skip-cert-verify: true
+      sni: xg1.xiaohuolongjc.top
+      type: hysteria2
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_95 | ⬇️ 4.2MB/s"
-      network: ws
-      port: 28293
-      server: 47.250.159.134
-      tls: false
-      type: vmess
-      uuid: ff9ad07c-e1b4-467f-90bc-9b067f47dd5c
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_96 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_90 | ⬇️ 4.7MB/s"
       network: ws
       port: 30489
       server: 8.218.8.84
@@ -1019,28 +907,30 @@ proxies:
       uuid: c7275393-4687-4709-ac07-17a516a1b457
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_97 | ⬇️ 5.8MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_91 | ⬇️ 7.6MB/s"
       password: Ny0I3R6r
       port: 30861
       server: 47.79.149.70
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_98 | ⬇️ 5.5MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_92 | ⬇️ 6.5MB/s"
       password: auh2qWZuNd
       port: 6770
       server: 8.216.33.14
       type: http
       username: TcIVARdTgR
-    - auth: 8873807e-7932-4b31-b996-51621ae05865
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_99 | ⬇️ 1.2MB/s"
-      password: 8873807e-7932-4b31-b996-51621ae05865
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_100 | ⬇️ 5.9MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.6MB/s"
+      network: ws
+      port: 12182
+      server: 163.61.208.110
+      tls: false
+      type: vmess
+      uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+      ws-opts:
+        path: /arki?ed=2048
+    - name: "\U0001F1FA\U0001F1F8US_93 | ⬇️ 5.9MB/s"
       password: 9ixjDF
       port: 53855
       server: 47.79.151.130
@@ -1048,7 +938,7 @@ proxies:
       username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_101 | ⬇️ 4.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_94 | ⬇️ 4.4MB/s"
       network: ws
       port: 21572
       server: 47.254.240.75
@@ -1057,18 +947,15 @@ proxies:
       uuid: c2ca7006-042e-442f-984c-1148f797c1e3
       ws-opts:
         path: /arki?ed=2048
-    - auth: d767669f-e4e6-4840-abf6-d902297e9984
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_102 | ⬇️ 1.2MB/s"
-      password: d767669f-e4e6-4840-abf6-d902297e9984
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_95 | ⬇️ 5.5MB/s"
+      password: hMzd6764
+      port: 21897
+      server: 47.79.91.19
+      type: http
+      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_103 | ⬇️ 4.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_96 | ⬇️ 4.5MB/s"
       network: ws
       port: 23326
       server: 8.218.8.84
@@ -1077,15 +964,9 @@ proxies:
       uuid: 871d04df-fc58-470a-baca-daae28869164
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_104 | ⬇️ 6.5MB/s"
-      password: hMzd6764
-      port: 21897
-      server: 47.79.91.19
-      type: http
-      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_105 | ⬇️ 4.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_97 | ⬇️ 4.5MB/s"
       network: ws
       port: 35565
       server: 47.250.94.124
@@ -1094,18 +975,9 @@ proxies:
       uuid: 504160db-d1f8-4ee9-8524-eec623e89af2
       ws-opts:
         path: /arki?ed=2048
-    - auth: 7038e834-4587-425d-81af-a12d8779a6bd
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_106 | ⬇️ 1.1MB/s"
-      password: 7038e834-4587-425d-81af-a12d8779a6bd
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
-      skip-cert-verify: true
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_107 | ⬇️ 4.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_98 | ⬇️ 4.7MB/s"
       network: ws
       port: 34781
       server: 211.25.246.131
@@ -1116,7 +988,7 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_108 | ⬇️ 4.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_99 | ⬇️ 4.8MB/s"
       network: ws
       port: 63703
       server: 211.25.246.131
@@ -1127,7 +999,7 @@ proxies:
         path: /arki?ed=2048
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_109 | ⬇️ 4.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_100 | ⬇️ 4.5MB/s"
       network: ws
       port: 36300
       server: 8.217.171.193
@@ -1136,13 +1008,13 @@ proxies:
       uuid: 678cdb14-22a6-4fb2-a040-b353ecb989ce
       ws-opts:
         path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_110 | ⬇️ 3.0MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_101 | ⬇️ 2.7MB/s"
       password: 4xdfi6v
       port: 54679
       server: 160.30.54.67
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_111 | ⬇️ 5.6MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_102 | ⬇️ 5.0MB/s"
       password: gk2HOfA
       port: 40262
       server: 47.79.41.4
@@ -1150,7 +1022,7 @@ proxies:
       username: kZXMC3Z1
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_112 | ⬇️ 2.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_103 | ⬇️ 2.1MB/s"
       network: ws
       port: 443
       server: sssssssxxxx.2032.pp.ua
@@ -1162,12 +1034,16 @@ proxies:
         headers:
             Host: sssssssxxxx.2032.pp.ua
         path: /6We3U9Df1WGxgFnoFPw1
-    - auth: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
-      client-fingerprint: chrome
-      name: ❓Other_1 | ⬇️ 1.3MB/s
-      password: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
-      port: 37771
-      server: rb1.xiaohuolongjc.top
-      skip-cert-verify: true
-      sni: rb1.xiaohuolongjc.top
-      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_104 | ⬇️ 1.9MB/s"
+      network: http
+      port: 31212
+      server: 47.242.90.210
+      tls: false
+      type: vmess
+      uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
