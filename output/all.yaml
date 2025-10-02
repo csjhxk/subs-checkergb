@@ -1,33 +1,63 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 11.5MB/s"
-      password: TDBLtJz
-      port: 46415
-      server: 38.34.24.232
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.4MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 7.9MB/s"
+      password: EacZIMFwmMCR6dWqN5Ah0c
+      port: 1419
+      server: 194.135.46.13
+      type: ss
       udp: true
-      username: test
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 6.3MB/s"
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 11.7MB/s"
       network: ws
-      port: 46049
-      server: 47.74.10.111
-      tls: false
-      type: vmess
-      uuid: 728257b1-5158-47d9-a1a1-6ac29faab878
+      port: 2053
+      server: 104.16.53.11
+      servername: frAgeU2.cpI2HIdd.eu.ORG
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
       ws-opts:
-        path: /arki?ed=2048
+        headers:
+            Host: frAgeU2.cpI2HIdd.eu.ORG
+        path: /?ed=2048
+    - name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 11.6MB/s"
+      network: ws
+      port: 80
+      server: mstr.fastly80.hosting-ip.com
+      servername: gm195.io
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: d46fbe10-7982-4229-b461-4afef5c690fa
+      ws-opts:
+        headers:
+            Host: gm195.io
+        path: /admin
+    - http-opts:
+        headers:
+            Host:
+                - Telewebion.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 5.9MB/s"
+      network: http
+      port: 20532
+      server: 94.182.137.12
+      servername: Telewebion.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 2.6MB/s"
+      name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 3.8MB/s"
       port: 443
       reality-opts:
         public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
@@ -39,94 +69,552 @@ proxies:
       type: vless
       udp: true
       uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-    - http-opts:
-        headers:
-            Host:
-                - Telewebion.com
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.5MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - alterId: 0
+      cipher: auto
+      http-opts:
         method: GET
         path:
             - /
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 5.0MB/s"
+      name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 2.0MB/s"
       network: http
-      port: 20532
-      server: 94.182.137.12
-      servername: Telewebion.com
+      port: 18872
+      server: 123.58.203.92
       skip-cert-verify: false
       tls: false
+      type: vmess
+      udp: true
+      uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 16.8MB/s"
+      port: 30227
+      reality-opts:
+        public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
+      server: 216.133.149.235
+      servername: aws.amazon.com
+      skip-cert-verify: false
+      tls: true
       type: vless
       udp: true
-      uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.5MB/s"
-      network: tcp
-      password: 253bc477d4e43c209f2d427272968280
-      port: 443
-      server: 221.128.195.217
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+      uuid: 9a54bad8-538d-4744-b7bc-640629840490
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1476
+      name: "\U0001F1F9\U0001F1F7TR_1 | ⬇️ 7.1MB/s"
+      password: tunnel-fbrof
+      port: 8444
+      server: tr-1.stunnel.cc
+      type: ss
     - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 792
+      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 2.6MB/s"
+      password: f8npKgNzdkss2ytn
+      port: 9088
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 758
+      name: "\U0001F1F5\U0001F1F1PL_2 | ⬇️ 2.6MB/s"
+      password: aLpQtfEZe445QyHk
+      port: 9098
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 831
+      name: "\U0001F1F5\U0001F1F1PL_3 | ⬇️ 2.6MB/s"
+      password: XPtzA9sCug3SPR4c
+      port: 9025
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2737
+      name: "\U0001F1F5\U0001F1F1PL_4 | ⬇️ 2.9MB/s"
+      password: rpgbNnU9rDDU4aWZ
+      port: 9094
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 813
+      name: "\U0001F1F5\U0001F1F1PL_5 | ⬇️ 2.3MB/s"
+      password: SBM7R883jBmnqe6C
+      port: 9053
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 1543
+      name: "\U0001F1F5\U0001F1F1PL_6 | ⬇️ 2.5MB/s"
+      password: c3NtHJ5ujV2tGDfj
+      port: 9084
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 755
+      name: "\U0001F1F5\U0001F1F1PL_7 | ⬇️ 2.7MB/s"
+      password: Lp27rqyJq72bZsqX
+      port: 9045
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 1739
+      name: "\U0001F1F5\U0001F1F1PL_8 | ⬇️ 2.7MB/s"
+      password: TPqX8edgbAURcAMb
+      port: 9079
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 731
+      name: "\U0001F1F5\U0001F1F1PL_9 | ⬇️ 2.6MB/s"
+      password: f63gg8EruDnUrmz4
+      port: 9010
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 804
+      name: "\U0001F1F5\U0001F1F1PL_10 | ⬇️ 2.5MB/s"
+      password: cp8pRSUAyLhTfVWH
+      port: 9064
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 768
+      name: "\U0001F1F5\U0001F1F1PL_11 | ⬇️ 2.3MB/s"
+      password: 9XwYyZsK8SNzQDtY
+      port: 9059
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 856
+      name: "\U0001F1F5\U0001F1F1PL_12 | ⬇️ 2.8MB/s"
+      password: NvS8N4Vf8qAGPSCL
+      port: 9046
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 868
+      name: "\U0001F1F5\U0001F1F1PL_13 | ⬇️ 2.8MB/s"
+      password: Sn5B7jTqr76aCJT8
+      port: 9097
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 740
+      name: "\U0001F1F5\U0001F1F1PL_14 | ⬇️ 2.7MB/s"
+      password: y9VURyNzJWNRYEGQ
+      port: 9008
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 864
+      name: "\U0001F1F5\U0001F1F1PL_15 | ⬇️ 2.8MB/s"
+      password: TN2YqghxeFDKZfLU
+      port: 9037
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 759
+      name: "\U0001F1F5\U0001F1F1PL_16 | ⬇️ 2.6MB/s"
+      password: a3GFYt36Sm82Vys9
+      port: 9000
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 766
+      name: "\U0001F1F5\U0001F1F1PL_17 | ⬇️ 3.2MB/s"
+      password: BejrQvtu9sqUeNuZ
+      port: 9024
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 864
+      name: "\U0001F1F5\U0001F1F1PL_18 | ⬇️ 3.2MB/s"
+      password: UWZQeLRWnkqgkseq
+      port: 9032
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 825
+      name: "\U0001F1F5\U0001F1F1PL_19 | ⬇️ 3.7MB/s"
+      password: BNmAXXxAHYpTRdzu
+      port: 9020
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 805
+      name: "\U0001F1F5\U0001F1F1PL_20 | ⬇️ 3.7MB/s"
+      password: FAdUvMJUq5vDgKEq
+      port: 9006
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 797
+      name: "\U0001F1F5\U0001F1F1PL_21 | ⬇️ 3.1MB/s"
+      password: HSZuyJQcWe8dxNdF
+      port: 9043
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 807
+      name: "\U0001F1F5\U0001F1F1PL_22 | ⬇️ 3.7MB/s"
+      password: JdmRK9gMEqFgs8nP
+      port: 9003
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 792
+      name: "\U0001F1F5\U0001F1F1PL_23 | ⬇️ 3.6MB/s"
+      password: wfLC2y7rzZyCmuyt
+      port: 9093
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 827
+      name: "\U0001F1F5\U0001F1F1PL_24 | ⬇️ 3.9MB/s"
+      password: FG5ddLsMPbV5CutE
+      port: 9050
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 1672
+      name: "\U0001F1F5\U0001F1F1PL_25 | ⬇️ 4.4MB/s"
+      password: wjTugX3ZtHMB9c3Z
+      port: 9057
+      server: 217.30.10.70
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1281
       name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.42
-      tfo: false
+      server: 103.186.154.38
       type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FEMY_1 | ⬇️ 4.2MB/s"
-      network: ws
-      port: 21572
-      server: 47.254.240.75
-      tls: false
-      type: vmess
-      uuid: c2ca7006-042e-442f-984c-1148f797c1e3
-      ws-opts:
-        path: /arki?ed=2048
-    - name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 6.6MB/s"
-      password: 0apXB6
-      port: 23018
-      server: 176.32.38.83
-      type: http
-      username: kZXMC3Z1
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1ED\U0001F1F0 HK"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.0MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      skip-cert-verify: true
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FEMY_2 | ⬇️ 3.3MB/s"
-      network: ws
-      port: 64251
-      server: 47.250.85.161
-      tls: false
-      type: vmess
-      uuid: 87d2b576-1de1-464c-b908-e39b8d2f5a83
-      ws-opts:
-        path: /arki?ed=2048
-    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 17.9MB/s"
-      password: 3Wpj66
-      port: 64363
-      server: 216.151.168.188
-      type: http
-      username: kZXMC3Z1
     - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1F8IS_1 | ⬇️ 1.3MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 37.235.49.152
+      country: "\U0001F3C1ZZ"
+      delay: 2095
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.26
       type: ss
-      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 590
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.234
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1527
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.17
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1331
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.10
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1353
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.218
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 404
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.172
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 415
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.202
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 405
+      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.139
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 363
+      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.37
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 376
+      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.227
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 687
+      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.242
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1801
+      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.194
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 622
+      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.236
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 304
+      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.55
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 795
+      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.221
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1350
+      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.220
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 538
+      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.106
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1731
+      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.228
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 411
+      name: "\U0001F1FB\U0001F1F3VN_20 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.138
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 728
+      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.143
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 282
+      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.206
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 793
+      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.206
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1004
+      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.200
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 843
+      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.9
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 911
+      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.76
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 323
+      name: "\U0001F1FB\U0001F1F3VN_27 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.197
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 598
+      name: "\U0001F1FB\U0001F1F3VN_28 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.115
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 995
+      name: "\U0001F1FB\U0001F1F3VN_29 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.188
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 623
+      name: "\U0001F1FB\U0001F1F3VN_30 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.145
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1335
+      name: "\U0001F1FB\U0001F1F3VN_31 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.204
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 401
+      name: "\U0001F1FB\U0001F1F3VN_32 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.184
+      type: ss
+    - name: "\U0001F1FB\U0001F1F3VN_33 | ⬇️ 3.5MB/s"
+      password: "1234"
+      port: 8900
+      server: 160.30.54.67
+      type: http
+      username: "1234"
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.3MB/s"
+      password: 1nLWx0UVnJ
+      port: 52302
+      server: 164.152.167.94
+      type: http
+      username: 7waHp6NRjR
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 9.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 6.6MB/s"
+      network: ws
+      port: 8443
+      server: 104.21.3.219
+      servername: ovhwuxian.pai50288.uk
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      ws-opts:
+        headers:
+            Host: ovhwuxian.pai50288.uk
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /57ba2ab1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 2.2MB/s"
+      network: ws
+      port: 443
+      server: klo.986986.shop
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
+      ws-opts:
+        headers:
+            Host: klo.986986.shop
+        path: /nvjx6j7kbDQIQMZvbeVA9
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 6.6MB/s"
       network: ws
       port: 443
       server: kifpool.me
@@ -142,81 +630,56 @@ proxies:
             Host: nkang2replace.airlineshoma.com
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
         path: /
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 6.1MB/s"
+      password: MyH37ZD
+      port: 52771
+      server: 123.108.70.211
+      type: http
+      username: kZXMC3Z1
     - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 7.4MB/s"
-      password: 9ixjDF
-      port: 53855
-      server: 47.79.151.130
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 8.5MB/s"
-      password: Ny0I3R6r
-      port: 30861
-      server: 47.79.149.70
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 8.0MB/s"
-      password: vt34oi
-      port: 56817
-      server: 47.79.150.196
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 2.1MB/s"
-      password: tXA14Qlh
-      port: 45235
-      server: 47.237.20.174
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_5 | ⬇️ 6.4MB/s"
-      password: 6bRDEuy
-      port: 37469
-      server: 47.79.94.28
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.2MB/s"
-      password: 1nLWx0UVnJ
-      port: 52302
-      server: 164.152.167.94
-      type: http
-      username: 7waHp6NRjR
-    - name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 3.7MB/s"
-      password: "1234"
-      port: 8900
-      server: 160.30.54.67
-      type: http
-      username: "1234"
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 1.8MB/s"
-      port: 44443
-      reality-opts:
-        public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-      server: hybrid.arvancloud.online
-      servername: www.speedtest.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    - name: "\U0001F1EF\U0001F1F5JP_6 | ⬇️ 7.1MB/s"
       password: hMzd6764
       port: 21897
       server: 47.79.91.19
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_7 | ⬇️ 5.9MB/s"
-      password: gk2HOfA
-      port: 40262
-      server: 47.79.41.4
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 6.7MB/s"
+      password: 20050105zhu
+      port: 51541
+      server: 204.44.110.129
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 2.6MB/s"
+      password: tXA14Qlh
+      port: 45235
+      server: 47.237.20.174
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 14.7MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.2MB/s"
       password: XJDVy6FJ
       port: 24677
       server: 38.209.120.60
       type: http
       username: kZXMC3Z1
+    - cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 2.6MB/s"
+      network: ws
+      port: 58473
+      server: 156.224.76.55
+      tls: false
+      type: vless
+      uuid: 5ad3e94d-9b14-4032-82e4-fcee3fe4aff5
+      ws-opts:
+        path: /naiyou
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 7.4MB/s"
+      password: 9ixjDF
+      port: 53855
+      server: 47.79.151.130
+      type: http
+      username: kZXMC3Z1
     - client-fingerprint: randomized
-      name: "\U0001F1F8\U0001F1EASE_2 | ⬇️ 3.9MB/s"
+      name: "\U0001F1F8\U0001F1EASE_2 | ⬇️ 7.6MB/s"
       network: ws
       port: 443
       server: openai.com
@@ -232,539 +695,104 @@ proxies:
             Host: nkAnG2rEpLACE.airlineSHoma.Com
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 4.9MB/s"
-      port: 6018
-      server: cn01.365cloud8754.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed
-    - name: "\U0001F1EF\U0001F1F5JP_8 | ⬇️ 4.4MB/s"
-      password: MyH37ZD
-      port: 52771
-      server: 123.108.70.211
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_9 | ⬇️ 6.2MB/s"
-      password: DIp64gZ6
-      port: 56977
-      server: 47.79.148.189
-      type: http
-      username: kZXMC3Z1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 1.4MB/s"
-      port: 44443
-      reality-opts:
-        public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-      server: 193.151.135.21
-      servername: www.speedtest.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    - name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 3.7MB/s"
-      password: 4xdfi6v
-      port: 54679
-      server: 160.30.54.67
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5JP_10 | ⬇️ 5.6MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 5.6MB/s"
       password: ka1roO
       port: 48453
       server: 47.79.151.191
       type: http
       username: kZXMC3Z1
-    - cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 3.8MB/s"
-      network: ws
-      port: 58473
-      server: 156.224.76.55
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 2.8MB/s"
+      network: none
+      port: 38141
+      server: 45.136.12.37
       tls: false
-      type: vless
-      uuid: 5ad3e94d-9b14-4032-82e4-fcee3fe4aff5
-      ws-opts:
-        path: /naiyou
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1476
-      name: "\U0001F1F9\U0001F1F7TR_1 | ⬇️ 6.7MB/s"
-      password: tunnel-fbrof
-      port: 8444
-      server: tr-1.stunnel.cc
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 2.3MB/s"
-      password: "123"
-      port: 10862
-      server: 47.76.175.67
+      type: vmess
+      uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
+    - name: "\U0001F1EF\U0001F1F5JP_5 | ⬇️ 7.5MB/s"
+      password: DIp64gZ6
+      port: 56977
+      server: 47.79.148.189
       type: http
-      username: "123"
-    - delay: 2489
-      name: "\U0001F1EE\U0001F1F7IR_1 | ⬇️ 6.5MB/s"
-      network: tcp
-      port: 29500
-      server: 89.44.242.222
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5JP_6 | ⬇️ 7.6MB/s"
+      password: Ny0I3R6r
+      port: 30861
+      server: 47.79.149.70
+      type: http
+      username: kZXMC3Z1
+    - auth: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
+      client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 1.3MB/s"
+      password: c85c5422-97a7-4e9a-a9dc-6e16d474fe8c
+      port: 37771
+      server: els1.xiaohuolongjc.top
       skip-cert-verify: true
+      sni: els1.xiaohuolongjc.top
+      type: hysteria2
+    - name: "\U0001F1F7\U0001F1FARU_2 | ⬇️ 7.0MB/s"
+      password: 0apXB6
+      port: 23018
+      server: 176.32.38.83
+      type: http
+      username: kZXMC3Z1
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 2.6MB/s"
+      network: ws
+      port: 443
+      server: backus1.dh03.shop
+      servername: backus1.dh03.shop
+      tls: true
       type: vless
-      udp: true
-      uuid: 888a20e2-fc3f-4f52-973c-36a6386225b8
+      uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+      ws-opts:
+        headers:
+            Host: backus1.dh03.shop
+        path: /higate
+    - name: "\U0001F1EF\U0001F1F5JP_7 | ⬇️ 5.9MB/s"
+      password: 6bRDEuy
+      port: 37469
+      server: 47.79.94.28
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 15.7MB/s"
+      password: TDBLtJz
+      port: 46415
+      server: 38.34.24.232
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5JP_8 | ⬇️ 7.4MB/s"
+      password: gk2HOfA
+      port: 40262
+      server: 47.79.41.4
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5JP_9 | ⬇️ 4.6MB/s"
+      password: vt34oi
+      port: 56817
+      server: 47.79.150.196
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FB\U0001F1F3VN_34 | ⬇️ 3.8MB/s"
+      password: 4xdfi6v
+      port: 54679
+      server: 160.30.54.67
+      type: http
+      username: kZXMC3Z1
     - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 792
-      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 8.3MB/s"
-      password: f8npKgNzdkss2ytn
-      port: 9088
-      server: 217.30.10.70
+      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 2.9MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.107.151.161
+      tfo: false
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 768
-      name: "\U0001F1F5\U0001F1F1PL_2 | ⬇️ 5.3MB/s"
-      password: 9XwYyZsK8SNzQDtY
-      port: 9059
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 813
-      name: "\U0001F1F5\U0001F1F1PL_3 | ⬇️ 3.9MB/s"
-      password: SBM7R883jBmnqe6C
-      port: 9053
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 831
-      name: "\U0001F1F5\U0001F1F1PL_4 | ⬇️ 4.7MB/s"
-      password: XPtzA9sCug3SPR4c
-      port: 9025
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 758
-      name: "\U0001F1F5\U0001F1F1PL_5 | ⬇️ 3.9MB/s"
-      password: aLpQtfEZe445QyHk
-      port: 9098
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 1543
-      name: "\U0001F1F5\U0001F1F1PL_6 | ⬇️ 2.7MB/s"
-      password: c3NtHJ5ujV2tGDfj
-      port: 9084
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 868
-      name: "\U0001F1F5\U0001F1F1PL_7 | ⬇️ 2.6MB/s"
-      password: Sn5B7jTqr76aCJT8
-      port: 9097
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 755
-      name: "\U0001F1F5\U0001F1F1PL_8 | ⬇️ 2.5MB/s"
-      password: Lp27rqyJq72bZsqX
-      port: 9045
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 731
-      name: "\U0001F1F5\U0001F1F1PL_9 | ⬇️ 2.3MB/s"
-      password: f63gg8EruDnUrmz4
-      port: 9010
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 1739
-      name: "\U0001F1F5\U0001F1F1PL_10 | ⬇️ 2.4MB/s"
-      password: TPqX8edgbAURcAMb
-      port: 9079
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 740
-      name: "\U0001F1F5\U0001F1F1PL_11 | ⬇️ 2.6MB/s"
-      password: y9VURyNzJWNRYEGQ
-      port: 9008
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 856
-      name: "\U0001F1F5\U0001F1F1PL_12 | ⬇️ 2.6MB/s"
-      password: NvS8N4Vf8qAGPSCL
-      port: 9046
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 804
-      name: "\U0001F1F5\U0001F1F1PL_13 | ⬇️ 2.2MB/s"
-      password: cp8pRSUAyLhTfVWH
-      port: 9064
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 759
-      name: "\U0001F1F5\U0001F1F1PL_14 | ⬇️ 2.5MB/s"
-      password: a3GFYt36Sm82Vys9
-      port: 9000
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 766
-      name: "\U0001F1F5\U0001F1F1PL_15 | ⬇️ 2.7MB/s"
-      password: BejrQvtu9sqUeNuZ
-      port: 9024
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2737
-      name: "\U0001F1F5\U0001F1F1PL_16 | ⬇️ 2.2MB/s"
-      password: rpgbNnU9rDDU4aWZ
-      port: 9094
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 864
-      name: "\U0001F1F5\U0001F1F1PL_17 | ⬇️ 2.2MB/s"
-      password: TN2YqghxeFDKZfLU
-      port: 9037
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 807
-      name: "\U0001F1F5\U0001F1F1PL_18 | ⬇️ 3.2MB/s"
-      password: JdmRK9gMEqFgs8nP
-      port: 9003
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 825
-      name: "\U0001F1F5\U0001F1F1PL_19 | ⬇️ 3.2MB/s"
-      password: BNmAXXxAHYpTRdzu
-      port: 9020
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 864
-      name: "\U0001F1F5\U0001F1F1PL_20 | ⬇️ 2.8MB/s"
-      password: UWZQeLRWnkqgkseq
-      port: 9032
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 805
-      name: "\U0001F1F5\U0001F1F1PL_21 | ⬇️ 3.1MB/s"
-      password: FAdUvMJUq5vDgKEq
-      port: 9006
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 797
-      name: "\U0001F1F5\U0001F1F1PL_22 | ⬇️ 3.1MB/s"
-      password: HSZuyJQcWe8dxNdF
-      port: 9043
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 827
-      name: "\U0001F1F5\U0001F1F1PL_23 | ⬇️ 3.2MB/s"
-      password: FG5ddLsMPbV5CutE
-      port: 9050
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 792
-      name: "\U0001F1F5\U0001F1F1PL_24 | ⬇️ 3.0MB/s"
-      password: wfLC2y7rzZyCmuyt
-      port: 9093
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F1PL"
-      delay: 1672
-      name: "\U0001F1F5\U0001F1F1PL_25 | ⬇️ 5.0MB/s"
-      password: wjTugX3ZtHMB9c3Z
-      port: 9057
-      server: 217.30.10.70
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 397
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.117
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1331
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.10
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1353
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.218
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 382
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.65
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 379
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.52
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1417
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.63
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 363
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.37
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 622
-      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.236
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 830
-      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.33
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 628
-      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.62
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 425
-      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.134
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 302
-      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.63
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 326
-      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.203
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 702
-      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.132
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 745
-      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.67
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 318
-      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.234
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 594
-      name: "\U0001F1FB\U0001F1F3VN_20 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.82
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 544
-      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.35
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1731
-      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.228
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 688
-      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 1.9MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.69
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1520
-      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.16
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1234
-      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.114
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 411
-      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 2.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.138
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 299
-      name: "\U0001F1FB\U0001F1F3VN_27 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.232
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 489
-      name: "\U0001F1FB\U0001F1F3VN_28 | ⬇️ 2.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.16
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 419
-      name: "\U0001F1FB\U0001F1F3VN_29 | ⬇️ 1.9MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.217
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 297
-      name: "\U0001F1FB\U0001F1F3VN_30 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.46
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 297
-      name: "\U0001F1FB\U0001F1F3VN_31 | ⬇️ 1.9MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.216
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 271
-      name: "\U0001F1FB\U0001F1F3VN_32 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.57
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1335
-      name: "\U0001F1FB\U0001F1F3VN_33 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.204
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 260
-      name: "\U0001F1FB\U0001F1F3VN_34 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.236
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 265
-      name: "\U0001F1FB\U0001F1F3VN_35 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.112
-      type: ss
+    - auth: c9a506d6-919b-4c0d-9769-6eeb34bc7e57
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.2MB/s"
+      password: c9a506d6-919b-4c0d-9769-6eeb34bc7e57
+      port: 16090
+      server: els.ylccloud.top
+      skip-cert-verify: false
+      sni: els.ylccloud.top
+      type: hysteria2
