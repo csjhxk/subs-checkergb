@@ -1,5 +1,18 @@
 proxies:
-    - name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 11.5MB/s"
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1596
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 6.0MB/s"
+      network: none
+      port: 30439
+      server: 216.167.36.2
+      skip-cert-verify: true
+      type: vmess
+      uuid: 196f1bca-2c5e-40d3-f7de-4a7212383ec7
+    - name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 10.7MB/s"
       network: ws
       port: 2096
       server: IP.mirzabox.info
@@ -13,26 +26,13 @@ proxies:
         headers:
             Host: IBIS.zuLAir.site.
         path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1596
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.1MB/s"
-      network: none
-      port: 30439
-      server: 216.167.36.2
-      skip-cert-verify: true
-      type: vmess
-      uuid: 196f1bca-2c5e-40d3-f7de-4a7212383ec7
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2603
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.5MB/s"
       port: 50011
       protocol: udp
       server: 62.210.127.217
@@ -40,33 +40,18 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2990
-      down: 1000
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 1.4MB/s"
-      port: 37519
-      ports: 10000-20000
-      protocol: udp
-      server: 109.104.153.91
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 1000
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1331
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.57
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 835
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 9.3MB/s"
+      password: c40641c1f89e7acb
+      port: 57456
+      server: uk.vpnsparta.pro
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
       delay: 811
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.18
@@ -74,37 +59,29 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 1993
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.43
       type: ss
     - cipher: aes-256-cfb
       delay: 681
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.8MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.124
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 12.9MB/s"
-      network: ws
-      port: 443
-      server: net2026cd.zanddynastyofpersia.org
-      servername: net2026cd.zanddynastyofpersia.org
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.6MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      tfo: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-      ws-opts:
-        headers:
-            Host: net2026cd.zanddynastyofpersia.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /eJsVXFVZ6iavNx1EFxOyH861WH
+      username: test
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 9.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 5.6MB/s"
       network: ws
       port: 8443
       server: 104.21.3.219
@@ -120,65 +97,40 @@ proxies:
             Host: ovhwuxian.pai50288.uk
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
         path: /57ba2ab1
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.9MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 443
+      server: net2026cd.zanddynastyofpersia.org
+      servername: net2026cd.zanddynastyofpersia.org
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
+      ws-opts:
+        headers:
+            Host: net2026cd.zanddynastyofpersia.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /eJsVXFVZ6iavNx1EFxOyH861WH
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.1MB/s"
       password: 1nLWx0UVnJ
       port: 52302
       server: 164.152.167.94
       type: http
       username: 7waHp6NRjR
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.7MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.8MB/s"
+      password: "123"
+      port: 10862
+      server: 47.76.175.67
+      type: http
+      username: "123"
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 5.0MB/s"
       network: tcp
       password: ea39fa94f1ee00999337ea1fd3318e69
       port: 443
       server: 58.152.110.40
       skip-cert-verify: false
       sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 3.0MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 1331
-      server: 160.16.81.84
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 3.0MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 4452
-      server: 160.16.81.84
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 2.7MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 5321
-      server: 160.16.81.84
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.6MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 2467
-      server: 160.16.81.84
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 2.2MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 2381
-      server: 160.16.81.84
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 1.5MB/s"
-      network: tcp
-      password: ea39fa94f1ee00999337ea1fd3318e69
-      port: 2283
-      server: 160.16.81.84
-      skip-cert-verify: true
-      sni: www.baidu.com
       type: trojan
