@@ -1,38 +1,48 @@
 proxies:
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 6.5MB/s"
+      port: 14333
+      reality-opts:
+        public-key: 6m6kUON0alvajtw1VbVxsSmENGy2muRDFxpRmizXEFk
+        short-id: feea69900702
+      server: 104.238.214.30
+      servername: amazon.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 19c25ef3-9233-4191-acdc-ec278a54185f
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1EC\U0001F1E7GB"
       delay: 1607
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 5.7MB/s"
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 7.2MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 45.154.204.7
       type: ss
     - alterId: 0
       cipher: auto
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 773
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 1.4MB/s"
+      port: 444
+      server: salamdash.bedonemarz.site
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 89de8c17-9b41-4632-9a0b-440f850548fd
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 677
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 6.1MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.0MB/s"
       network: tcp
-      port: 40000
-      server: 167.235.143.230
+      port: 51409
+      server: 155.254.35.214
       skip-cert-verify: true
       type: vmess
-      uuid: 2806fc58-3e6e-48c5-b643-08214ef58593
-    - country: "\U0001F3C1ZZ"
-      delay: 1050
-      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 8.4MB/s"
-      network: ws
-      port: 8080
-      server: 104.17.147.22
-      type: vless
-      udp: true
-      uuid: Parsashonam-Bot-33
-      ws-opts:
-        headers:
-            Host: Fi.Parsashonam.CfD.
-        path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
+      uuid: 703a1b6c-a01e-45f8-9040-c29cbb0235e1
     - alpn:
         - h3
       auth-str: dongtaiwang.com
@@ -48,51 +58,31 @@ proxies:
       type: hysteria
       udp: true
       up: 11
-    - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.7MB/s"
-      port: 14333
-      reality-opts:
-        public-key: 6m6kUON0alvajtw1VbVxsSmENGy2muRDFxpRmizXEFk
-        short-id: feea69900702
-      server: 104.238.214.30
-      servername: amazon.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 19c25ef3-9233-4191-acdc-ec278a54185f
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 2218
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.247
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 1119
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.236
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
       delay: 838
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.8MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.209
       type: ss
-    - cipher: aes-128-gcm
-      name: ❓Other_1 | ⬇️ 3.9MB/s
-      password: 7af26eae-63c7-43c8-b335-e3528f790459
-      port: 2055
-      server: oeulay-o1.ilayernet.xyz
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 1119
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.236
       type: ss
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.5MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 8.0MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -101,19 +91,73 @@ proxies:
       type: http
       udp: true
       username: test
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.6MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 12.7MB/s"
+      network: ws
+      port: 443
+      server: kifpool.me
+      servername: nkang2replace.airlineshoma.com
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
+      ws-opts:
+        headers:
+            Host: nkang2replace.airlineshoma.com
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /
+    - alterId: 0
+      cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 1.3MB/s"
+      password: 1RWwXhwfAB5gAEozU4G2Pg
+      port: 443
+      server: 45.87.175.166
+      skip-cert-verify: true
+      tls: true
+      type: ss
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 2.9MB/s"
       password: 1nLWx0UVnJ
       port: 52302
       server: 164.152.167.94
       type: http
       username: 7waHp6NRjR
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.9MB/s"
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7 KR"
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.0MB/s"
+      password: qwerREWQ@@
+      port: 4652
+      server: p141.panda001.net
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 2.8MB/s"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22153
+      server: 103.136.150.23
+      skip-cert-verify: true
+      sni: hsxg.huasuan666.top
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 5.5MB/s"
       password: "123"
       port: 10862
       server: 47.76.175.67
       type: http
       username: "123"
-    - name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 3.8MB/s"
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 6.0MB/s"
+      network: http
+      port: 31212
+      server: 47.242.90.210
+      tls: false
+      type: vmess
+      uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
+    - name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 3.4MB/s"
       password: 571ec94e-613c-430a-93de-397d3d237475
       port: 22160
       server: hsels.huasuan666.top
