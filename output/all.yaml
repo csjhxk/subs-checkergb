@@ -1,17 +1,4 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 802
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 3.8MB/s"
-      network: none
-      port: 19365
-      server: 2.59.62.63
-      skip-cert-verify: true
-      type: vmess
-      uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1E8\U0001F1FFCZ"
       delay: 1624
@@ -20,233 +7,243 @@ proxies:
       port: 8444
       server: tr-1.stunnel.cc
       type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 802
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 6.2MB/s"
+      network: none
+      port: 19365
+      server: 2.59.62.63
+      skip-cert-verify: true
+      type: vmess
+      uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 699
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.218
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 736
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.80
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1799
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.67
+      type: ss
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 789
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.150
       type: ss
-    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 8.8MB/s"
-      password: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-      port: 8443
-      server: fd7388fc-t5bb40-tdvaex-1ixuf.fr.cdnkuaishou.com
+    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 16.0MB/s"
+      password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+      port: 30000
+      server: us2.oomz.ru
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 6.7MB/s"
-      password: e0AuSSE9kqrZnpK1RgcuPt
-      port: 50589
-      server: 78.40.116.11
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 13.7MB/s"
-      password: NCrldD
-      port: 52559
-      server: 107.172.82.41
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 7.4MB/s"
-      password: kHGhcI9rmL
-      port: 19846
-      server: 38.180.192.61
-      type: http
-      username: PAdt6DFTfi
-    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 25.4MB/s"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1743
-      server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-      skip-cert-verify: false
+      sni: bing.com
+      tls: false
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.1MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 58.152.53.3
-      skip-cert-verify: true
-      type: trojan
     - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 11.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 19.0MB/s"
+      password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+      port: 1743
+      server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 22.5MB/s"
       password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
       port: 1743
       server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.8MB/s"
-      network: ws
-      port: 35638
-      server: 8.217.21.237
+    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 17.0MB/s"
+      password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+      port: 30000
+      server: us1.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
       tls: false
-      type: vmess
-      uuid: 132c1dc3-9ac5-4a54-9945-7b2aae2eacaa
-      ws-opts:
-        path: /arki?ed=2048
-    - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 16.2MB/s"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 18.2MB/s"
-      password: 1b609740-eec2-11ef-8543-f23c93136cb3
-      port: 1743
-      server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 7.9MB/s"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-      skip-cert-verify: false
       type: hysteria2
     - auth: 712bdc36-24be-11ee-be53-f23c9313b177
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 8.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 11.8MB/s"
       password: 712bdc36-24be-11ee-be53-f23c9313b177
       port: 1743
       server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.2MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 4.8MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 15.3MB/s"
+      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+      port: 1743
+      server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 8.8MB/s"
       network: ws
-      port: 56783
-      server: 47.238.247.69
-      tls: false
-      type: vmess
-      uuid: c4b8ba90-b113-461e-8989-a3079eaa394b
+      port: 443
+      server: 75.102.51.220
+      servername: ustc.dysenv2ray.top
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: be2d41c0-50d5-49f8-d309-f6fd923063f7
       ws-opts:
-        path: /arki?ed=2048
+        path: /ustc_dysen_20206
+    - name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 6.8MB/s"
+      password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+      port: 30000
+      server: us3.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      tls: false
+      type: hysteria2
+    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 5.3MB/s"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 1743
+      server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
     - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 8.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 5.8MB/s"
       password: 6286105c-fb6d-11ef-be96-f23c93136cb3
       port: 1743
+      server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 8.0MB/s"
+      password: NCrldD
+      port: 52559
+      server: 107.172.82.41
+      type: http
+      username: kZXMC3Z1
+    - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 5.8MB/s"
+      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+      port: 1743
+      server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 6.9MB/s"
+      password: kHGhcI9rmL
+      port: 19846
+      server: 38.180.192.61
+      type: http
+      username: PAdt6DFTfi
+    - auth: 712bdc36-24be-11ee-be53-f23c9313b177
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 4.3MB/s"
+      password: 712bdc36-24be-11ee-be53-f23c9313b177
+      port: 1743
       ports: 20000-50000
-      server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
+      server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.0MB/s"
+      password: 1nLWx0UVnJ
+      port: 52302
+      server: 164.152.167.94
+      type: http
+      username: 7waHp6NRjR
+    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 3.2MB/s"
+      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      port: 1743
+      server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 3.2MB/s"
+      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      port: 1743
+      ports: 20000-50000
+      server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
     - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 5.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 3.1MB/s"
       password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
       port: 1743
       ports: 20000-50000
       server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
-    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 8.0MB/s"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+      name: "\U0001F1FA\U0001F1F8US_19 | ⬇️ 3.1MB/s"
+      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
       port: 1743
-      server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+      server: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_20 | ⬇️ 3.4MB/s"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 1743
+      server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
     - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 4.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_21 | ⬇️ 3.3MB/s"
       password: 6286105c-fb6d-11ef-be96-f23c93136cb3
       port: 1743
       ports: 20000-50000
       server: 026b10f5-t4whs0-t5vo4i-4550.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 3.8MB/s"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      name: "\U0001F1FA\U0001F1F8US_22 | ⬇️ 3.5MB/s"
+      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
       port: 1743
-      server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 3.8MB/s"
-      network: ws
-      port: 26998
-      server: 8.217.21.237
-      tls: false
-      type: vmess
-      uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 4.7MB/s"
-      network: ws
-      port: 6192
-      server: 8.218.113.19
-      tls: false
-      type: vmess
-      uuid: 406d5be6-101c-46f7-9e10-be222a9f5a1b
-      ws-opts:
-        path: /arki?ed=2048
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.4MB/s"
-      password: 1nLWx0UVnJ
-      port: 52302
-      server: 164.152.167.94
-      type: http
-      username: 7waHp6NRjR
-    - name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 4.7MB/s"
-      network: tcp
-      password: bca467b8c15211d189008a93c7519d3b
-      port: 443
-      server: 58.152.53.42
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 4.1MB/s"
-      password: "123"
-      port: 10862
-      server: 47.76.175.67
-      type: http
-      username: "123"
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 2.2MB/s"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      name: "\U0001F1FA\U0001F1F8US_23 | ⬇️ 1.1MB/s"
+      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
       port: 1743
-      server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16 | ⬇️ 2.3MB/s"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17 | ⬇️ 2.4MB/s"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_18 | ⬇️ 2.5MB/s"
-      password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      port: 1743
-      server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+      server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
       skip-cert-verify: false
       type: hysteria2
