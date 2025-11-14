@@ -1,15 +1,21 @@
 proxies:
-    - cipher: aes-256-cfb
-      delay: 972
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 23.1MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 104.192.226.106
-      type: ss
+    - delay: 1345
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 9.2MB/s"
+      network: ws
+      port: 80
+      server: 51.195.92.49
+      tls: false
+      type: vless
+      udp: true
+      uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
+      ws-opts:
+        headers:
+            Host: lunavow5d444ef.global.ssl.fastly.net
+        path: /
     - alterId: 0
       cipher: auto
       delay: 1068
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 22.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 23.9MB/s"
       network: ws
       port: 443
       server: west_a.gaogroup.bid
@@ -22,9 +28,67 @@ proxies:
         headers:
             Host: west_a.gaogroup.bid
         path: /ctzxvws
+    - cipher: chacha20-ietf-poly1305
+      delay: 1068
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 20.4MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 45.87.175.197
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 862
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.8MB/s"
+      password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
+      port: 443
+      server: 103.75.118.125
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 587
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 2.8MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.79.57.79
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 972
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.2MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 104.192.226.106
+      type: ss
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 9.5MB/s"
+      port: 10668
+      reality-opts:
+        public-key: Q6xd8H-9jQy5bqqAaCqHqV1VKkzbp2-tzwQGjgoI8GI
+        short-id: f7
+      server: sandking.fonixapp.org
+      servername: ilovepdf.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 53e91da4-f382-4b8e-890a-2499bc877554
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 2.8MB/s"
+      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 5.8MB/s"
+      port: 443
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: 4c02bbbfa833b3b6
+      server: fis.jykvpn.com
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 5.3MB/s"
       port: 443
       reality-opts:
         public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
@@ -38,75 +102,39 @@ proxies:
       uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 2.8MB/s"
+      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 4.7MB/s"
       port: 443
       reality-opts:
         public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
         short-id: 4c02bbbfa833b3b6
-      server: fis.jykvpn.com
+      server: ges.jykvpn.com
       servername: cdnjs.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
       uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-    - cipher: chacha20-ietf-poly1305
-      delay: 1068
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 16.0MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 45.87.175.197
-      type: ss
-    - delay: 1345
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 9.0MB/s"
-      network: ws
-      port: 80
-      server: 51.195.92.49
-      tls: false
-      type: vless
-      udp: true
-      uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
-      ws-opts:
-        headers:
-            Host: lunavow5d444ef.global.ssl.fastly.net
-        path: /
-    - cipher: aes-256-cfb
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 587
-      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 3.7MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.79.57.79
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 862
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.1MB/s"
-      password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
-      port: 443
-      server: 103.75.118.125
-      type: ss
-    - name: "\U0001F1EB\U0001F1EEFI_2 | ⬇️ 8.1MB/s"
-      network: ws
-      port: 443
-      server: fl-3-direct.djarbnet.ru
-      servername: fl-3-direct.djarbnet.ru
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 13.0MB/s"
+      port: 22925
+      reality-opts:
+        public-key: Pzsb-3zlxbYLJwRE0ACSqzTL7h3ubqREGMEs17q_1z4
+        short-id: 886d
+      server: 152.53.147.69
+      servername: ilovepdf.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
-      ws-opts:
-        headers:
-            Host: fl-3-direct.djarbnet.ru
-        path: /getupdates
+      uuid: 0226ef52-e556-4f36-ab0f-6c9f5414942a
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1718
       down: 100
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.3MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.7MB/s"
       port: 15010
       protocol: udp
       server: 195.154.200.40
@@ -115,47 +143,248 @@ proxies:
       type: hysteria
       udp: true
       up: 100
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 9.3MB/s"
-      network: none
-      port: 19365
-      server: 2.59.62.63
-      tls: false
-      type: vmess
-      uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 10.7MB/s"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 7.2MB/s"
+      port: 54663
+      reality-opts:
+        public-key: HqZHmZub8Q43m2n10fkdH133wVdYgnLEnIUGpypaQno
+        short-id: 2eb3cddded
+      server: 152.53.143.63
+      servername: stackoverflow.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-      ws-opts:
+      uuid: c088d5a0-cdc3-4880-8bd7-44ecef474ba2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 4.7MB/s"
+      port: 37876
+      reality-opts:
+        public-key: ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM
+        short-id: 907e
+      server: 152.53.133.12
+      servername: yelp.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 29397c5b-be3b-41d9-8a49-21575668e915
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 9.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: ZmcE7f2ZycnrnsUSPkCrPBIGYC8dM4b27DX47DwCHXk
+        short-id: 473915f2ef487f
+      server: albania.solobot.ru
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 678bbdc1-7307-4cf2-bec1-bcdbd8efdbe5
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 10.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: c2a0b2d60a7fc300
+      server: frs.jykvpn.com
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_2 | ⬇️ 8.2MB/s"
+      port: 54978
+      reality-opts:
+        public-key: clfoV7PyfUylden53xvv2FuAoSYFBeZ2JdP0ZzC2ISo
+        short-id: cc58ae21d5
+      server: 109.61.17.127
+      servername: study.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: a79d31ed-99d6-4116-8f50-fa46957ac6a0
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 7.2MB/s"
+      port: 29300
+      reality-opts:
+        public-key: kJzMBU-gwtqNcJx_igad-d891SBXixmCh78WTIRTIQk
+        short-id: 5a
+      server: amsterdam.fonixapp.org
+      servername: canva.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7843d0a1-be6f-4b7f-92e2-8040711b434c
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 5.9MB/s"
+      port: 33009
+      reality-opts:
+        public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
+        short-id: c0d304da0c4dcadc
+      server: 195.154.42.111
+      servername: www.yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_9 | ⬇️ 2.7MB/s"
+      port: 20579
+      reality-opts:
+        public-key: mT6lh-gtbEuWk3Zk6XGF_hYvpLwxTyvwtH7F-_fRbxI
+        short-id: 89f1da93
+      server: 152.53.84.101
+      servername: ilovepdf.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 93cd7e0f-8a81-4076-be8b-6d3bf3f8f810
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 6.4MB/s"
+      port: 443
+      reality-opts:
+        public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+        short-id: 55e6af1a35e64a98
+      server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+      servername: i2pd.website
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_10 | ⬇️ 7.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: c2a0b2d60a7fc300
+      server: autos.jykvpn.com
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_3 | ⬇️ 6.5MB/s"
+      port: 58871
+      reality-opts:
+        public-key: J4NvMlw9Hue3ELYmxP4HQXJ71tf2BAIhOLSyIRkNekA
+        short-id: 05aa79ca512b2a58
+      server: 81.177.214.214
+      servername: yandex.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 74973884-76d6-4e51-a20f-c15b0acaf1d3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 5.5MB/s"
+      port: 443
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: 4c02bbbfa833b3b6
+      server: youtube.jykvpn.com
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.2MB/s"
+      port: 443
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: 4c02bbbfa833b3b6
+      server: usa.jykvpn.com
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - http-opts:
         headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.0MB/s"
-      network: tcp
+            Host:
+                - Telewebion.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 3.2MB/s"
+      network: http
+      port: 20532
+      server: 94.182.137.12
+      servername: Telewebion.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_4 | ⬇️ 1.8MB/s"
+      port: 4442
+      reality-opts:
+        public-key: HCkRC28M16WYrORNt2-Bga_3AuxuGnphlAwXHY9R4SI
+        short-id: fd99
+      server: 193.124.182.224
+      servername: dl.google.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 7.1MB/s"
+      port: 32155
+      reality-opts:
+        public-key: 6-b7u_t7wG_jbda_lucHW4Au9biBl1E0tA2Zkqm8mSw
+        short-id: 737af772
+      server: 31.207.44.210
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2e23b585-a486-4541-83d8-5832a1409c6e
+    - alterId: 0
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.1MB/s"
       password: BxceQaOe
       port: 518
       server: 116.49.237.130
       skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
+      sni: t.me/ripaojiedian
+      tls: true
       type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       http-opts:
         method: GET
         path:
             - /
-      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.1MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.2MB/s"
       network: http
       port: 80
       server: 152.70.92.69
@@ -164,19 +393,17 @@ proxies:
       type: vmess
       udp: true
       uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 2.8MB/s"
-      network: tcp
-      password: BxceQaOe
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 2.1MB/s"
+      password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
       port: 443
-      server: 219.77.239.35
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
+      server: 45.14.245.2
+      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.5MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_4 | ⬇️ 1.9MB/s"
       port: 50011
       protocol: udp
       server: 62.210.10.186
@@ -184,15 +411,7 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.4MB/s"
-      network: tcp
-      password: 2274c52572e721086f8bd8f88984643c
-      port: 1334
-      server: 160.16.132.158
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 5.1MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 4.5MB/s"
       network: tcp
       password: 2274c52572e721086f8bd8f88984643c
       port: 3169
@@ -200,23 +419,15 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 1.9MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 4.1MB/s"
       network: tcp
       password: 2274c52572e721086f8bd8f88984643c
-      port: 443
-      server: 58.152.110.9
+      port: 1334
+      server: 160.16.132.158
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 3.8MB/s"
-      network: tcp
-      password: 2274c52572e721086f8bd8f88984643c
-      port: 5553
-      server: 160.16.124.55
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 2.6MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 5.4MB/s"
       network: tcp
       password: 2274c52572e721086f8bd8f88984643c
       port: 2760
@@ -224,15 +435,15 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 3.7MB/s"
       network: tcp
-      password: BxceQaOe
-      port: 4094
-      server: 116.49.237.130
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
+      password: 2274c52572e721086f8bd8f88984643c
+      port: 5553
+      server: 160.16.124.55
+      skip-cert-verify: false
+      sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 2.8MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 4.7MB/s"
       network: tcp
       password: 2274c52572e721086f8bd8f88984643c
       port: 4211
@@ -240,3 +451,9 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.0MB/s"
+      password: "123"
+      port: 10862
+      server: 47.76.175.67
+      type: http
+      username: "123"
