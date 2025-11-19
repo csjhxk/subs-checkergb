@@ -1,5 +1,5 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 8.1MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 8.2MB/s"
       network: ws
       port: 1443
       server: 81.161.98.228
@@ -13,7 +13,21 @@ proxies:
         headers:
             Host: cdn.filterai.ru
         path: /websocketpl
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.4MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.8MB/s"
+      port: 443
+      reality-opts:
+        public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+        short-id: 428ef87fd47a3a32
+      server: nl.nodes.rocketnetwork.ru
+      servername: nl.nodes.rocketnetwork.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 8.5MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -22,29 +36,44 @@ proxies:
       type: http
       udp: true
       username: test
+    - name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 4.7MB/s"
+      password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+      port: 443
+      server: 45.144.172.243
+      skip-cert-verify: true
+      sni: www.bilibili.com
+      type: trojan
+      udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 1.2MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 2.7MB/s"
+      password: dada0801
+      port: 80
+      server: 43.203.199.246
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 2.5MB/s"
       password: dada0801
       port: 80
       server: 43.201.70.24
       type: ss
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 10.9MB/s"
-      network: ws
+    - cipher: aes-256-gcm
+      name: "\U0001F1F0\U0001F1F7KR_4 | ⬇️ 2.2MB/s"
+      password: dada0801
       port: 80
-      server: cCc.922922.ShOp
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-      ws-opts:
-        headers:
-            Host: cCc.922922.ShOp
-        path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      server: 13.209.14.105
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F0\U0001F1F7KR_5 | ⬇️ 2.2MB/s"
+      password: dada0801
+      port: 80
+      server: 54.180.202.139
+      type: ss
+      udp: true
     - alterId: 0
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 2.8MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.1MB/s"
       password: BxceQaOe
       port: 443
       server: 58.152.26.173
@@ -53,12 +82,6 @@ proxies:
       tls: true
       type: trojan
       udp: true
-    - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 2.6MB/s"
-      password: asd123456
-      port: 8388
-      server: 103.149.182.158
-      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
@@ -73,153 +96,211 @@ proxies:
       up: 11 Mbps
     - cipher: rc4-md5
       delay: 589
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 34.8MB/s"
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 27.3MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 137.184.174.93
       type: ss
       udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.0MB/s"
-      password: nOEy3w0R
-      port: 20344
-      server: 8.218.207.5
-      type: http
-      username: kZXMC3Z1
-    - cipher: aes-256-cfb
-      delay: 637
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 6.6MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.65.219.59
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 506
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 8.8MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)32cf132:178330
+        mode: tls
+      port: 2377
+      server: 172.237.11.141
       type: ss
-      udp: true
     - cipher: aes-256-cfb
       delay: 424
-      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 6.2MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 5.0MB/s"
       password: amazonskr05
       port: 443
       server: 54.93.101.215
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      delay: 1234
-      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 6.4MB/s"
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 769
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 5.0MB/s"
       password: amazonskr05
       port: 443
-      server: 54.93.211.165
+      server: 18.184.12.56
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      delay: 573
-      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 7.9MB/s"
+      delay: 637
+      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 4.9MB/s"
       password: amazonskr05
       port: 443
-      server: 3.72.36.217
+      server: 3.65.219.59
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      delay: 627
-      name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 9.4MB/s"
-      password: amazonskr05
-      port: 443
-      server: 34.244.124.7
-      type: ss
+    - delay: 779
+      http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 6.6MB/s"
+      network: http
+      port: 33801
+      server: m32a.vip784.com
+      tls: false
+      type: vless
       udp: true
-    - cipher: aes-256-cfb
-      delay: 631
-      name: "\U0001F1EE\U0001F1EAIE_2 | ⬇️ 9.1MB/s"
-      password: amazonskr05
-      port: 443
-      server: 34.250.119.200
-      type: ss
-      udp: true
+      uuid: e148ba9b-7f4b-40d8-adc4-e1a2b8d2c0c1
     - cipher: aes-256-cfb
       delay: 476
-      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 5.2MB/s"
+      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 5.1MB/s"
       password: amazonskr05
       port: 443
       server: 63.177.227.124
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      delay: 603
-      name: "\U0001F1EE\U0001F1EAIE_3 | ⬇️ 8.7MB/s"
-      password: amazonskr05
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 666
+      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 6.7MB/s"
+      password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
       port: 443
-      server: 34.252.192.234
+      server: 45.15.126.19
       type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 647
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 44.1MB/s"
-      password: amazonskr05
-      port: 443
-      server: 98.80.123.78
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1394
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 26.0MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.226.15.44
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 541
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 48.4MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.149.250.176
-      type: ss
-      udp: true
     - cipher: aes-256-cfb
       delay: 520
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 5.0MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 6.8MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 195.154.119.77
       type: ss
       udp: true
     - cipher: aes-256-cfb
+      delay: 1234
+      name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 1.4MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.93.211.165
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 623
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 9.1MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.89.168.232
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 631
+      name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 4.6MB/s"
+      password: amazonskr05
+      port: 443
+      server: 34.250.119.200
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1EE\U0001F1EAIE"
+      delay: 486
+      name: "\U0001F1EE\U0001F1EAIE_2 | ⬇️ 7.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 108.129.129.112
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1477
+      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 1.4MB/s"
+      password: amazonskr05
+      port: 443
+      server: 63.178.2.18
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 573
+      name: "\U0001F1E9\U0001F1EADE_9 | ⬇️ 1.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.72.36.217
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 595
+      name: "\U0001F1EE\U0001F1EAIE_3 | ⬇️ 5.8MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.74.5.14
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1394
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 10.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.226.15.44
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 630
+      name: "\U0001F1EE\U0001F1EAIE_4 | ⬇️ 5.2MB/s"
+      password: amazonskr05
+      port: 443
+      server: 108.129.194.126
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 627
+      name: "\U0001F1EE\U0001F1EAIE_5 | ⬇️ 2.7MB/s"
+      password: amazonskr05
+      port: 443
+      server: 34.244.124.7
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 619
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 18.7MB/s"
+      password: p78naCf2EfOlRSLTX0wFVx
+      port: 443
+      server: pupas-shirting-unsung.freesocks.work
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 603
+      name: "\U0001F1EE\U0001F1EAIE_6 | ⬇️ 3.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 34.252.192.234
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 627
+      name: "\U0001F1EE\U0001F1EAIE_7 | ⬇️ 3.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.252.208.74
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 595
+      name: "\U0001F1EE\U0001F1EAIE_8 | ⬇️ 3.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 52.214.70.136
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
       country: "\U0001F1EE\U0001F1EAIE"
       delay: 921
-      name: "\U0001F1EE\U0001F1EAIE_4 | ⬇️ 9.9MB/s"
+      name: "\U0001F1EE\U0001F1EAIE_9 | ⬇️ 6.3MB/s"
       password: amazonskr05
       port: 443
       server: 52.214.157.164
       type: ss
     - cipher: aes-256-cfb
-      delay: 554
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 48.9MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.144.27.33
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      delay: 1568
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 6.0MB/s"
-      port: 15010
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - cipher: aes-256-cfb
-      delay: 590
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 13.4MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.152.188.139
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
       delay: 632
-      name: "\U0001F1EE\U0001F1EAIE_5 | ⬇️ 4.9MB/s"
+      name: "\U0001F1EE\U0001F1EAIE_10 | ⬇️ 3.2MB/s"
       password: amazonskr05
       port: 443
       server: 54.194.181.111
@@ -227,73 +308,101 @@ proxies:
       udp: true
     - cipher: aes-256-cfb
       delay: 628
-      name: "\U0001F1EE\U0001F1EAIE_6 | ⬇️ 9.7MB/s"
+      name: "\U0001F1EE\U0001F1EAIE_11 | ⬇️ 4.5MB/s"
       password: amazonskr05
       port: 443
       server: 108.129.75.126
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      delay: 630
-      name: "\U0001F1EE\U0001F1EAIE_7 | ⬇️ 6.9MB/s"
-      password: amazonskr05
-      port: 443
-      server: 108.129.194.126
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 666
-      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 3.8MB/s"
-      password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
-      port: 443
-      server: 45.15.126.19
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 629
-      name: "\U0001F1EE\U0001F1EAIE_8 | ⬇️ 8.5MB/s"
-      password: amazonskr05
-      port: 443
-      server: 108.129.85.82
-      type: ss
-      udp: true
     - cipher: aes-256-gcm
       delay: 435
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 15.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 15.0MB/s"
       password: dada0801
       port: 80
       server: 52.33.246.24
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      delay: 595
-      name: "\U0001F1EE\U0001F1EAIE_9 | ⬇️ 6.1MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.74.5.14
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
       country: "\U0001F1EE\U0001F1EAIE"
-      delay: 486
-      name: "\U0001F1EE\U0001F1EAIE_10 | ⬇️ 3.7MB/s"
+      delay: 631
+      name: "\U0001F1EE\U0001F1EAIE_12 | ⬇️ 3.3MB/s"
       password: amazonskr05
       port: 443
-      server: 108.129.129.112
+      server: 52.208.43.67
       type: ss
     - cipher: aes-256-cfb
-      delay: 633
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 9.4MB/s"
+      delay: 629
+      name: "\U0001F1EE\U0001F1EAIE_13 | ⬇️ 3.5MB/s"
       password: amazonskr05
       port: 443
-      server: 18.171.164.50
+      server: 108.129.85.82
       type: ss
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.7MB/s"
+    - cipher: aes-256-cfb
+      delay: 539
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 10.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.226.164.197
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      delay: 1568
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.2MB/s"
+      port: 15010
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - cipher: aes-256-cfb
+      delay: 679
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 5.6MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.175.147.212
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 8.3MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 4492
+      server: 160.16.85.138
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 6.7MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 3093
       server: 160.16.150.76
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 4.3MB/s"
+      network: tcp
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: 1334
+      server: 160.16.240.91
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 6.8MB/s"
+      network: tcp
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: 127
+      server: 160.16.116.227
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 5.3MB/s"
+      network: tcp
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: 5553
+      server: 160.16.240.91
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
@@ -303,7 +412,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 2958
       down: 55
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 4.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 4.1MB/s"
       port: 49003
       protocol: udp
       server: 51.159.226.1
@@ -315,7 +424,7 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 1455
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.65
@@ -323,16 +432,30 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 661
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.232
       type: ss
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 6.3MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 4492
-      server: 160.16.85.138
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
+    - cipher: aes-256-cfb
+      delay: 825
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.34
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1379
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.25
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 2.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.225
+      type: ss
