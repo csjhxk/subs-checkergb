@@ -1,27 +1,12 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.4MB/s"
-      password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-      port: 2056
-      server: de.eyucdn.xyz
-      skip-cert-verify: true
-      sni: de.eyucdn.xyz
-      tls: false
-      type: hysteria2
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 2.9MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 4.0MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 151.242.251.142
       type: ss
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 3.1MB/s"
-      password: dada0801
-      port: 80
-      server: 13.124.194.133
-      type: ss
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 4.4MB/s"
+    - name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 5.9MB/s"
       password: exaxgqkKkd0TAMrCxeonWg==
       port: 1443
       server: twmoon1-cdn-route.couldflare-cdn.com
@@ -29,24 +14,7 @@ proxies:
       type: http
       udp: true
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - http-opts:
-        headers:
-            Host:
-                - Telewebion.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 3.7MB/s"
-      network: http
-      port: 20532
-      server: 94.182.137.12
-      servername: Telewebion.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
-    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 1.4MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 2.5MB/s"
       network: ws
       port: 1443
       server: 81.161.98.228
@@ -60,80 +28,9 @@ proxies:
         headers:
             Host: cdn.filterai.ru
         path: /websocketpl
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.252
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf
-      name: ❓Other_1 | ⬇️ 3.5MB/s
-      password: asd123456
-      port: 8388
-      server: 103.149.182.203
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.0MB/s"
-      network: ws
-      port: 80
-      server: ddDFHhj.922922.Shop
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-      ws-opts:
-        headers:
-            Host: ddDFHhj.922922.Shop
-        path: /RkUUbqhA9GJZBROjL3Q5vTymr
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.4MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.3MB/s"
-      password: nOEy3w0R
-      port: 20344
-      server: 8.218.207.5
-      type: http
-      username: kZXMC3Z1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 12.1MB/s"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-      ws-opts:
-        headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.5MB/s"
-      port: 50011
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
     - cipher: rc4-md5
       delay: 589
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 67.3MB/s"
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 88.5MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 137.184.174.93
@@ -141,7 +38,7 @@ proxies:
       udp: true
     - cipher: aes-256-cfb
       delay: 637
-      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 8.3MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 8.2MB/s"
       password: amazonskr05
       port: 443
       server: 3.65.219.59
@@ -150,121 +47,62 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F1E9\U0001F1EADE"
       delay: 769
-      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 8.1MB/s"
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 8.3MB/s"
       password: amazonskr05
       port: 443
       server: 18.184.12.56
       type: ss
     - cipher: aes-256-cfb
-      delay: 424
-      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 5.1MB/s"
+      delay: 1234
+      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 5.2MB/s"
       password: amazonskr05
       port: 443
-      server: 54.93.101.215
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1477
-      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 7.0MB/s"
-      password: amazonskr05
-      port: 443
-      server: 63.178.2.18
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 476
-      name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 3.8MB/s"
-      password: amazonskr05
-      port: 443
-      server: 63.177.227.124
+      server: 54.93.211.165
       type: ss
       udp: true
     - cipher: aes-256-cfb
       delay: 520
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 3.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 8.4MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 195.154.119.77
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8 US"
-      delay: 506
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 3.4MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)32cf132:178330
-        mode: tls
-      port: 2377
-      server: 172.237.11.141
-      type: ss
-    - cipher: chacha20-ietf-poly1305
       country: "\U0001F1FA\U0001F1F8US"
       delay: 666
-      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 1.9MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 8.9MB/s"
       password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
       port: 443
       server: 45.15.126.19
       type: ss
+    - cipher: aes-256-cfb
+      delay: 476
+      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 3.0MB/s"
+      password: amazonskr05
+      port: 443
+      server: 63.177.227.124
+      type: ss
+      udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       delay: 1568
       down: "100"
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.4MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.5MB/s"
       port: 15010
       server: 195.154.200.40
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
       up: "100"
-    - cipher: chacha20-ietf-poly1305
-      delay: 696
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 15.6MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)32cf132:178330
-        mode: tls
-      port: 2377
-      server: 23.247.137.165
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E7\U0001F1ED BH"
-      delay: 1743
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 22.2MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-      port: 2377
-      server: 23.247.137.74
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9 LT"
-      delay: 408
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.8MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-      port: 2377
-      server: 95.174.71.28
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9 LT"
-      delay: 414
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.4MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-      port: 2377
-      server: 95.174.71.27
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      delay: 661
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.232
       type: ss
     - alpn:
         - h3
@@ -272,7 +110,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 2958
       down: 55
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 3.9MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 2.6MB/s"
       port: 49003
       protocol: udp
       server: 51.159.226.1
@@ -281,31 +119,21 @@ proxies:
       type: hysteria
       udp: true
       up: 11
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.5MB/s"
-      network: tcp
-      password: dd2f25b4c70689de8bc0f7fa9d6591cb
-      port: 1331
-      server: 160.16.204.136
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 5.1MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 1821
-      server: 153.121.51.221
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.7MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 58.152.18.95
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 4.8MB/s"
+    - cipher: aes-256-cfb
+      delay: 825
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.34
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.1MB/s"
+      password: nOEy3w0R
+      port: 20344
+      server: 8.218.207.5
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 7.7MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 1331
@@ -313,47 +141,46 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 661
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.232
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 825
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.34
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.4MB/s"
+      network: tcp
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: 1331
+      server: 160.16.204.136
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 5.3MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 1821
+      server: 153.121.51.221
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 5.7MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.18.95
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F7HR_1 | ⬇️ 1.2MB/s"
+      password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+      port: 443
+      server: 185.156.110.92
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1455
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.65
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1461
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 2.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.206
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1379
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 2.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.25
-      type: ss
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.9MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 2.2MB/s"
+      network: tcp
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: 443
+      server: 58.152.18.124
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.6MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 2760
@@ -361,7 +188,7 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.7MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.6MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 2760
@@ -369,7 +196,7 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 5.0MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.2MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 2890
@@ -377,7 +204,19 @@ proxies:
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 4.1MB/s"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.6MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.0MB/s"
       network: tcp
       password: dd2f25b4c70689de8bc0f7fa9d6591cb
       port: 702
@@ -386,13 +225,13 @@ proxies:
       sni: www.nintendogames.net
       type: trojan
     - cipher: aes-256-gcm
-      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 2.7MB/s"
+      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 3.0MB/s"
       password: 8JCsPssfgS8tiRwiMlhARg==
       port: 12000
       server: 57.128.214.100
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 1.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.8MB/s"
       password: 8JCsPssfgS8tiRwiMlhARg==
       port: 12000
       server: 15.204.247.49
