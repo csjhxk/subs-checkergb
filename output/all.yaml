@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 8.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 9.4MB/s"
       port: 443
       reality-opts:
         public-key: CRsbpFGd_TrUqw6knw03PGXOAPByyMIeNOar9ncY-2g
@@ -15,7 +15,7 @@ proxies:
       uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 9.7MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.7MB/s"
       port: 443
       reality-opts:
         public-key: _wAe0p-BHzbxsR57gXuGSYp9io5iZ9o6DxIZ1yveQiY
@@ -41,13 +41,27 @@ proxies:
       type: vless
       udp: true
       uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 7.2MB/s"
+      port: 443
+      reality-opts:
+        public-key: _wAe0p-BHzbxsR57gXuGSYp9io5iZ9o6DxIZ1yveQiY
+        short-id: 7e64264c
+      server: 202.182.124.55
+      servername: cn.ubuntu.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 58807a72-9bf7-4c8e-a0de-e6c455a8e23e
     - cipher: aes-256-cfb
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.8MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.9MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 216.250.97.82
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 11.4MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 13.0MB/s"
       password: dongtaiwang.com
       port: 50066
       server: 51.158.218.2
@@ -55,13 +69,27 @@ proxies:
       sni: www.bing.com
       tls: false
       type: hysteria2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 7.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34
+        short-id: ab1cd2
+      server: russia.whitenet.online
+      servername: vk.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.0MB/s"
       password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
       port: 443
       server: 146.19.49.251
       type: ss
-    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 8.7MB/s"
+    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 12.5MB/s"
       password: dongtaiwang.com
       port: 33880
       server: 195.154.206.231
@@ -70,25 +98,20 @@ proxies:
       tls: false
       type: hysteria2
     - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 4.4MB/s"
-      network: http
-      port: 80
-      server: 152.70.92.69
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.5MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.18.95
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      tls: true
+      type: trojan
       udp: true
-      uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.5MB/s"
       port: 50011
       protocol: udp
       server: 62.210.10.186
@@ -96,22 +119,41 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 3.0MB/s"
-      password: Qzy7tgpRhu
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 2.7MB/s"
+      password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
       port: 443
-      server: 37.18.14.33
+      server: 213.159.67.124
+      type: ss
+    - cipher: chacha20-ietf
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.9MB/s"
+      password: asd123456
+      port: 8388
+      server: 103.149.182.158
+      type: ss
+    - alterId: 0
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 3.6MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.53.8
       skip-cert-verify: true
-      sni: m.vk.com
-      tfo: false
+      sni: t.me/ripaojiedian
+      tls: true
       type: trojan
       udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 4.2MB/s"
+      password: VCYBW8pH4z
+      port: 36735
+      server: 47.238.199.39
+      type: http
+      username: 2XPTvGKBjj
     - alterId: 0
       cipher: auto
       country: "\U0001F1EB\U0001F1F7FR"
       delay: 1478
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 20.6MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 9.2MB/s"
       network: ws
       port: 443
       server: 91.134.8.101
@@ -124,56 +166,65 @@ proxies:
         headers:
             HOST: fapeng.org
         path: linkvws
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EE\U0001F1F7 IR"
-      delay: 860
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 19.3MB/s"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 151.242.251.153
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EE\U0001F1F7 IR"
-      delay: 460
-      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 13.6MB/s"
-      password: 4a2rfixophdjffa8KVA4Aa
-      port: 8080
-      server: 151.242.251.144
-      type: ss
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.4MB/s"
+      network: http
+      port: 80
+      server: 152.70.92.69
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     - alterId: 0
       cipher: auto
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 1323
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.4MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.8MB/s"
       port: 55919
       server: xray.kk37005.tk
       skip-cert-verify: true
       tls: true
       type: vmess
       uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7 KR"
-      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 1.8MB/s"
-      password: qwerREWQ@@
-      port: 4652
-      server: 218.237.185.230
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 417
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.6MB/s"
+      network: tcp
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EE\U0001F1F7 IR"
+      delay: 460
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 5.8MB/s"
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 151.242.251.144
       type: ss
-    - cipher: aes-128-gcm
-      delay: 1834
-      name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 4.6MB/s"
-      password: 84d85af8-2807-4306-a701-f784676b77c3
-      plugin: obfs
-      plugin-opts:
-        host: de5bdbffa87896a4b126f8b62150bb4e.baidu.com
-        mode: http
-      port: 36609
-      server: gd.bjnet2.com
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EE\U0001F1F7 IR"
+      delay: 860
+      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 5.5MB/s"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 151.242.251.153
       type: ss
-      udp: true
     - delay: 577
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.2MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 1.1MB/s"
       password: 2cf6d686799e6fa95316394064f26c0a
       port: 127
       server: 160.16.89.176
@@ -182,112 +233,64 @@ proxies:
     - cipher: aes-256-cfb
       country: "\U0001F1FB\U0001F1F3VN"
       delay: 1349
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.207
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1056
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.125
-      type: ss
-    - cipher: aes-256-cfb
       delay: 1834
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.50
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1FB\U0001F1F3VN"
-      delay: 1980
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.185
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 2388
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.15
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 1354
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.51
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 688
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.59
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      delay: 719
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.113
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 1026
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.246
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FB\U0001F1F3VN"
+      delay: 1980
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.185
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FB\U0001F1F3VN"
       delay: 629
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 2.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.230
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 701
-      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.0MB/s"
+      delay: 688
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.8MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.124
+      server: 103.186.155.59
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       delay: 651
-      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 2.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.200
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FB\U0001F1F3VN"
-      delay: 627
-      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.121
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      delay: 2972
-      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.3MB/s"
+      delay: 629
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.78
+      server: 103.186.154.178
       type: ss
