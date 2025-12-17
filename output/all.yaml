@@ -1,12 +1,34 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.6MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 7.4MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.4MB/s"
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.4MB/s"
       port: 1080
       server: 161.35.82.57
       type: socks5
       udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 1.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.2MB/s"
       port: 180
       server: 82.198.246.97
       skip-cert-verify: false
@@ -14,7 +36,20 @@ proxies:
       type: vmess
       udp: true
       uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 6.2MB/s"
+    - cipher: chacha20-ietf
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.2MB/s"
+      password: asd123456
+      port: 8388
+      server: 103.149.182.86
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 1.7MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 38.165.233.93
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.6MB/s"
       network: tcp
       password: e2722c0fb503f8a592436c12bce0509a
       port: 3093
@@ -22,78 +57,7 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 1.5MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 38.165.233.93
-      type: ss
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.8MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 219.79.214.159
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 2006
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 7.2MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 89.163.140.136
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FARU"
-      delay: 1377
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 3.4MB/s"
-      password: OgAxVsDP6rexuKtrDhCSVA
-      port: 7048
-      server: 62.133.60.60
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1E6CA"
-      delay: 960
-      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 4.8MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.213.23.63
-      type: ss
-    - cipher: rc4-md5
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 1991
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.5MB/s"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 794
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.9MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.183
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1FECY"
-      delay: 2172
-      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 5.8MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 45.15.185.70
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 746
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 7.3MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.208
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 1.3MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.7MB/s"
       network: tcp
       password: BxceQaOe
       port: 443
@@ -101,152 +65,54 @@ proxies:
       skip-cert-verify: true
       sni: t.me%2Fripaojiedian
       type: trojan
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 2426
-      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 7.7MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 45.87.175.185
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 2685
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 9.1MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 173.234.29.2
-      type: ss
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 6.4MB/s"
+      network: ws
+      port: 443
+      server: www.speedtest.net
+      servername: havij.mrconfigur.site
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 1353
-      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 4.8MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.185
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      delay: 1243
-      name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 1.3MB/s"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: ltnl16.saint.ydns.eu
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F5\U0001F1F9PT"
-      delay: 890
-      name: "\U0001F1F5\U0001F1F9PT_1 | ⬇️ 4.5MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.113.143.186
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1856
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.172
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1203
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.67
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2972
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.120
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 872
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.248
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1094
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.214
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1443
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.226
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1443
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 2.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.225
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1757
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.221
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1232
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.181
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 937
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.227
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1801
-      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.52
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 821
-      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.227
-      type: ss
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.1MB/s"
+      uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+      ws-opts:
+        headers:
+            Host: havij.mrconfigur.site
+        path: /
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.7MB/s"
       port: 10808
       server: 213.35.126.34
       type: socks5
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 7.7MB/s"
+      network: tcp
+      password: e2722c0fb503f8a592436c12bce0509a
+      port: 3169
+      server: 160.16.117.182
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - cipher: rc4-md5
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1991
+      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 6.5MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2557
+      name: "\U0001F1F5\U0001F1E6PA_1 | ⬇️ 4.8MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 138.186.142.81
+      type: ss
       udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.6MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.7MB/s"
       port: 50011
       protocol: udp
       server: 62.210.10.186
@@ -254,3 +120,211 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
+    - cipher: aes-256-cfb
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 2006
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 3.5MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 89.163.140.136
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1E6CA"
+      delay: 960
+      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 3.9MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.213.23.63
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 794
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 6.4MB/s"
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.183
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2685
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 8.8MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 173.234.29.2
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 689
+      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 6.7MB/s"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.87.175.28
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 1353
+      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 6.7MB/s"
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.185
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 2426
+      name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 5.3MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 45.87.175.185
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1FECY"
+      delay: 2172
+      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 2.1MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 45.15.185.70
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      delay: 944
+      name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 4.3MB/s"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 45.87.175.180
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F5\U0001F1F9PT"
+      delay: 890
+      name: "\U0001F1F5\U0001F1F9PT_1 | ⬇️ 3.7MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.113.143.186
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1203
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.67
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1856
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.172
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2972
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.120
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2747
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.253
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 872
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.248
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1094
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.214
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1353
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.46
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2560
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.148
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1232
+      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 2.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.181
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1178
+      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.247
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2210
+      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.64
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 2354
+      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 2.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.118
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1801
+      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.52
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 937
+      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.227
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1249
+      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.45
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 821
+      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.227
+      type: ss
+      udp: true
