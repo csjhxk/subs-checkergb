@@ -1,5 +1,5 @@
 proxies:
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 6.3MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 7.3MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -10,7 +10,7 @@ proxies:
       username: test
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.6MB/s"
       port: 180
       server: 82.198.246.97
       skip-cert-verify: false
@@ -19,7 +19,7 @@ proxies:
       udp: true
       uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - cipher: aes-256-cfb
-      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 2.1MB/s"
+      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 2.6MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 38.165.233.93
@@ -27,19 +27,31 @@ proxies:
       udp: true
     - cipher: chacha20-ietf-poly1305
       delay: 1366
-      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 7.3MB/s"
+      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 6.0MB/s"
       password: smSMfR9jqLgMkHuQtxSIWh
       port: 25512
       server: 145.249.109.121
       type: ss
       udp: true
+    - delay: 1546
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 1.8MB/s"
+      network: grpc
+      port: 21250
+      server: 209.38.168.122
+      tls: false
+      type: vless
+      udp: true
+      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1664
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 3.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.9MB/s"
       port: 26691
       protocol: udp
       server: 62.210.196.68
@@ -48,69 +60,49 @@ proxies:
       type: hysteria
       udp: true
       up: 11 Mbps
-    - delay: 1546
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 3.3MB/s"
-      network: grpc
-      port: 21250
-      server: 209.38.168.122
-      tls: false
-      type: vless
-      udp: true
-      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
     - cipher: aes-256-cfb
-      delay: 1293
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.5MB/s"
+      country: "\U0001F1FB\U0001F1F3VN"
+      delay: 2976
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.18
+      server: 103.186.154.173
       type: ss
-      udp: true
     - cipher: aes-256-cfb
       delay: 2662
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.8MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.185
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      delay: 2290
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.5MB/s"
+      delay: 1795
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.80
+      server: 103.186.154.250
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      delay: 1368
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.7MB/s"
+      delay: 1270
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.127
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1347
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.121
+      server: 103.186.155.226
       type: ss
       udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1FB\U0001F1F3VN"
       delay: 2886
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 2.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.229
       type: ss
     - cipher: aes-256-cfb
       delay: 1612
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.38
@@ -118,34 +110,13 @@ proxies:
       udp: true
     - cipher: aes-256-cfb
       delay: 1659
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.237
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      delay: 2937
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.156
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1270
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 2.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.226
-      type: ss
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 2.1MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.1MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.3MB/s"
       network: tcp
       password: e2722c0fb503f8a592436c12bce0509a
       port: 3169
@@ -153,7 +124,7 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 4.3MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 3.6MB/s"
       network: tcp
       password: e2722c0fb503f8a592436c12bce0509a
       port: 3093
@@ -161,32 +132,19 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 6.9MB/s"
-      network: tcp
-      password: e2722c0fb503f8a592436c12bce0509a
-      port: 1507
-      server: 160.16.132.158
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.0MB/s"
-      network: tcp
-      password: e2722c0fb503f8a592436c12bce0509a
-      port: 3145
-      server: 160.16.153.13
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 4.5MB/s"
-      port: 10808
-      server: 213.35.126.34
-      type: socks5
+    - cipher: aes-256-cfb
+      delay: 1347
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.121
+      type: ss
       udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.3MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.1MB/s"
       port: 50011
       protocol: udp
       server: 62.210.10.186
@@ -194,3 +152,8 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.8MB/s"
+      port: 10808
+      server: 213.35.126.34
+      type: socks5
+      udp: true
