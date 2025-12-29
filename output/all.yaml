@@ -1,43 +1,62 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      delay: 655
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 13.9MB/s"
-      network: none
-      port: 19724
-      server: 154.44.14.244
-      type: vmess
-      uuid: c393d530-034b-4df7-a90d-fb4cbc553a99
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 5.5MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 10.1MB/s"
       password: fpvLevkhnWoYCMJPICKuUv
       port: 443
       server: 78.129.140.11
       type: ss
       udp: true
     - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 6.6MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 15.5MB/s"
+      network: none
+      port: 8555
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: d125c978-5233-4875-8e19-fdc08d9f9aed
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 10.7MB/s"
       network: none
       port: 443
       server: 5.75.201.242
       tls: false
       type: vless
       uuid: dfb88783-5942-41fe-948e-04736d42f422
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2660
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.3MB/s"
-      password: HQk9wst3vK
-      port: 52251
-      server: ip.dudeuni.com
-      skip-cert-verify: true
-      sni: ip.dudeuni.com
-      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.8MB/s"
+      network: none
+      port: 33534
+      server: 172.192.57.157
+      tls: false
+      type: vmess
+      uuid: d304d622-d950-4108-f4dc-492c241ed1ba
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 9.1MB/s"
+      network: none
+      port: 8269
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: 1e6ef84e-3074-4ee1-dda3-1b7e0b36764b
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.5MB/s"
+      network: http
+      port: 40374
+      server: 8.210.184.105
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
+      uuid: 36b76373-7a4f-4669-9113-7d247bcf2704
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 6.1MB/s"
       port: 443
       reality-opts:
         public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
@@ -49,6 +68,228 @@ proxies:
       type: vless
       udp: true
       uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
+    - client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 4.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+        short-id: 4d4421a0bac569
+      server: 51.250.4.181
+      servername: eh.vk.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.6MB/s"
+      password: catmiao
+      port: 33743
+      server: 8.218.238.254
+      type: http
+      username: catmiao
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 3.5MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.46.60
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 9.3MB/s"
+      network: none
+      port: 7354
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: f60e8a5b-1fec-4ca3-ded3-e1a5f6ced7bd
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 3.6MB/s"
+      port: 26691
+      protocol: udp
+      server: 62.210.196.68
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - alterId: 0
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 3.9MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 203.198.84.221
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      tls: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.8MB/s"
+      network: none
+      port: 34128
+      server: 216.167.26.220
+      tls: false
+      type: vmess
+      uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
+    - name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 4.1MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 443
+      server: 58.152.18.226
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 9.2MB/s"
+      network: none
+      port: 8666
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: 7b1bb83a-bc4d-4a7f-e77c-1a7e70b6102e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 13.3MB/s"
+      network: none
+      port: 19724
+      server: 154.44.14.244
+      tls: false
+      type: vmess
+      uuid: c393d530-034b-4df7-a90d-fb4cbc553a99
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 9.5MB/s"
+      network: none
+      port: 8755
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: e52724f6-53e2-45f6-94f8-fe54707ee856
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.4MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.4MB/s"
+      port: 30812
+      server: v12.hdacd.com
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.6MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 7.7MB/s"
+      port: 1080
+      server: 104.248.203.234
+      type: socks5
+      udp: true
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 9.2MB/s"
+      network: none
+      port: 8484
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: 4ebe8b76-f543-4dfa-f5ee-6be7c9ed03eb
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 14.4MB/s"
+      network: none
+      port: 5375
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: db14ece9-98d0-4dad-8475-94f95cb38146
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 9.7MB/s"
+      network: none
+      port: 42412
+      server: 212.135.120.63
+      tls: false
+      type: vmess
+      uuid: ea194fee-e6b7-4c39-a710-baf0ac48fdf6
+    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 11.7MB/s"
+      password: nX51bl545I
+      port: 38003
+      server: 64.81.34.56
+      type: http
+      username: UgpWOagagJ
+    - name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 1.7MB/s"
+      password: null
+      port: 53535
+      server: 8.218.238.254
+      type: http
+      username: null
+    - name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 1.7MB/s"
+      password: catmiao
+      port: 43956
+      server: 8.218.238.254
+      type: http
+      username: catmiao
+    - name: "\U0001F1ED\U0001F1F0HK_8 | ⬇️ 3.7MB/s"
+      password: null
+      port: 47132
+      server: 8.210.184.105
+      type: http
+      username: null
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.1MB/s"
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 2.1MB/s"
+      port: 35511
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "11"
+    - cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 3.2MB/s"
+      network: ws
+      port: 18757
+      server: 158.178.234.153
+      tls: false
+      type: vless
+      uuid: d10b0612-2b05-47c2-99c1-53f0b109d07d
+      ws-opts:
+        path: /
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2660
+      name: "\U0001F1ED\U0001F1F0HK_9 | ⬇️ 2.6MB/s"
+      password: HQk9wst3vK
+      port: 52251
+      server: ip.dudeuni.com
+      skip-cert-verify: true
+      sni: ip.dudeuni.com
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1FB\U0001F1F3VN"
       delay: 2366
@@ -58,218 +299,7 @@ proxies:
       server: 103.186.154.182
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FB\U0001F1F3VN"
-      delay: 2344
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.223
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FB\U0001F1F3VN"
-      delay: 1516
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.244
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 3.0MB/s"
-      network: none
-      port: 33534
-      server: 172.192.57.157
-      tls: false
-      type: vmess
-      uuid: d304d622-d950-4108-f4dc-492c241ed1ba
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 6.1MB/s"
-      network: none
-      port: 8555
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: d125c978-5233-4875-8e19-fdc08d9f9aed
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 5.1MB/s"
-      network: none
-      port: 34128
-      server: 216.167.26.220
-      tls: false
-      type: vmess
-      uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 5.1MB/s"
-      network: none
-      port: 8269
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: 1e6ef84e-3074-4ee1-dda3-1b7e0b36764b
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.2MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 443
-      server: 58.152.18.226
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 2.0MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 58.152.46.60
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 2.8MB/s"
-      network: none
-      port: 7354
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: f60e8a5b-1fec-4ca3-ded3-e1a5f6ced7bd
-    - alterId: 0
-      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 2.6MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 203.198.84.221
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      tls: true
-      type: trojan
-      udp: true
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 5.7MB/s"
-      network: none
-      port: 8755
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: e52724f6-53e2-45f6-94f8-fe54707ee856
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 2.2MB/s"
-      port: 26691
-      protocol: udp
-      server: 62.210.196.68
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.3MB/s"
-      port: 1080
-      server: 104.248.203.234
-      type: socks5
-      udp: true
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 5.3MB/s"
-      network: none
-      port: 8666
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: 7b1bb83a-bc4d-4a7f-e77c-1a7e70b6102e
-    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 14.2MB/s"
-      password: nX51bl545I
-      port: 38003
-      server: 64.81.34.56
-      type: http
-      username: UgpWOagagJ
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.5MB/s"
-      port: 50011
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 5.5MB/s"
-      network: none
-      port: 8484
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: 4ebe8b76-f543-4dfa-f5ee-6be7c9ed03eb
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 6.2MB/s"
-      network: none
-      port: 5375
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: db14ece9-98d0-4dad-8475-94f95cb38146
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 5.8MB/s"
-      network: none
-      port: 21289
-      server: 212.135.120.63
-      tls: false
-      type: vmess
-      uuid: 6bb0016d-c76d-4b75-c710-4b9aa4ccec0b
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 1.1MB/s"
-      port: 30812
-      server: v12.hdacd.com
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 2.7MB/s"
-      port: 180
-      server: 82.198.246.97
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 4.9MB/s"
-      network: none
-      port: 42412
-      server: 212.135.120.63
-      tls: false
-      type: vmess
-      uuid: ea194fee-e6b7-4c39-a710-baf0ac48fdf6
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.9MB/s"
-      port: 35511
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "11"
-    - cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 3.9MB/s"
-      network: ws
-      port: 18757
-      server: 158.178.234.153
-      tls: false
-      type: vless
-      uuid: d10b0612-2b05-47c2-99c1-53f0b109d07d
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.6MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.232
