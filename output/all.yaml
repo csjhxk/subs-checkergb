@@ -1,7 +1,59 @@
 proxies:
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 9.7MB/s"
+      port: 443
+      reality-opts:
+        public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+        short-id: d923
+      server: uk1.miyazono-kaori.com
+      servername: www.bp.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 2994
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 8.9MB/s"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.193.218.121
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+        short-id: d77c4204
+      server: us1.miyazono-kaori.com
+      servername: download-porter.hoyoverse.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
     - client-fingerprint: ios
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 18.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 9.9MB/s"
+      port: 443
+      reality-opts:
+        public-key: deEvuAAA_iJigkbck4yU_UmE8d491Dqt5V49y3n3DRw
+        short-id: 0c69e956b6
+      server: us12.miyazono-kaori.com
+      servername: download-porter.hoyoverse.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 3.9MB/s"
       port: 443
       reality-opts:
         public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
@@ -15,49 +67,7 @@ proxies:
       uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 17.3MB/s"
-      port: 443
-      reality-opts:
-        public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
-        short-id: d77c4204
-      server: us1.miyazono-kaori.com
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 14.7MB/s"
-      port: 443
-      reality-opts:
-        public-key: hlWe8scaGpy5T-NUM9TdgY6LOJWlKDw3uldtar0Yfls
-        short-id: 33f51b9c
-      server: us10.miyazono-kaori.com
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 7.2MB/s"
-      port: 443
-      reality-opts:
-        public-key: deEvuAAA_iJigkbck4yU_UmE8d491Dqt5V49y3n3DRw
-        short-id: 0c69e956b6
-      server: us12.miyazono-kaori.com
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.4MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 3.7MB/s"
       port: 443
       reality-opts:
         public-key: Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI
@@ -69,9 +79,39 @@ proxies:
       type: vless
       udp: true
       uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 5.0MB/s"
+      port: 12241
+      server: 95.38.210.6
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: a4a941bd-fe1f-4e2e-81ad-2244e73da639
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1402
+      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 2.6MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 38.165.233.93
+      type: ss
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: hlWe8scaGpy5T-NUM9TdgY6LOJWlKDw3uldtar0Yfls
+        short-id: 33f51b9c
+      server: us10.miyazono-kaori.com
+      servername: download-porter.hoyoverse.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 3.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.1MB/s"
       port: 443
       reality-opts:
         public-key: WC40e9QWe66kR6Zb1qkk9OeJBDQivKzqBczp9natHjk
@@ -83,36 +123,8 @@ proxies:
       type: vless
       udp: true
       uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 5.7MB/s"
-      port: 443
-      reality-opts:
-        public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8
-        short-id: fd
-      server: 89.169.182.230
-      servername: vk.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 3.4MB/s"
-      port: 443
-      reality-opts:
-        public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-        short-id: d923
-      server: uk1.miyazono-kaori.com
-      servername: www.bp.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
     - alterId: 0
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.2MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.6MB/s"
       password: BxceQaOe
       port: 443
       server: 203.198.84.221
@@ -121,21 +133,28 @@ proxies:
       tls: true
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 4.5MB/s"
-      port: 1080
-      server: 64.227.131.240
-      type: socks5
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.4MB/s"
-      port: 1080
-      server: 104.248.203.234
-      type: socks5
-      udp: true
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 9.7MB/s"
+      network: none
+      port: 8666
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: 7b1bb83a-bc4d-4a7f-e77c-1a7e70b6102e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 3.7MB/s"
+      network: none
+      port: 34895
+      server: 2.56.242.210
+      tls: false
+      type: vmess
+      uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 4.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 4.7MB/s"
       port: 26691
       protocol: udp
       server: 62.210.196.68
@@ -144,7 +163,7 @@ proxies:
       type: hysteria
       up: 11 Mbps
     - alterId: 0
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.9MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.5MB/s"
       password: BxceQaOe
       port: 443
       server: 58.152.46.60
@@ -153,41 +172,39 @@ proxies:
       tls: true
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_2 | ⬇️ 1.6MB/s"
-      port: 4248
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 51.250.28.151
-      servername: ads.x5.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FARU_3 | ⬇️ 3.6MB/s"
-      network: none
-      port: 34895
-      server: 2.56.242.210
-      tls: false
-      type: vmess
-      uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
     - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.6MB/s"
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 19.8MB/s"
       network: none
-      port: 7354
+      port: 8484
       server: 5.75.201.242
       tls: false
       type: vless
-      uuid: f60e8a5b-1fec-4ca3-ded3-e1a5f6ced7bd
+      uuid: 4ebe8b76-f543-4dfa-f5ee-6be7c9ed03eb
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.0MB/s"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      type: http
+      username: fQ67Dpe5dU
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.3MB/s"
+      password: catmiao
+      port: 33743
+      server: 8.218.238.254
+      type: http
+      username: catmiao
+    - cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 9.7MB/s"
+      network: none
+      port: 8269
+      server: 5.75.201.242
+      tls: false
+      type: vless
+      uuid: 1e6ef84e-3074-4ee1-dda3-1b7e0b36764b
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 2.0MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 2.1MB/s"
       port: 50011
       protocol: udp
       server: 62.210.10.186
@@ -195,23 +212,7 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 5.7MB/s"
-      network: none
-      port: 8555
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: d125c978-5233-4875-8e19-fdc08d9f9aed
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 5.5MB/s"
-      network: none
-      port: 8755
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: e52724f6-53e2-45f6-94f8-fe54707ee856
-    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 4.6MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 4.5MB/s"
       network: tcp
       password: f36f4495b4b26cc2fe346cfa23e05b1b
       port: 443
@@ -219,19 +220,15 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 2.0MB/s"
-      port: 35511
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "11"
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.8MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.2MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 3901
+      server: 160.16.233.76
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 5.1MB/s"
       network: tcp
       password: f36f4495b4b26cc2fe346cfa23e05b1b
       port: 3901
@@ -239,23 +236,19 @@ proxies:
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
-    - cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 6.9MB/s"
-      network: none
-      port: 5375
-      server: 5.75.201.242
-      tls: false
-      type: vless
-      uuid: db14ece9-98d0-4dad-8475-94f95cb38146
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 1.1MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 3901
-      server: 160.16.233.76
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.7MB/s"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.8MB/s"
+      port: 35511
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "11"
+    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 3.6MB/s"
       network: tcp
       password: f36f4495b4b26cc2fe346cfa23e05b1b
       port: 1281
@@ -263,9 +256,3 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.182
-      type: ss
