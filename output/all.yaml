@@ -1,29 +1,36 @@
 proxies:
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.4MB/s"
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 443
+      server: 58.152.18.48
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 3.0MB/s"
-      port: 443
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 7.9MB/s"
+      port: 1488
       reality-opts:
-        public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8
-        short-id: fd
-      server: 89.169.182.230
-      servername: vk.com
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 51.250.25.11
+      servername: ads.x5.ru
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8 US"
-      delay: 1402
-      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 2.2MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 38.165.233.93
-      type: ss
+      uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.2MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_2 | ⬇️ 2.3MB/s"
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 2.1MB/s"
       port: 4248
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -39,19 +46,7 @@ proxies:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.7MB/s"
-      port: 50011
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 4.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 2.8MB/s"
       port: 26691
       protocol: udp
       server: 62.210.196.68
@@ -59,48 +54,11 @@ proxies:
       sni: apple.com
       type: hysteria
       up: 11 Mbps
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 6.3MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 203.198.84.221
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.7MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.0MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 58.152.46.60
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 7.6MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 2762
-      server: 52.194.193.12
-      skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 6.7MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 443
-      server: 58.152.18.48
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.5MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 1.8MB/s"
       port: 35511
       protocol: udp
       server: 62.210.10.186
@@ -108,7 +66,49 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "11"
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.2MB/s"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 1.7MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 1402
+      name: "\U0001F1F5\U0001F1FEPY_1 | ⬇️ 2.9MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 38.165.233.93
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.7MB/s"
+      network: ws
+      port: "2087"
+      server: lv4.789900.xyz
+      servername: lv4.789900.xyz
+      tls: true
+      type: vmess
+      uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+      ws-opts:
+        headers:
+            Host: lv4.789900.xyz
+        path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.5MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 2762
+      server: 52.194.193.12
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 4.8MB/s"
       network: tcp
       password: f36f4495b4b26cc2fe346cfa23e05b1b
       port: 4006
@@ -116,15 +116,7 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 6.4MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 3901
-      server: 160.16.107.37
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 4.8MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.7MB/s"
       network: tcp
       password: BxceQaOe
       port: 443
@@ -132,23 +124,7 @@ proxies:
       skip-cert-verify: true
       sni: t.me%2Fripaojiedian
       type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 3.5MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 1933
-      server: 160.16.150.76
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 4.2MB/s"
-      network: tcp
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 1281
-      server: 153.121.44.99
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 3.4MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.8MB/s"
       network: tcp
       password: f36f4495b4b26cc2fe346cfa23e05b1b
       port: 3901
@@ -156,3 +132,47 @@ proxies:
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 3.6MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 1281
+      server: 160.16.107.37
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.7MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 1281
+      server: 153.121.44.99
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 2.3MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 3901
+      server: 160.16.107.37
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 3.3MB/s"
+      network: tcp
+      password: f36f4495b4b26cc2fe346cfa23e05b1b
+      port: 1933
+      server: 160.16.150.76
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: ❓Other_1 | ⬇️ 3.3MB/s
+      network: tcp
+      port: 30808
+      server: v8.hdacd.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
