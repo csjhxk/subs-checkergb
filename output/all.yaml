@@ -1,93 +1,15 @@
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 9.3MB/s"
-      port: 16931
-      reality-opts:
-        public-key: 7O4PQ5fPqpmc7WmqHSsjkfprQrU5Q13Qk7yCcsp49AY
-        short-id: 0ee8b6
-      server: vd3.outlinevpn.cc
-      servername: music.yandex.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 72a3aafa-281c-457b-bfd2-5a6428ea36dd
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EE\U0001F1F9IT"
-      delay: 1302
-      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 6.8MB/s"
-      password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
-      port: 443
-      server: 176.126.83.121
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 7.8MB/s"
-      network: ws
-      port: 443
-      server: us-003.shopping-1688.com
-      servername: us-003.shopping-1688.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 60510065-6006-44df-a6e0-6c75968d739c
-      ws-opts:
-        headers:
-            Host: us-003.shopping-1688.com
-        path: /detailsws
-    - cipher: rc4-md5
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 1353
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.1MB/s"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 4.8MB/s"
-      port: 443
-      reality-opts:
-        public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-        short-id: 4d4421a0bac569
-      server: 51.250.4.181
-      servername: eh.vk.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.2MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.3MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 6.8MB/s"
       network: tcp
       password: BxceQaOe
-      port: 443
-      server: 58.152.25.86
+      port: 3194
+      server: 54.238.144.17
       skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
+      sni: t.me%252Fripaojiedian
       type: trojan
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.2MB/s"
-      port: 26691
-      protocol: udp
-      server: 62.210.196.68
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.4MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 4.7MB/s"
       network: ws
       port: "2087"
       server: lv4.789900.xyz
@@ -99,16 +21,131 @@ proxies:
         headers:
             Host: lv4.789900.xyz
         path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.1MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 6.7MB/s"
+      port: 16931
+      reality-opts:
+        public-key: 7O4PQ5fPqpmc7WmqHSsjkfprQrU5Q13Qk7yCcsp49AY
+        short-id: 0ee8b6
+      server: vd3.outlinevpn.cc
+      servername: music.yandex.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 72a3aafa-281c-457b-bfd2-5a6428ea36dd
+    - cipher: rc4-md5
+      country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 90.1MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 137.184.174.93
+      type: ss
+    - name: "\U0001F1E8\U0001F1E6CA_2 | ⬇️ 1.6MB/s"
+      network: ws
+      port: 8080
+      server: 198.50.119.86
+      servername: telewebion.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: e2be0db4-4110-42eb-bca1-ba8df0897319
+      ws-opts:
+        headers:
+            Host: telewebion.com
+        path: /39427/Nextlife
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.7MB/s"
       network: tcp
       password: BxceQaOe
-      port: 3194
-      server: 54.238.144.17
+      port: 443
+      server: 58.152.25.86
       skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
+      sni: t.me%2Fripaojiedian
       type: trojan
-    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 4.1MB/s"
-      port: 1080
-      server: 64.227.131.240
+    - cipher: rc4-md5
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1353
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.4MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1E9MD_1 | ⬇️ 6.8MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 176.123.5.253
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EE\U0001F1F9IT"
+      delay: 1302
+      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 1.0MB/s"
+      password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+      port: 443
+      server: 176.126.83.121
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.0MB/s"
+      network: ws
+      port: 80
+      server: dddccvfg.922922.shop
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+      ws-opts:
+        headers:
+            Host: dDdCCVFg.922922.SHOP
+        path: /RkUUbqhA9GJZBROjL3Q5vTymr
+    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 5.4MB/s"
+      port: 1090
+      server: 121.169.46.116
       type: socks5
       udp: true
+    - alterId: 0
+      cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 8.7MB/s"
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.183
+      skip-cert-verify: true
+      tls: true
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 2.6MB/s"
+      password: shadowsocks
+      port: 443
+      server: 141.98.101.182
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 5.6MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 1.3MB/s"
+      network: none
+      port: 51000
+      server: 8.217.90.175
+      tls: false
+      type: vmess
+      uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
+    - alterId: 0
+      cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 1.3MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.205
+      skip-cert-verify: true
+      tls: true
+      type: ss
