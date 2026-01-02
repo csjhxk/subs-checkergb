@@ -1,28 +1,7 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EE\U0001F1F7IR"
-      delay: 1718
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 8.7MB/s"
-      network: tcp
-      port: 20363
-      server: x.mr-pinkman.blue
-      skip-cert-verify: true
-      type: vmess
-      uuid: bfde09c0-e351-4d0e-8e92-00c2bcb77693
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EE\U0001F1F9IT"
-      delay: 1302
-      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 7.0MB/s"
-      password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
-      port: 443
-      server: 176.126.83.121
-      type: ss
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 8.9MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 9.3MB/s"
       port: 16931
       reality-opts:
         public-key: 7O4PQ5fPqpmc7WmqHSsjkfprQrU5Q13Qk7yCcsp49AY
@@ -34,8 +13,16 @@ proxies:
       type: vless
       udp: true
       uuid: 72a3aafa-281c-457b-bfd2-5a6428ea36dd
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EE\U0001F1F9IT"
+      delay: 1302
+      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 6.8MB/s"
+      password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+      port: 443
+      server: 176.126.83.121
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 10.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 7.8MB/s"
       network: ws
       port: 443
       server: us-003.shopping-1688.com
@@ -51,26 +38,25 @@ proxies:
     - cipher: rc4-md5
       country: "\U0001F1F8\U0001F1ECSG"
       delay: 1353
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.9MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 5.1MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 68.183.227.45
       type: ss
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.2MB/s"
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 4.8MB/s"
       port: 443
       reality-opts:
-        public-key: B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk
-        short-id: f497fe3dff69ff78
-      server: 95.163.251.224
+        public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+        short-id: 4d4421a0bac569
+      server: 51.250.4.181
       servername: eh.vk.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: e707c2aa-7858-403c-9113-c8eafa86c7ef
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 3.5MB/s"
+      uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.2MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -79,36 +65,19 @@ proxies:
       type: http
       udp: true
       username: test
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.7MB/s"
-      network: tcp
-      port: 30808
-      server: v8.hdacd.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.9MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.3MB/s"
       network: tcp
       password: BxceQaOe
-      port: 3194
-      server: 54.238.144.17
+      port: 443
+      server: 58.152.25.86
       skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
+      sni: t.me%2Fripaojiedian
       type: trojan
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 1.2MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-      udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.1MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.2MB/s"
       port: 26691
       protocol: udp
       server: 62.210.196.68
@@ -118,7 +87,7 @@ proxies:
       up: 11 Mbps
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 4.5MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.4MB/s"
       network: ws
       port: "2087"
       server: lv4.789900.xyz
@@ -130,3 +99,16 @@ proxies:
         headers:
             Host: lv4.789900.xyz
         path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 5.1MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 3194
+      server: 54.238.144.17
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 4.1MB/s"
+      port: 1080
+      server: 64.227.131.240
+      type: socks5
+      udp: true
