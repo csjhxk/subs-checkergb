@@ -1,7 +1,14 @@
 proxies:
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 6.6MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 21521
+      server: hkt-ty-line-1.sudatech.store
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 7.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 1.4MB/s"
       port: 4443
       reality-opts:
         public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
@@ -13,24 +20,58 @@ proxies:
       type: vless
       udp: true
       uuid: 526552b2-f67f-489c-9d0d-3e00e7d890d1
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.9MB/s"
-      password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 3.7MB/s"
+      password: BxceQaOe
       port: 443
-      server: 185.193.48.157
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 7.1MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+      server: 58.152.46.60
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
+      sni: '%20%5BBy%20EbraSha%5D%20trojan-HK%20'
+      type: trojan
+    - name: "\U0001F1EE\U0001F1E9ID_1 | ⬇️ 5.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10002
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1E9ID_2 | ⬇️ 4.9MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10007
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1E9ID_3 | ⬇️ 4.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10002
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1E9ID_4 | ⬇️ 4.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10007
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F9\U0001F1EDTH_1 | ⬇️ 5.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10001
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F9\U0001F1EDTH_2 | ⬇️ 5.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10001
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 6.7MB/s"
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 2.9MB/s"
       port: 443
       reality-opts:
         public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
@@ -42,62 +83,941 @@ proxies:
       type: vless
       udp: true
       uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 6.4MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.6MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      servername: hkt.gotochinatown.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
       udp: true
+      uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.5MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 443
+      server: starlink-de1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 7.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 443
+      server: starlink-de2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E7\U0001F1E9BD_1 | ⬇️ 1.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10010
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 5.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10025
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 4.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10006
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 5.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10028
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1EDCH_2 | ⬇️ 5.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10028
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1EDCH_3 | ⬇️ 7.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10014
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 1.2MB/s"
+      network: ws
+      port: 80
+      server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+      ws-opts:
+        headers:
+            Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+        path: /
+    - name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 5.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10005
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E6\U0001F1FAAU_2 | ⬇️ 5.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10005
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1E6SA_1 | ⬇️ 5.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10004
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1E6SA_2 | ⬇️ 4.8MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10004
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1EDCH_4 | ⬇️ 5.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10014
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F3IN_2 | ⬇️ 2.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10006
+      server: z-sg2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 5.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10023
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 6.9MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10015
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 5.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10023
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 5.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10015
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1EDCH_5 | ⬇️ 7.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10020
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F5\U0001F1F0PK_1 | ⬇️ 1.8MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10011
+      server: z-sg1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 6.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10016
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 6.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10016
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 4.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10018
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 4.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10017
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 6.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 20181
+      server: 212.127.78.119
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1EASE_2 | ⬇️ 4.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10018
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F8IS_1 | ⬇️ 6.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10013
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 18.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10001
+      server: z-us2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1E6CA_2 | ⬇️ 23.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 443
+      server: starlink-tor.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F2\U0001F1E9MD_1 | ⬇️ 5.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10005
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F2\U0001F1E9MD_2 | ⬇️ 5.5MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10005
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1ED\U0001F1FAHU_1 | ⬇️ 3.5MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10007
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1E8\U0001F1E6CA_3 | ⬇️ 22.2MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10002
+      server: z-us2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F1\U0001F1F9LT_1 | ⬇️ 2.0MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10012
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1FA\U0001F1E6UA_1 | ⬇️ 3.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10006
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1F0SK_1 | ⬇️ 1.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10008
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 3.4MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10021
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1F0SK_2 | ⬇️ 1.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10027
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F7\U0001F1FARU_2 | ⬇️ 5.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10010
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1ED\U0001F1FAHU_2 | ⬇️ 2.9MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10007
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F7\U0001F1FARU_3 | ⬇️ 5.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10010
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1FA\U0001F1E6UA_2 | ⬇️ 3.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10006
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F1\U0001F1F9LT_2 | ⬇️ 2.6MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10011
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 7.3MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10031
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 7.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10031
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 7.4MB/s"
+      network: ws
+      password: aff9928f-7ba3-45fb-b56d-4dec45653ca9
+      port: 443
+      server: 23.227.38.33
+      skip-cert-verify: true
+      sni: z9mifq7ujufk56im.jptimecsgo.xyz
+      type: trojan
+      ws-opts:
+        path: '%2Fimages'
+    - name: "\U0001F1F1\U0001F1F9LT_3 | ⬇️ 1.9MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10011
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1F5\U0001F1EAPE_1 | ⬇️ 3.8MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 20041
+      server: 161.132.51.133
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 1.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10030
+      server: z-eu1.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F1IL_2 | ⬇️ 1.7MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 10002
+      server: z-eu2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
+    - name: "\U0001F1EE\U0001F1F3IN_3 | ⬇️ 4.4MB/s"
+      password: M7v%w11Se*
+      port: 443
+      server: tttyder.wsone.icu
+      skip-cert-verify: true
+      sni: tttyder.wsone.icu
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 3.2MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.86
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 4.2MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.236
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1FF\U0001F1E6ZA_1 | ⬇️ 1.1MB/s"
+      password: smart@-PhVxMdT5OVnjtTecU-kZoej
+      port: 20261
+      server: 102.219.85.236
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: trojan
     - cipher: aes-256-cfb
-      delay: 632
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 47.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.251
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1478
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 1.5MB/s"
+      network: ws
+      port: 80
+      server: 83a930b1-t6r5s0-toa9ad-4w8.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1266
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_8 | ⬇️ 1.8MB/s"
+      network: ws
+      port: 80
+      server: 5a694a9d-t70f40-tkka1f-1k25p.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0 HK"
+      delay: 2094
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_9 | ⬇️ 1.3MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: true
+      type: vmess
+      uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b
+      ws-opts:
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 2322
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_10 | ⬇️ 2.1MB/s"
+      network: ws
+      port: 80
+      server: 2ce6219a-t6r5s0-tiaexf-ufc0.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1183
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_11 | ⬇️ 1.1MB/s"
+      network: ws
+      port: 80
+      server: 05372524-t70f40-tg8syu-1nyy5.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      delay: 532
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_12 | ⬇️ 1.7MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      type: vmess
+      udp: true
+      uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1451
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_13 | ⬇️ 2.8MB/s"
+      network: ws
+      port: 80
+      server: 2b3545df-t6r5s0-tdfzix-fm2v.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 814
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_14 | ⬇️ 2.0MB/s"
+      network: ws
+      port: 80
+      server: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1066
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_15 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 80
+      server: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 871
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_16 | ⬇️ 2.1MB/s"
+      network: ws
+      port: 80
+      server: 70898894-t70f40-t7do2j-1swry.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 955
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_17 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1861
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_18 | ⬇️ 1.9MB/s"
+      network: ws
+      port: 80
+      server: 49a50ffd-t6r5s0-tamumc-1lkbs.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 693
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_19 | ⬇️ 2.1MB/s"
+      network: ws
+      port: 80
+      server: a9da8b8e-t70f40-t781gb-1fqef.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1676
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_20 | ⬇️ 2.0MB/s"
+      network: ws
+      port: 80
+      server: 3a62be79-t70f40-tdfzix-fm2v.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1987
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_21 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 80
+      server: 16e189b9-t70f40-td1l1t-1s824.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - cipher: aes-256-cfb
+      delay: 2325
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 74.1MB/s"
       password: qwerREWQ@@
       port: 37186
       server: 140.174.52.97
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 456
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 6.4MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.190
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 2686
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_22 | ⬇️ 2.5MB/s"
+      network: ws
+      port: 80
+      server: adfda0ab-t70f40-tcop2n-tl32.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2828
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 37.5MB/s"
+      password: kkzh2prsyr2ik47as615
+      port: 57142
+      server: 64.94.95.118
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-128-gcm
+      delay: 1037
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 8.3MB/s"
+      password: shadowsocks
+      port: 443
+      server: 173.244.56.6
       type: ss
+      udp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1934
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_23 | ⬇️ 2.5MB/s"
+      network: ws
+      port: 80
+      server: 703c5159-t70f40-tee612-2r82.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1598
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_24 | ⬇️ 2.4MB/s"
+      network: ws
+      port: 80
+      server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 840
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_25 | ⬇️ 1.1MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: true
+      type: vmess
+      uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+      ws-opts:
+        path: /
+    - cipher: aes-256-cfb
+      delay: 1760
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 4.8MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1F0\U0001F1F7KR"
-      delay: 370
-      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 4.9MB/s"
+      delay: 902
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 5.3MB/s"
       password: qwerREWQ@@
       port: 8901
       server: 125.141.26.15
       type: ss
     - cipher: aes-256-cfb
-      delay: 462
-      name: "\U0001F1F0\U0001F1F7KR_4 | ⬇️ 3.5MB/s"
-      password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 427
-      name: "\U0001F1F0\U0001F1F7KR_5 | ⬇️ 3.9MB/s"
+      delay: 762
+      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 6.0MB/s"
       password: qwerREWQ@@
       port: 35452
       server: 221.150.109.22
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1FECY"
-      delay: 1164
-      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 2.1MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 45.15.185.70
-      type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.6MB/s"
+      delay: 1977
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.251
+      server: 103.186.155.36
       type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1FB\U0001F1F3VN"
+      delay: 1103
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.248
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 964
+      name: "\U0001F1F0\U0001F1F7KR_4 | ⬇️ 2.9MB/s"
+      password: qwerREWQ@@
+      port: 60940
+      server: 218.50.149.114
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1572
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.225
+      type: ss
+      udp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1733
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_26 | ⬇️ 1.7MB/s"
+      network: ws
+      port: 80
+      server: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - cipher: aes-256-cfb
+      delay: 1679
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.215
+      type: ss
+      udp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0 HK"
+      delay: 2062
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_27 | ⬇️ 2.5MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: true
+      type: vmess
+      uuid: 336501b6-51d2-11ee-a993-f23c9164ca5d
+      ws-opts:
+        path: /
+    - cipher: aes-256-cfb
+      delay: 512
+      name: "\U0001F1F0\U0001F1F7KR_5 | ⬇️ 4.5MB/s"
+      password: qwerREWQ@@
+      port: 39502
+      server: 218.38.103.150
+      type: ss
+      udp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0 HK"
+      delay: 975
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK_28 | ⬇️ 2.3MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: true
+      type: vmess
+      uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 4.5MB/s"
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 3.3MB/s"
+      port: 26691
+      protocol: udp
+      server: 62.210.196.68
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "\U0001F1F0\U0001F1F7KR_6 | ⬇️ 7.0MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 3.5MB/s"
+      network: tcp
+      port: 30808
+      server: v8.hdacd.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
