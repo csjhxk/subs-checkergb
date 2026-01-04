@@ -1,8 +1,24 @@
 proxies:
+    - cipher: aes-256-cfb
+      delay: 1526
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.0MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1207
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 5.3MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+      udp: true
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 64.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 67.1MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 61233
       server: phoenix-1.nezhasu.cn
@@ -11,10 +27,32 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 3.9MB/s"
+      port: 8443
+      reality-opts:
+        public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+        short-id: 58c512b4422e2517
+      server: 78.153.139.68
+      servername: images.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    - cipher: aes-256-cfb
+      delay: 1387
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.143
+      type: ss
+      udp: true
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 3.5MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 51282
       server: phoenix-3.nezhasu.com
@@ -23,41 +61,34 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 5.0MB/s"
-      port: 1488
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: 6ba85179e30d4fc2
-      server: 51.250.28.232
-      servername: ads.x5.ru
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 2.4MB/s"
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 443
+      server: 58.152.110.104
       skip-cert-verify: false
-      tls: true
-      type: vless
+      sni: www.nintendogames.net
+      type: trojan
       udp: true
-      uuid: d2d79fd8-a3d4-4792-9766-e472e1fe8a5f
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 9.0MB/s"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
+    - cipher: aes-256-cfb
+      delay: 731
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.9
+      type: ss
       udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-      ws-opts:
-        headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
+    - cipher: aes-256-cfb
+      delay: 1418
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.219
+      type: ss
+      udp: true
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 19.3MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 55374
       server: phoenix-2.nezhasu.cn
@@ -66,20 +97,14 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 61.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-        short-id: 1a
-      server: t18.qifei.app
-      servername: www.amazon.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+    - cipher: aes-256-cfb
+      delay: 845
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.112
+      type: ss
+      udp: true
     - alpn:
         - h3
       congestion-controller: bbr
@@ -92,18 +117,10 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 7.0MB/s"
-      password: E35FD247-3464-493A-AA34-AE0972EDFA8C
-      port: 5908
-      server: hk3.dexlos.com
-      skip-cert-verify: true
-      sni: hk3.dexlos.com
-      tls: false
-      type: hysteria2
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 6.9MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 56438
       server: phoenix-4.nezhasu.com
@@ -112,15 +129,19 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 5.3MB/s"
-      password: E35FD247-3464-493A-AA34-AE0972EDFA8C
-      port: 7675
-      server: hk4.dexlos.com
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 3.7MB/s"
+      port: 26691
+      protocol: udp
+      server: 62.210.196.68
       skip-cert-verify: true
-      sni: hk4.dexlos.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 7.6MB/s"
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 6.0MB/s"
       password: e343471a-aad3-40da-9dea-72cc8c7dce5f
       port: 443
       server: 152.67.95.183
@@ -128,12 +149,23 @@ proxies:
       sni: www.apple.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.5MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 5.0MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 5.7MB/s"
+      password: E35FD247-3464-493A-AA34-AE0972EDFA8C
+      port: 5908
+      server: hk3.dexlos.com
+      skip-cert-verify: true
+      sni: hk3.dexlos.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 7.9MB/s"
+      password: E35FD247-3464-493A-AA34-AE0972EDFA8C
+      port: 7675
+      server: hk4.dexlos.com
+      skip-cert-verify: true
+      sni: hk4.dexlos.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 7.6MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -142,33 +174,54 @@ proxies:
       type: http
       udp: true
       username: test
-    - cipher: aes-256-cfb
-      delay: 1418
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.219
-      type: ss
+    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 2.6MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.86
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - alterId: 0
+      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 1.1MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.46.60
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      tls: true
+      type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 2820
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.77
-      type: ss
+    - alterId: 0
+      name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 2.6MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.236
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      tls: true
+      type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      delay: 2649
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.63
-      type: ss
+    - name: "\U0001F1F0\U0001F1F7KR_4 | ⬇️ 1.1MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
       udp: true
     - alterId: 2
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 4.0MB/s"
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 5.2MB/s"
+      network: tcp
+      port: 30829
+      server: v29.hdacd.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 4.4MB/s"
       network: ws
       port: "80"
       server: hkt.gotochinatown.net
